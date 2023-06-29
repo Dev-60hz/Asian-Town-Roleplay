@@ -1,0 +1,26 @@
+echo Executing Server Config...
+lanmode 0
+rcon_password ddcrpp
+maxplayers 100
+port 8423
+hostname Dream City Roleplay
+gamemode0 drp 1
+filterscripts Server PlayerExteriors gang
+plugins pawncmd.so sampvoice.so discord-connector.so sscanf.so streamer.so mysql_static.so Whirlpool.so SKY.so regex.so YSF.so nativechecker.so
+discord_bot_token Nzg0MzY1OTQ1NjE5NDgwNTg2.X8oPtg.7KdSF6Idrh9o5856H_rhdMAA-BI
+announce 1
+chatlogging 1
+weburl www.theultimateroleplay.com
+onfoot_rate 40
+incar_rate 40
+weapon_rate 40
+stream_distance 500.0
+stream_rate 1500
+maxnpc 0
+logtimeformat [%H:%M:%S]
+language English
+ackslimit 10000
+profile_gamemode 1
+profile_format html
+useartwork 1
+query 1

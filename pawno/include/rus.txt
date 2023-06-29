@@ -1,0 +1,9 @@
+D:\SA-MP Coding\One Roleplay\pawno\include\nex-ac.inc(3406) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "VERSION_WARNING"
+D:\SA-MP Coding\One Roleplay\pawno\include\nex-ac.inc(3512) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "DEBUG_CODE_2"
+D:\SA-MP Coding\One Roleplay\pawno\include\nex-ac.inc(3552) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "DEBUG_CODE_3"
+D:\SA-MP Coding\One Roleplay\pawno\include\nex-ac.inc(8655) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "MAX_CONNECTS_MSG"
+D:\SA-MP Coding\One Roleplay\pawno\include\nex-ac.inc(8656) : îøèáêà 017: íåîáúÿâëåííûé ñèìâîë "UNKNOWN_CLIENT_MSG"
+Pawn compiler 3.2.3664	 	 	Copyright (c) 1997-2016, ITB CompuPhase
+
+
+Îøèáîê:5.
