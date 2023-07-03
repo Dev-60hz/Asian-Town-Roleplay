@@ -6,10 +6,12 @@
 *.lo
 *.o
 *.obj
+*
 
 # Precompiled Headers
 *.gch
 *.pch
+*.pwn
 
 # Compiled Dynamic libraries
 *.so
@@ -20,11 +22,12 @@
 *.mod
 *.smod
 
-# Compiled Static libraries
+# Compiled Files
 *.lai
 *.la
 *.a
 *.lib
+*.amx
 
 # Executables
 *.exe
