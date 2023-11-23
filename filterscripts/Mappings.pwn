@@ -77,7 +77,7 @@ public OnPlayerConnect(playerid)
     // Gang HQ ext 
     RemoveBuildingForPlayer(playerid, 1226, 2077.250, -1894.449, 16.390, 0.250);
     
-    // Mansion in ATRP 1
+    // Mclee House Exterior 1
 	RemoveBuildingForPlayer(playerid, 1280, 103.148, -1680.920, 9.703, 0.250);
 	RemoveBuildingForPlayer(playerid, 726, 112.584, -1720.670, 8.078, 0.250);    
 
@@ -20710,7 +20710,7 @@ public OnFilterScriptInit()
     CreateDynamicObject(1569, 2888.649902, -1994.760010, 10.815700, 0.000000, 0.000000, 89.900002, -1, -1, -1, 200.0, 200.0); // 0
     CreateDynamicObject(1569, 2895.429932, -1985.290039, 8.674300, 0.000000, 0.000000, 90.500000, -1, -1, -1, 200.0, 200.0); // 0
 
-    // Mansion In ATRP 1
+    // Mclee House Exterior 1
     tmpobjid = CreateDynamicObject(3095, 105.827461, -1693.803833, 8.714570, 0.000000, 7.000000, 10.799990, -1, -1, -1, 200.00, 200.00); 
     SetDynamicObjectMaterial(tmpobjid, 0, 13691, "bevcunto2_lahills", "aamanbev96x", 0x00000000);
     SetDynamicObjectMaterial(tmpobjid, 1, 13691, "bevcunto2_lahills", "aamanbev96x", 0x00000000);
@@ -21698,11 +21698,663 @@ public OnFilterScriptInit()
     tmpobjid = CreateDynamicObject(3407, 226.330902, -1766.403564, 3.804780, 0.000000, 0.000000, 353.518402, -1, -1, -1, 200.00, 200.00); 
     tmpobjid = CreateDynamicObject(669, 85.353576, -1555.869262, 4.625318, 0.000000, 0.000000, 0.000000, -1, -1, -1, 200.00, 200.00); 
     tmpobjid = CreateDynamicObject(1569, 78.934501, -1693.949951, 14.772500, 0.000000, 0.000000, -168.899993, -1, -1, -1, 200.00, 200.00); 
-    tmpobjid = CreateDynamicObject(993, 70.777801, -1697.040039, 8.528670, 0.000000, 91.000000, 100.400001, -1, -1, -1, 200.00, 200.00); 
+    tmpobjid = CreateDynamicObject(993, 70.777801, -1697.040039, 8.528670, 0.000000, 91.000000, 100.400001, -1, -1, -1, 200.00, 200.00);
 
-    
+    // Mclee House Interior #1
+    new mapeditor4 = CreateDynamicObject(1504, 1414.710693, -15.872961, 1161.766479, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor4, 0, 18646, "none", "none");
+    new mapeditor5 = CreateDynamicObject(19353, 1414.862793, -15.697500, 1161.731079, 0.000000, 89.899879, 0.000000);
+    SetDynamicObjectMaterial(mapeditor5, 0, 2423, "cj_ff_counters", "cj_laminate1");
+    new mapeditor6 = CreateDynamicObject(19353, 1414.872192, -15.677499, 1161.721069, 0.000000, 89.899879, 0.000000);
+    SetDynamicObjectMaterial(mapeditor6, 0, 8591, "olympic01", "vgscityhwal1");
+    new mapeditor7 = CreateDynamicObject(2251, 1414.464600, -14.108754, 1162.678101, 0.000000, 0.000000, -77.400009);
+    SetDynamicObjectMaterial(mapeditor7, 0, 18646, "none", "none");
+    new mapeditor8 = CreateDynamicObject(19445, 1414.761475, -13.746469, 1163.535034, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor8, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(2261, 1413.561890, -17.823833, 1162.427490, 0.000000, 0.000000, 180.000000);
+    CreateDynamicObject(2270, 1414.153931, -17.468264, 1161.324219, 90.200058, 0.000000, 0.000000);
+    new mapeditor10 = CreateDynamicObject(18647, 1413.235229, -17.362770, 1161.329834, -90.099930, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor10, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor11 = CreateDynamicObject(2270, 1414.154297, -18.177017, 1162.308716, -89.999985, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor11, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    new mapeditor12 = CreateDynamicObject(2270, 1413.653931, -17.467047, 1160.973755, 90.200058, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor12, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    new mapeditor13 = CreateDynamicObject(19426, 1413.976563, -13.072078, 1162.607300, 89.999985, 0.000000, 270.000000);
+    SetDynamicObjectMaterial(mapeditor13, 0, 18646, "matcolours", "white");
+    new mapeditor14 = CreateDynamicObject(2270, 1413.654297, -18.177017, 1161.958374, -89.999985, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor14, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    new mapeditor15 = CreateDynamicObject(18647, 1412.394775, -17.362770, 1161.717285, -35.800030, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor15, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor16 = CreateDynamicObject(2270, 1413.154297, -18.177017, 1161.527954, -89.999985, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor16, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    new mapeditor17 = CreateDynamicObject(2270, 1413.153931, -17.465614, 1160.563477, 90.200058, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor17, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    CreateDynamicObject(2262, 1412.141724, -17.833822, 1161.446533, 0.000000, 0.000000, 180.000000);
+    new mapeditor18 = CreateDynamicObject(2270, 1412.654297, -18.177017, 1161.177734, -89.999985, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor18, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    new mapeditor19 = CreateDynamicObject(19445, 1414.773071, -13.536472, 1160.135620, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor19, 0, 18646, "matcolours", "white");
+    new mapeditor20 = CreateDynamicObject(2270, 1412.653931, -17.464325, 1160.193115, 90.200058, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor20, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    new mapeditor21 = CreateDynamicObject(19325, 1415.552246, -13.135147, 1165.129761, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor21, 0, 18646, "none", "none");
+    CreateDynamicObject(862, 1413.612183, -12.083648, 1163.000488, 0.000000, 0.000000, 0.000000);
+    new mapeditor22 = CreateDynamicObject(2271, 1414.200928, -13.213123, 1160.010864, 0.000000, 0.000000, 270.000000);
+    SetDynamicObjectMaterial(mapeditor22, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor23 = CreateDynamicObject(1946, 1413.251953, -12.083648, 1163.430908, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor23, 0, 18752, "Volcano", "rocktb128");
+    new mapeditor24 = CreateDynamicObject(18647, 1411.373291, -17.362770, 1160.988647, -35.500023, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor24, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor25 = CreateDynamicObject(2270, 1412.154297, -18.177017, 1160.767578, -89.999985, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor25, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    CreateDynamicObject(2249, 1414.453003, -12.918565, 1160.058960, 0.000000, 0.000000, -80.500000);
+    new mapeditor26 = CreateDynamicObject(19426, 1413.996338, -13.072069, 1165.698242, 89.999985, 0.000000, 270.000000);
+    SetDynamicObjectMaterial(mapeditor26, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(1739, 1411.435547, -13.077874, 1162.699341, 0.000000, 0.000000, 270.000000);
+    SetDynamicObjectMaterial(mapeditor27, 0, 3942, "bistro", "mp_snow");
+    new mapeditor28 = CreateDynamicObject(18647, 1413.235718, -17.366196, 1159.348022, -90.099930, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor28, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor29 = CreateDynamicObject(2270, 1412.153931, -17.472929, 1159.792847, 90.200058, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor29, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    new mapeditor30 = CreateDynamicObject(2270, 1411.654297, -18.177017, 1160.367188, -89.999985, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor30, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    new mapeditor31 = CreateDynamicObject(11724, 1414.422241, -13.240208, 1158.894653, 0.000000, 0.000000, 270.000000);
+    SetDynamicObjectMaterial(mapeditor31, 0, 18646, "none", "none");
+    new mapeditor32 = CreateDynamicObject(2270, 1411.653931, -17.471537, 1159.392456, 90.200058, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor32, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    new mapeditor33 = CreateDynamicObject(18647, 1411.115601, -17.365404, 1159.808350, -90.099930, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor33, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor34 = CreateDynamicObject(2930, 1409.820313, -16.470194, 1161.772461, -90.100006, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor34, 0, 18646, "none", "none");
+    new mapeditor35 = CreateDynamicObject(19426, 1412.315918, -11.412069, 1162.607300, 89.999985, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor35, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(11725, 1414.323975, -13.239955, 1158.714844, 0.000000, 0.000000, 270.000000);    
+    new mapeditor36 = CreateDynamicObject(2244, 1412.312866, -13.463951, 1159.117798, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor36, 0, 18646, "none", "none");
+    CreateDynamicObject(2264, 1410.751587, -17.823826, 1160.446045, 0.000000, 0.000000, 180.000000);    
+    new mapeditor37 = CreateDynamicObject(1769, 1412.509644, -15.013553, 1158.358398, 0.000000, 0.000000, 135.000000);
+    SetDynamicObjectMaterial(mapeditor37, 0, 3942, "bistro", "mp_snow");
+    new mapeditor38 = CreateDynamicObject(1739, 1410.265259, -13.077874, 1162.699341, 0.000000, 0.000000, 270.000000);
+    SetDynamicObjectMaterial(mapeditor38, 0, 3942, "bistro", "mp_snow");
+    new mapeditor39 = CreateDynamicObject(2270, 1411.154297, -18.177017, 1160.036987, -89.999985, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor39, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    CreateDynamicObject(19632, 1414.419434, -13.226552, 1158.557251, 0.000000, 0.000000, 90.000000);    
+    new mapeditor40 = CreateDynamicObject(18647, 1410.271973, -17.362770, 1160.211670, -35.200047, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor40, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor41 = CreateDynamicObject(2357, 1411.599731, -11.360273, 1162.227295, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor41, 0, 18646, "matcolours", "white");
+    new mapeditor42 = CreateDynamicObject(2631, 1412.917847, -13.477424, 1158.338623, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor42, 0, 14838, "lee_stripclub", "Strip_sofa2");
+    new mapeditor43 = CreateDynamicObject(2270, 1411.153931, -17.470385, 1159.062134, 90.200058, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor43, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    new mapeditor44 = CreateDynamicObject(19445, 1409.941895, -18.406454, 1163.535034, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor44, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(2131, 1414.339600, -20.821524, 1161.338013, 0.000000, 90.199959, 90.000000);    
+    new mapeditor45 = CreateDynamicObject(1822, 1411.840454, -13.996552, 1158.367432, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor45, 0, 18646, "matcolours", "white");
+    new mapeditor46 = CreateDynamicObject(2270, 1410.654297, -18.177017, 1159.736694, -89.999985, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor46, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    CreateDynamicObject(2131, 1413.839600, -20.822777, 1160.977661, 0.000000, 90.199959, 90.000000);    
+    new mapeditor47 = CreateDynamicObject(2695, 1410.905273, -11.342281, 1162.660645, -90.099953, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor47, 0, 3942, "bistro", "mp_snow");
+    new mapeditor48 = CreateDynamicObject(19426, 1412.305542, -11.412069, 1165.698242, 89.999985, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor48, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(1605, 1414.026611, -10.194025, 1164.058105, 0.000000, 0.000000, 18.899998);
+    CreateDynamicObject(2131, 1413.339600, -20.824205, 1160.567261, 0.000000, 90.199959, 90.000000);    
+    new mapeditor49 = CreateDynamicObject(2249, 1410.718262, -11.333899, 1163.297607, 0.000000, 0.000000, -21.500000);
+    SetDynamicObjectMaterial(mapeditor49, 0, 18646, "none", "none");
+    new mapeditor50 = CreateDynamicObject(2270, 1410.653931, -17.469339, 1158.761841, 90.200058, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor50, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    new mapeditor51 = CreateDynamicObject(19445, 1409.941528, -18.406454, 1160.124878, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor51, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(2265, 1409.753296, -17.828508, 1159.916748, 0.000000, 0.000000, 180.000000);
+    CreateDynamicObject(2131, 1412.839600, -20.825542, 1160.186890, 0.000000, 90.199959, 90.000000);    
+    new mapeditor52 = CreateDynamicObject(2270, 1410.154297, -18.177017, 1159.366455, -89.999985, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor52, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    new mapeditor53 = CreateDynamicObject(1769, 1411.904419, -12.517464, 1158.358398, 0.000000, 0.000000, 45.000000);
+    SetDynamicObjectMaterial(mapeditor53, 0, 3942, "bistro", "mp_snow");
+    new mapeditor54 = CreateDynamicObject(19380, 1410.002075, -11.709418, 1161.732056, 0.000000, 90.200027, 0.000000);
+    SetDynamicObjectMaterial(mapeditor54, 0, 8591, "olympic01", "vgscityhwal1");
+    new mapeditor55 = CreateDynamicObject(18647, 1411.115112, -17.368767, 1157.877319, -90.099930, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor55, 0, 16005, "des_stownmain2", "black32");
+    CreateDynamicObject(2131, 1412.339600, -20.826897, 1159.796509, 0.000000, 90.199959, 90.000000);    
+    new mapeditor56 = CreateDynamicObject(2270, 1410.143921, -17.458195, 1158.431519, 90.200058, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor56, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    new mapeditor57 = CreateDynamicObject(19380, 1409.521851, -11.719414, 1161.759766, 0.000000, 90.200027, 0.000000);
+    SetDynamicObjectMaterial(mapeditor57, 0, 2423, "cj_ff_counters", "cj_laminate1");
+    new mapeditor58 = CreateDynamicObject(19380, 1409.504028, -19.189398, 1165.314453, 0.000000, 90.200027, 0.000000);
+    SetDynamicObjectMaterial(mapeditor58, 0, 8591, "olympic01", "vgscityhwal1");
+    new mapeditor59 = CreateDynamicObject(2270, 1409.654297, -18.187017, 1158.936035, -89.999985, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor59, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    new mapeditor60 = CreateDynamicObject(18647, 1409.485229, -17.367424, 1158.637573, -90.099930, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor60, 0, 16005, "des_stownmain2", "black32");
+    CreateDynamicObject(2131, 1411.839600, -20.828323, 1159.386108, 0.000000, 90.199959, 90.000000);    
+    new mapeditor61 = CreateDynamicObject(1739, 1411.495728, -9.687869, 1162.699341, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor61, 0, 3942, "bistro", "mp_snow");
+    new mapeditor62 = CreateDynamicObject(19445, 1417.048340, -9.632711, 1163.564575, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor62, 0, 3953, "rczero_track", "waterclear256");
+    new mapeditor63 = CreateDynamicObject(19325, 1412.232178, -9.815136, 1165.129761, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor63, 0, 18646, "none", "none");
+    new mapeditor64 = CreateDynamicObject(19380, 1409.478271, -13.559434, 1158.309692, 0.000000, 90.200027, 0.000000);
+    SetDynamicObjectMaterial(mapeditor64, 0, 2423, "cj_ff_counters", "cj_laminate1");
+    CreateDynamicObject(2131, 1411.339600, -20.829473, 1159.055786, 0.000000, 90.199959, 90.000000);    
+    new mapeditor65 = CreateDynamicObject(1739, 1410.315674, -9.697869, 1162.699341, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor65, 0, 3942, "bistro", "mp_snow");
+    new mapeditor66 = CreateDynamicObject(2930, 1407.239502, -16.470190, 1161.768921, -90.100006, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor66, 0, 18646, "none", "none");
+    new mapeditor67 = CreateDynamicObject(2930, 1407.178955, -16.470190, 1161.768555, -90.100006, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor67, 0, 18646, "none", "none");
+    CreateDynamicObject(2131, 1410.839600, -20.830448, 1158.775513, 0.000000, 90.199959, 90.000000);    
+    new mapeditor68 = CreateDynamicObject(19445, 1413.991211, -8.314125, 1163.333252, 0.000000, -90.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor68, 0, 4242, "seabed", "sw_sand");
+    new mapeditor69 = CreateDynamicObject(19445, 1414.746094, -8.312705, 1163.564575, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor69, 0, 3953, "rczero_track", "waterclear256");
+    new mapeditor70 = CreateDynamicObject(19383, 1413.936768, -8.728282, 1160.074341, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor70, 0, 18646, "matcolours", "white");
+    new mapeditor71 = CreateDynamicObject(19353, 1407.391602, -16.738922, 1160.095703, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor71, 0, 18646, "matcolours", "white");
+    new mapeditor72 = CreateDynamicObject(19383, 1413.939331, -8.553413, 1160.066040, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor72, 0, 18646, "matcolours", "white");
+    new mapeditor73 = CreateDynamicObject(19353, 1407.236816, -16.698278, 1160.072876, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor73, 0, 8390, "vegasemulticar", "ws_mixedbrick");
+    new mapeditor74 = CreateDynamicObject(19445, 1413.970703, -8.314125, 1164.984009, 0.000000, -90.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor74, 0, 3953, "rczero_track", "waterclear256");
+    new mapeditor75 = CreateDynamicObject(19383, 1407.396484, -13.528277, 1160.074341, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor75, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(2131, 1410.339600, -20.831770, 1158.395142, 0.000000, 90.199959, 90.000000);    
+    new mapeditor76 = CreateDynamicObject(19383, 1407.236206, -13.528277, 1160.074341, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor76, 0, 8390, "vegasemulticar", "ws_mixedbrick");
+    new mapeditor77 = CreateDynamicObject(19380, 1409.514526, -9.579408, 1165.312744, 0.000000, 90.200027, 0.000000);
+    SetDynamicObjectMaterial(mapeditor77, 0, 8591, "olympic01", "vgscityhwal1");
+    new mapeditor78 = CreateDynamicObject(19353, 1411.041382, -8.728926, 1160.005615, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor78, 0, 18646, "matcolours", "white");
+    new mapeditor79 = CreateDynamicObject(1499, 1414.679077, -8.673444, 1158.290527, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor79, 0, 16005, "des_stownmain2", "black32");
+    SetDynamicObjectMaterial(mapeditor79, 1, 18646, "matcolours", "white");    
+    new mapeditor80 = CreateDynamicObject(2558, 1406.321289, -17.949120, 1163.348755, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor80, 0, 16005, "des_stownmain2", "black32");
+    CreateDynamicObject(2131, 1409.839600, -20.833330, 1157.944702, 0.000000, 90.199959, 90.000000);    
+    new mapeditor81 = CreateDynamicObject(19426, 1412.765991, -7.760455, 1159.915283, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor81, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(19174, 1407.489014, -10.968894, 1160.130493, 0.000000, 0.000000, 90.000000);    
+    new mapeditor82 = CreateDynamicObject(1499, 1407.396851, -12.753448, 1158.290527, 0.000000, 0.000000, 270.000000);
+    SetDynamicObjectMaterial(mapeditor82, 0, 16005, "des_stownmain2", "black32");
+    SetDynamicObjectMaterial(mapeditor82, 1, 18646, "matcolours", "white");
+    CreateDynamicObject(2257, 1412.876953, -7.359742, 1159.929077, 0.000000, 0.000000, 90.000000);    
+    new mapeditor83 = CreateDynamicObject(2691, 1405.831177, -18.290747, 1163.720337, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor83, 0, 18029, "genintintsmallrest", "gb_restaursmll10");
+    new mapeditor84 = CreateDynamicObject(1754, 1415.807861, -8.051018, 1158.316284, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor84, 0, 3942, "bistro", "mp_snow");
+    new mapeditor85 = CreateDynamicObject(19445, 1405.690674, -13.601475, 1161.741333, 0.000000, 90.199989, 180.000000);
+    SetDynamicObjectMaterial(mapeditor85, 0, 2423, "cj_ff_counters", "cj_laminate1");
+    new mapeditor86 = CreateDynamicObject(19445, 1405.681030, -13.601475, 1161.722534, 0.000000, 90.199989, 180.000000);
+    SetDynamicObjectMaterial(mapeditor86, 0, 8591, "olympic01", "vgscityhwal1");
+    CreateDynamicObject(2836, 1417.395630, -8.212417, 1158.375854, 0.000000, 0.000000, 0.000000);    
+    new mapeditor87 = CreateDynamicObject(19353, 1407.391357, -10.338921, 1160.005615, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor87, 0, 18646, "matcolours", "white");
+    new mapeditor88 = CreateDynamicObject(19353, 1407.236450, -10.338274, 1160.082886, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor88, 0, 8390, "vegasemulticar", "ws_mixedbrick");
+    new mapeditor89 = CreateDynamicObject(1737, 1405.303101, -18.679110, 1162.030518, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor89, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor90 = CreateDynamicObject(19383, 1408.356201, -8.728283, 1160.074341, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor90, 0, 18646, "matcolours", "white");
+    new mapeditor91 = CreateDynamicObject(19353, 1411.248047, -7.032411, 1159.917480, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor91, 0, 18646, "matcolours", "white");
+    new mapeditor92 = CreateDynamicObject(19445, 1420.343750, -8.561438, 1160.065918, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor92, 0, 18646, "matcolours", "white");
+    new mapeditor93 = CreateDynamicObject(19383, 1408.356934, -8.583915, 1160.066650, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor93, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor94 = CreateDynamicObject(19426, 1409.525635, -7.760455, 1159.915283, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor94, 0, 18646, "matcolours", "white");
+    new mapeditor95 = CreateDynamicObject(1499, 1409.087280, -8.673443, 1158.290527, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor95, 0, 16005, "des_stownmain2", "black32");
+    SetDynamicObjectMaterial(mapeditor95, 1, 18646, "matcolours", "white");
+    new mapeditor96 = CreateDynamicObject(1819, 1419.053101, -8.188685, 1158.375854, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor96, 0, 18646, "matcolours", "white");
+    new mapeditor97 = CreateDynamicObject(2133, 1408.075806, -8.055219, 1161.856445, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor97, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor98 = CreateDynamicObject(19445, 1405.727051, -13.549023, 1158.326050, 0.000000, 89.899994, 180.000000);
+    SetDynamicObjectMaterial(mapeditor98, 0, 14838, "lee_stripclub", "Strip_ceiling");
+    CreateDynamicObject(2250, 1419.256470, -7.661419, 1159.306030, 0.000000, 0.000000, 90.000000);
+    CreateDynamicObject(2384, 1411.161011, -6.625223, 1159.409790, 0.000000, 0.000000, 0.000000);    
+    new mapeditor99 = CreateDynamicObject(19830, 1408.304199, -7.297537, 1162.907471, 0.000000, 0.000000, 150.099945);
+    SetDynamicObjectMaterial(mapeditor99, 0, 18646, "none", "none");
+    CreateDynamicObject(1788, 1411.151489, -6.487966, 1159.151733, 0.000000, 0.000000, 180.000000);    
+    new mapeditor100 = CreateDynamicObject(2155, 1411.048340, -6.765472, 1158.332031, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor100, 0, 18646, "matcolours", "white");
+    new mapeditor101 = CreateDynamicObject(2133, 1407.085815, -8.055220, 1161.856445, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor101, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor102 = CreateDynamicObject(2203, 1411.105347, -6.385149, 1158.801880, -87.899902, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor102, 0, 3953, "rczero_track", "waterclear256");
+    new mapeditor103 = CreateDynamicObject(1499, 1412.729614, -6.133443, 1158.290527, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor103, 0, 16005, "des_stownmain2", "black32");
+    SetDynamicObjectMaterial(mapeditor103, 1, 18646, "matcolours", "white");    
+    new mapeditor104 = CreateDynamicObject(2133, 1408.105347, -7.065215, 1161.856445, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor104, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor105 = CreateDynamicObject(19383, 1412.778809, -5.383409, 1159.915894, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor105, 0, 18646, "matcolours", "white");
+    new mapeditor106 = CreateDynamicObject(19383, 1412.639771, -5.353406, 1159.925903, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor106, 0, 18646, "matcolours", "white");
+    new mapeditor107 = CreateDynamicObject(2131, 1410.700806, -5.391576, 1161.849365, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor107, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor108 = CreateDynamicObject(2691, 1403.509277, -16.827051, 1161.603882, 89.999931, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor108, 0, 8591, "olympic01", "vgscityhwal1");
+    new mapeditor109 = CreateDynamicObject(19445, 1412.307617, -4.882698, 1163.564575, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor109, 0, 18646, "matcolours", "white");
+    new mapeditor110 = CreateDynamicObject(2292, 1403.295410, -15.276796, 1161.741577, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor110, 0, 8591, "olympic01", "vgscityhwal1");
+    new mapeditor111 = CreateDynamicObject(1754, 1403.298340, -14.329529, 1161.754272, 0.000000, 0.000000, 270.000000);
+    SetDynamicObjectMaterial(mapeditor111, 0, 8396, "sphinx01", "sphinxbody01_128");
+    new mapeditor112 = CreateDynamicObject(861, 1403.282837, -13.526114, 1162.419312, 0.000000, 0.000000, 46.899994);
+    SetDynamicObjectMaterial(mapeditor112, 0, 18646, "none", "none");
+    CreateDynamicObject(2246, 1403.283813, -13.526518, 1162.152100, 0.000000, 0.000000, 0.000000);   
+    new mapeditor113 = CreateDynamicObject(2133, 1407.115234, -7.065215, 1161.856445, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor113, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor114 = CreateDynamicObject(2133, 1409.706421, -5.405216, 1161.856445, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor114, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor115 = CreateDynamicObject(19380, 1404.673096, -13.519430, 1157.257813, 0.000000, 90.200027, -0.099999);
+    SetDynamicObjectMaterial(mapeditor115, 0, 14838, "lee_stripclub", "Strip_ceiling");
+    new mapeditor116 = CreateDynamicObject(19172, 1403.890259, -17.033546, 1158.353760, -90.000008, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor116, 0, 3953, "rczero_track", "waterclear256");
+    new mapeditor117 = CreateDynamicObject(19172, 1403.890747, -14.333541, 1158.353760, -90.000008, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor117, 0, 3953, "rczero_track", "waterclear256");
+    new mapeditor118 = CreateDynamicObject(1754, 1403.268799, -12.799524, 1161.754272, 0.000000, 0.000000, 270.000000);
+    SetDynamicObjectMaterial(mapeditor118, 0, 8396, "sphinx01", "sphinxbody01_128");
+    new mapeditor119 = CreateDynamicObject(1499, 1409.648560, -6.123442, 1158.290527, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor119, 0, 16005, "des_stownmain2", "black32");
+    SetDynamicObjectMaterial(mapeditor119, 1, 18646, "matcolours", "white");
+    new mapeditor120 = CreateDynamicObject(19445, 1414.762573, -4.116473, 1163.536865, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor120, 0, 18646, "matcolours", "white");
+    new mapeditor121 = CreateDynamicObject(14446, 1417.759766, -5.309263, 1158.848022, 0.000000, 0.000000, 270.000000);
+    SetDynamicObjectMaterial(mapeditor121, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor122 = CreateDynamicObject(19445, 1418.513672, -4.846467, 1163.535034, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor122, 0, 18646, "matcolours", "white");
+    new mapeditor123 = CreateDynamicObject(2421, 1409.615601, -5.035124, 1162.816650, 0.000000, 0.000000, -4.699999);
+    SetDynamicObjectMaterial(mapeditor123, 512, 16005, "des_stownmain2", "black32");
+    CreateDynamicObject(2384, 1405.978760, -8.249141, 1159.496094, 0.000000, 0.000000, 0.000000);    
+    new mapeditor124 = CreateDynamicObject(19383, 1409.688110, -5.343406, 1159.925903, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor124, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(19175, 1419.507324, -5.399308, 1160.406738, 0.000000, 0.000000, 270.000000);    
+    new mapeditor125 = CreateDynamicObject(19383, 1409.527222, -5.383410, 1159.915894, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor125, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor126 = CreateDynamicObject(2133, 1408.725952, -5.405216, 1161.856445, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor126, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor127 = CreateDynamicObject(2210, 1409.468384, -5.136556, 1164.614990, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor127, 0, 18646, "matcolours", "white");
+    new mapeditor128 = CreateDynamicObject(2292, 1403.265991, -11.816797, 1161.761597, 0.000000, 0.000000, 270.000000);
+    SetDynamicObjectMaterial(mapeditor128, 0, 8591, "olympic01", "vgscityhwal1");
+    new mapeditor129 = CreateDynamicObject(11743, 1408.784912, -5.216486, 1162.850342, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor129, 0, 18646, "none", "none");
+    new mapeditor130 = CreateDynamicObject(11718, 1408.764038, -5.123071, 1164.152100, 0.000000, 0.000000, -72.899986);
+    SetDynamicObjectMaterial(mapeditor130, 0, 18646, "none", "none");
+    new mapeditor131 = CreateDynamicObject(19445, 1409.174072, -4.846467, 1163.535034, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor131, 0, 18646, "matcolours", "white");
+    new mapeditor132 = CreateDynamicObject(19172, 1403.891235, -11.633543, 1158.353760, -90.000008, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor132, 0, 3953, "rczero_track", "waterclear256");
+    new mapeditor133 = CreateDynamicObject(19325, 1402.453979, -13.320564, 1161.750122, 0.000000, 90.199944, 0.000000);
+    SetDynamicObjectMaterial(mapeditor133, 0, 18646, "none", "none");
+    new mapeditor134 = CreateDynamicObject(19445, 1404.053833, -13.513843, 1156.663452, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor134, 0, 14838, "lee_stripclub", "Strip_ceiling");
+    new mapeditor135 = CreateDynamicObject(2210, 1408.478638, -5.136556, 1164.614990, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor135, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(19586, 1407.450928, -5.640879, 1163.782837, 92.899925, 0.000000, -2.199999);    
+    new mapeditor136 = CreateDynamicObject(2251, 1405.092896, -8.103981, 1160.235229, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor136, 0, 18646, "none", "none");
+    new mapeditor137 = CreateDynamicObject(2695, 1405.671021, -7.873581, 1159.111938, 0.000000, -90.900002, 180.000000);
+    SetDynamicObjectMaterial(mapeditor137, 0, 18646, "matcolours", "white");
+    new mapeditor138 = CreateDynamicObject(2133, 1407.735474, -5.405216, 1161.856445, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor138, 0, 16005, "des_stownmain2", "black32");
+    CreateDynamicObject(19586, 1407.321289, -5.655082, 1163.782837, 92.899925, 0.000000, -2.199999);    
+    new mapeditor139 = CreateDynamicObject(1644, 1407.457275, -5.540441, 1163.823975, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor139, 0, 18646, "none", "none");
+    new mapeditor140 = CreateDynamicObject(2133, 1404.873291, -7.875225, 1161.856445, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor140, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor141 = CreateDynamicObject(2695, 1405.685059, -7.873579, 1158.737183, 0.000000, -90.900002, 180.000000);
+    SetDynamicObjectMaterial(mapeditor141, 0, 18646, "matcolours", "white");
+    new mapeditor142 = CreateDynamicObject(1644, 1407.327393, -5.540441, 1163.823975, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor142, 0, 18646, "none", "none");
+    CreateDynamicObject(19632, 1403.729980, -9.245211, 1163.171509, 0.000000, 0.000000, 0.000000);    
+    new mapeditor143 = CreateDynamicObject(19445, 1402.521362, -18.402817, 1159.934814, 0.000000, 0.000000, 270.000000);
+    SetDynamicObjectMaterial(mapeditor143, 0, 8390, "vegasemulticar", "ws_mixedbrick");
+    new mapeditor144 = CreateDynamicObject(2695, 1405.250000, -7.873580, 1159.066406, 0.000000, -90.900002, 180.000000);
+    SetDynamicObjectMaterial(mapeditor144, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(19173, 1403.286865, -9.703132, 1162.751221, 0.000000, 0.000000, 0.000000);
+    CreateDynamicObject(2524, 1410.237305, -4.532655, 1158.600586, 0.000000, 0.000000, 90.000000);    
+    new mapeditor145 = CreateDynamicObject(3106, 1401.967651, -13.342261, 1162.383301, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor145, 0, 16005, "des_stownmain2", "black32");
+    CreateDynamicObject(19893, 1401.909180, -13.664703, 1162.373291, 0.000000, 0.000000, 99.699982);
+    CreateDynamicObject(2257, 1412.887207, -3.459741, 1159.929077, 0.000000, 0.000000, 90.000000);    
+    new mapeditor146 = CreateDynamicObject(3106, 1401.938110, -13.322261, 1162.383301, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor146, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor147 = CreateDynamicObject(2263, 1406.728882, -5.618911, 1163.404541, -91.099953, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor147, 0, 18646, "matcolours", "white");
+    new mapeditor148 = CreateDynamicObject(2695, 1405.244263, -7.873579, 1158.742310, 0.000000, -90.900002, 180.000000);
+    SetDynamicObjectMaterial(mapeditor148, 0, 18646, "matcolours", "white");
+    new mapeditor149 = CreateDynamicObject(2210, 1404.587402, -7.826563, 1164.614990, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor149, 0, 18646, "matcolours", "white");
+    new mapeditor150 = CreateDynamicObject(1510, 1406.881592, -5.437541, 1162.879150, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor150, 0, 18646, "matcolours", "red");
+    new mapeditor151 = CreateDynamicObject(19426, 1404.292725, -7.935400, 1162.599243, 89.799995, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor151, 0, 18646, "matcolours", "white");
+    new mapeditor152 = CreateDynamicObject(2210, 1407.488647, -5.136556, 1164.614990, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor152, 0, 18646, "matcolours", "white");
+    new mapeditor153 = CreateDynamicObject(2133, 1406.745239, -5.405216, 1161.856445, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor153, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor154 = CreateDynamicObject(2094, 1405.996338, -7.009113, 1158.396118, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor154, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor155 = CreateDynamicObject(1510, 1406.921875, -5.217543, 1162.879150, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor155, 0, 18646, "matcolours", "red");
+    new mapeditor156 = CreateDynamicObject(1510, 1406.580933, -5.437541, 1162.879150, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor156, 0, 18646, "matcolours", "red");
+    CreateDynamicObject(2525, 1412.077148, -3.783177, 1158.411255, 0.000000, 0.000000, 270.000000);    
+    new mapeditor157 = CreateDynamicObject(2259, 1410.254272, -3.866486, 1159.620239, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor157, 0, 14581, "ab_mafiasuitea", "barbersmir1");
+    new mapeditor158 = CreateDynamicObject(19445, 1402.475586, -18.258995, 1158.328369, 0.000000, 89.999992, -90.000008);
+    SetDynamicObjectMaterial(mapeditor158, 0, 14838, "lee_stripclub", "Strip_ceiling");
+    new mapeditor159 = CreateDynamicObject(2133, 1404.873779, -6.915224, 1161.856445, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor159, 0, 16005, "des_stownmain2", "black32");
+    CreateDynamicObject(2822, 1404.798096, -6.948954, 1163.001831, 0.000000, -87.099937, 180.000000);   
+    new mapeditor160 = CreateDynamicObject(1828, 1401.587769, -13.733763, 1161.731079, 0.000000, 0.000000, 99.599991);
+    SetDynamicObjectMaterial(mapeditor160, 0, 18646, "none", "none");
+    new mapeditor161 = CreateDynamicObject(2691, 1401.448242, -16.847052, 1161.643921, 89.999931, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor161, 0, 8591, "olympic01", "vgscityhwal1");
+    new mapeditor162 = CreateDynamicObject(19426, 1404.291382, -7.945397, 1165.627197, 89.799995, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor162, 0, 18646, "matcolours", "white");
+    new mapeditor163 = CreateDynamicObject(2251, 1401.409912, -14.322344, 1163.092407, 0.000000, 0.000000, 95.900002);
+    SetDynamicObjectMaterial(mapeditor163, 0, 18646, "none", "none");
+    new mapeditor164 = CreateDynamicObject(1510, 1406.541870, -5.217543, 1162.879150, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor164, 0, 18646, "matcolours", "red");
+    new mapeditor165 = CreateDynamicObject(19426, 1412.775513, -2.980454, 1159.915283, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor165, 0, 18646, "matcolours", "white");
+    new mapeditor166 = CreateDynamicObject(19581, 1406.759277, -5.051367, 1164.170166, 0.000000, 0.000000, 75.399994);
+    SetDynamicObjectMaterial(mapeditor166, 0, 18646, "none", "none");
+    CreateDynamicObject(2822, 1404.465820, -6.948954, 1163.020386, 0.000000, -87.099937, 180.000000);    
+    new mapeditor167 = CreateDynamicObject(2518, 1404.893555, -6.507783, 1162.119019, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor167, 256, 1676, "wshxrefpump", "metalic128");
+    CreateDynamicObject(19632, 1402.819214, -9.245210, 1163.191528, 0.000000, 0.000000, 0.000000);    
+    new mapeditor168 = CreateDynamicObject(19445, 1419.583252, -3.831437, 1160.065918, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor168, 0, 18646, "matcolours", "white");
+    new mapeditor169 = CreateDynamicObject(19426, 1402.591797, -9.605389, 1162.593262, 89.799995, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor169, 0, 18646, "matcolours", "white");
+    new mapeditor170 = CreateDynamicObject(1644, 1409.962891, -3.615238, 1159.550781, 93.799881, 47.500000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor170, 0, 14446, "carter_block", "zebra_skin");
+    new mapeditor171 = CreateDynamicObject(19380, 1409.978271, -3.989427, 1158.329712, 0.000000, 90.300026, 0.000000);
+    SetDynamicObjectMaterial(mapeditor171, 0, 2423, "cj_ff_counters", "cj_laminate1");
+    new mapeditor172 = CreateDynamicObject(2210, 1406.489258, -5.136556, 1164.614990, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor172, 0, 18646, "matcolours", "white");
+    new mapeditor173 = CreateDynamicObject(1823, 1401.185791, -14.046887, 1161.890625, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor173, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(2836, 1417.336060, -3.472419, 1158.375854, 0.000000, 0.000000, 0.000000);   
+    new mapeditor174 = CreateDynamicObject(2210, 1404.586914, -6.826559, 1164.614990, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor174, 0, 18646, "matcolours", "white");
+    new mapeditor175 = CreateDynamicObject(19172, 1401.793213, -15.793567, 1158.353760, -90.000008, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor175, 0, 3953, "rczero_track", "waterclear256");
+    new mapeditor176 = CreateDynamicObject(2133, 1410.045532, -3.871574, 1158.369019, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor176, 0, 18646, "matcolours", "white");
+    new mapeditor177 = CreateDynamicObject(1644, 1410.003784, -3.479860, 1159.559814, 93.799881, 47.500000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor177, 0, 14446, "carter_block", "zebra_skin");
+    new mapeditor178 = CreateDynamicObject(19172, 1401.782715, -14.293565, 1158.353760, -90.000008, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor178, 0, 3953, "rczero_track", "waterclear256");
+    new mapeditor179 = CreateDynamicObject(19380, 1402.221069, -21.349380, 1161.756836, 0.000000, 90.200027, 0.000000);
+    SetDynamicObjectMaterial(mapeditor179, 0, 2423, "cj_ff_counters", "cj_laminate1");
+    new mapeditor180 = CreateDynamicObject(2133, 1405.754761, -5.405216, 1161.856445, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor180, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor181 = CreateDynamicObject(1823, 1400.965454, -14.526876, 1161.760498, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor181, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor182 = CreateDynamicObject(19380, 1420.481323, -3.699410, 1161.690918, 0.000000, 90.200027, 0.000000);
+    SetDynamicObjectMaterial(mapeditor182, 0, 8591, "olympic01", "vgscityhwal1");
+    new mapeditor183 = CreateDynamicObject(19429, 1402.643188, -8.894454, 1163.247681, 0.000000, 90.099976, 0.000000);
+    SetDynamicObjectMaterial(mapeditor183, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    new mapeditor184 = CreateDynamicObject(19426, 1402.570679, -9.605388, 1165.621460, 89.799995, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor184, 0, 18646, "matcolours", "white");
+    new mapeditor185 = CreateDynamicObject(1823, 1400.965942, -13.586878, 1161.760498, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor185, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor186 = CreateDynamicObject(19172, 1401.792236, -12.793556, 1158.353760, -90.000008, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor186, 0, 3953, "rczero_track", "waterclear256");
+    new mapeditor187 = CreateDynamicObject(19426, 1402.553711, -8.855411, 1163.320313, 0.000000, 89.999985, 0.000000);
+    SetDynamicObjectMaterial(mapeditor187, 0, 18646, "matcolours", "white");
+    new mapeditor188 = CreateDynamicObject(19353, 1412.639282, -2.322409, 1160.137695, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor188, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(19561, 1405.406372, -5.278314, 1162.858643, 0.000000, 0.000000, 14.899998);
+    CreateDynamicObject(2265, 1400.769653, -17.829695, 1163.516113, 0.000000, 0.000000, 180.000000);    
+    new mapeditor189 = CreateDynamicObject(2558, 1417.550537, -2.611841, 1159.780396, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor189, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor190 = CreateDynamicObject(19426, 1402.554199, -8.855408, 1164.881348, 0.000000, 89.999985, 0.000000);
+    SetDynamicObjectMaterial(mapeditor190, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(2247, 1403.361206, -7.872115, 1159.762085, 0.000000, 0.000000, 69.100029);    
+    new mapeditor191 = CreateDynamicObject(1819, 1419.083496, -3.438682, 1158.375854, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor191, 0, 18646, "matcolours", "white");
+    new mapeditor192 = CreateDynamicObject(1823, 1403.650879, -7.863429, 1158.824463, 0.000000, 0.000000, 119.500000);
+    SetDynamicObjectMaterial(mapeditor192, 0, 18646, "matcolours", "white");
+    new mapeditor193 = CreateDynamicObject(19426, 1409.525146, -3.010455, 1159.915283, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor193, 0, 18646, "matcolours", "white");
+    new mapeditor194 = CreateDynamicObject(19426, 1413.611450, -2.134797, 1159.903564, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor194, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(19583, 1404.665405, -5.756757, 1163.056885, 21.799997, 0.000000, 0.000000);    
+    new mapeditor195 = CreateDynamicObject(2210, 1405.498779, -5.136556, 1164.614990, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor195, 0, 18646, "matcolours", "white");
+    new mapeditor196 = CreateDynamicObject(19380, 1420.448364, -3.969427, 1158.275513, 0.000000, 90.300026, 0.000000);
+    SetDynamicObjectMaterial(mapeditor196, 0, 2423, "cj_ff_counters", "cj_laminate1");
+    new mapeditor197 = CreateDynamicObject(19445, 1405.390259, -5.544110, 1166.304810, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor197, 0, 18646, "matcolours", "white");
+    new mapeditor198 = CreateDynamicObject(2210, 1404.596680, -5.836560, 1164.614990, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor198, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(19632, 1401.948975, -9.245209, 1163.181519, 0.000000, 0.000000, 0.000000);    
+    new mapeditor199 = CreateDynamicObject(19426, 1403.229858, -7.698370, 1159.968262, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor199, 0, 18646, "matcolours", "white");
+    new mapeditor200 = CreateDynamicObject(2391, 1409.855591, -2.960809, 1159.109863, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor200, 0, 3942, "bistro", "mp_snow");
+    new mapeditor201 = CreateDynamicObject(19445, 1402.530029, -8.742823, 1159.934814, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor201, 0, 8390, "vegasemulticar", "ws_mixedbrick");
+    new mapeditor202 = CreateDynamicObject(19172, 1401.791748, -11.303553, 1158.353760, -90.000008, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor202, 0, 3953, "rczero_track", "waterclear256");
+    CreateDynamicObject(2250, 1419.226318, -2.951418, 1159.306030, 0.000000, 0.000000, 90.000000);    
+    new mapeditor203 = CreateDynamicObject(3503, 1415.657959, -1.788781, 1160.678467, 0.000000, -90.099960, 0.000000);
+    SetDynamicObjectMaterial(mapeditor203, 0, 16005, "des_stownmain2", "black32");
+    CreateDynamicObject(19807, 1403.480591, -7.549725, 1158.943481, 0.000000, 0.000000, 90.000000);
+    CreateDynamicObject(2394, 1415.417236, -1.805005, 1160.339111, 0.000000, 0.000000, 0.000000);    
+    new mapeditor204 = CreateDynamicObject(2691, 1418.036011, -2.272418, 1160.146851, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor204, 0, 18029, "genintintsmallrest", "gb_restaursmll10");
+    new mapeditor205 = CreateDynamicObject(19426, 1417.372314, -2.134797, 1159.903564, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor205, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(2613, 1405.042114, -4.978073, 1161.848267, 0.000000, 0.000000, 0.000000);    
+    new mapeditor206 = CreateDynamicObject(19380, 1410.001587, -2.099413, 1161.733154, 0.000000, 90.200027, 0.000000);
+    SetDynamicObjectMaterial(mapeditor206, 0, 8591, "olympic01", "vgscityhwal1");
+    new mapeditor207 = CreateDynamicObject(19445, 1400.312256, -18.406454, 1163.535034, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor207, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(3857, 1404.319458, -5.928733, 1165.937988, 0.000000, 0.000000, 134.899994);
+    CreateDynamicObject(2264, 1400.139893, -17.822912, 1162.842529, 0.000000, 0.000000, 180.000000);    
+    new mapeditor208 = CreateDynamicObject(19445, 1401.382813, -16.593840, 1156.663452, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor208, 0, 14838, "lee_stripclub", "Strip_ceiling");
+    new mapeditor209 = CreateDynamicObject(19353, 1409.688965, -2.322408, 1160.137695, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor209, 0, 18646, "matcolours", "white");
+    new mapeditor210 = CreateDynamicObject(19380, 1409.531372, -2.119410, 1161.761475, 0.000000, 90.200027, 0.000000);
+    SetDynamicObjectMaterial(mapeditor210, 0, 2423, "cj_ff_counters", "cj_laminate1");
+    new mapeditor211 = CreateDynamicObject(2462, 1402.786377, -7.047759, 1162.702271, -89.199989, 0.000000, 270.000000);
+    SetDynamicObjectMaterial(mapeditor211, 0, 18646, "none", "none");
+    new mapeditor212 = CreateDynamicObject(1823, 1402.687622, -8.292337, 1158.404053, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor212, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor213 = CreateDynamicObject(2257, 1404.048340, -5.477111, 1162.917725, -90.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor213, 0, 16005, "des_stownmain2", "black32");
+    CreateDynamicObject(19173, 1401.136108, -9.703131, 1162.751221, 0.000000, 0.000000, 0.000000);
+    CreateDynamicObject(2262, 1400.019897, -17.832907, 1163.763062, 0.000000, 0.000000, 180.000000);    
+    new mapeditor214 = CreateDynamicObject(19325, 1418.658936, -2.171844, 1159.597900, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor214, 0, 18646, "none", "none");
+    new mapeditor215 = CreateDynamicObject(19445, 1402.515991, -8.548940, 1158.329834, 0.000000, 90.299988, -90.000008);
+    SetDynamicObjectMaterial(mapeditor215, 0, 14838, "lee_stripclub", "Strip_ceiling");
+    new mapeditor216 = CreateDynamicObject(19426, 1414.335571, -1.417997, 1159.902954, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor216, 0, 18646, "matcolours", "white");
+    new mapeditor217 = CreateDynamicObject(19172, 1401.801270, -9.813543, 1158.353760, -90.000008, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor217, 0, 3953, "rczero_track", "waterclear256");
+    new mapeditor218 = CreateDynamicObject(2462, 1402.625244, -7.047759, 1162.773560, -89.199989, 0.000000, 270.000000);
+    SetDynamicObjectMaterial(mapeditor218, 0, 18646, "none", "none");
+    new mapeditor219 = CreateDynamicObject(19445, 1401.940430, -8.590638, 1159.997314, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor219, 0, 18646, "matcolours", "white");
+    new mapeditor220 = CreateDynamicObject(19426, 1418.932495, -2.134797, 1159.903564, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor220, 0, 18646, "matcolours", "white");
+    new mapeditor221 = CreateDynamicObject(2192, 1409.742920, -2.029325, 1160.219604, -86.900017, 0.000000, 270.000000);
+    SetDynamicObjectMaterial(mapeditor221, 0, 964, "cj_crate_will", "CJ_FLIGHT_CASE");
+    new mapeditor222 = CreateDynamicObject(19353, 1411.125488, -2.373047, 1157.598511, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor222, 0, 18646, "matcolours", "white");
+    new mapeditor223 = CreateDynamicObject(19426, 1416.656616, -1.417997, 1159.902954, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor223, 0, 18646, "matcolours", "white");
+    new mapeditor224 = CreateDynamicObject(2257, 1404.548340, -4.667110, 1162.917725, -90.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor224, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor225 = CreateDynamicObject(1737, 1417.550537, -1.897065, 1158.460571, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor225, 0, 16005, "des_stownmain2", "black32");
+    CreateDynamicObject(19632, 1401.048462, -9.245208, 1163.161499, 0.000000, 0.000000, 0.000000);    
+    new mapeditor226 = CreateDynamicObject(2389, 1415.989014, -1.369501, 1159.214722, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor226, 0, 18646, "none", "none");
+    new mapeditor227 = CreateDynamicObject(2391, 1415.088013, -1.289625, 1159.190308, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor227, 0, 18646, "none", "none");
+    new mapeditor228 = CreateDynamicObject(19445, 1405.410278, -3.874107, 1163.872925, 0.000000, -90.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor228, 0, 18646, "matcolours", "white");
+    new mapeditor229 = CreateDynamicObject(2695, 1409.799561, -1.781803, 1160.039917, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor229, 0, 18646, "matcolours", "white");
+    new mapeditor230 = CreateDynamicObject(14446, 1404.277954, -5.378358, 1158.975586, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor230, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor231 = CreateDynamicObject(19445, 1405.410156, -3.874105, 1164.614014, 0.000000, -90.000000, 270.000000);
+    SetDynamicObjectMaterial(mapeditor231, 0, 18646, "matcolours", "white");
+    new mapeditor232 = CreateDynamicObject(19426, 1415.165161, -1.047996, 1159.902954, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor232, 0, 18646, "matcolours", "white");
+    new mapeditor233 = CreateDynamicObject(19426, 1408.765869, -2.130455, 1159.915283, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor233, 0, 18646, "matcolours", "white");
+    new mapeditor234 = CreateDynamicObject(2961, 1409.869507, -1.840912, 1159.289917, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor234, 0, 18646, "matcolours", "blue");
+    new mapeditor235 = CreateDynamicObject(19426, 1402.498535, -6.978376, 1159.968262, 0.000000, 0.000000, 270.000000);
+    SetDynamicObjectMaterial(mapeditor235, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor236 = CreateDynamicObject(19426, 1415.845337, -1.047997, 1159.902954, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor236, 0, 18646, "matcolours", "white");
+    new mapeditor237 = CreateDynamicObject(19445, 1399.590942, -18.291451, 1161.708252, 0.000000, 90.199989, 270.000000);
+    SetDynamicObjectMaterial(mapeditor237, 0, 8591, "olympic01", "vgscityhwal1");
+    new mapeditor238 = CreateDynamicObject(19426, 1412.470093, -1.651623, 1157.598633, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor238, 0, 18646, "matcolours", "white");
+    new mapeditor239 = CreateDynamicObject(2257, 1411.378052, -1.312403, 1159.290527, -89.899803, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor239, 0, 3953, "rczero_track", "waterclear256");
+    new mapeditor240 = CreateDynamicObject(2961, 1409.869873, -1.660913, 1159.289917, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor240, 0, 18646, "matcolours", "red");
+    new mapeditor241 = CreateDynamicObject(19353, 1411.148438, -1.112409, 1160.137695, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor241, 0, 18646, "matcolours", "white");
+    new mapeditor242 = CreateDynamicObject(2257, 1410.888062, -1.312421, 1159.300537, -89.899803, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor242, 0, 3953, "rczero_track", "waterclear256");
+    CreateDynamicObject(2261, 1399.289917, -17.822920, 1162.842529, 0.000000, 0.000000, 180.000000);    
+    new mapeditor243 = CreateDynamicObject(1644, 1410.879028, -1.255614, 1159.457397, 85.099953, 6.999999, 0.000000);
+    SetDynamicObjectMaterial(mapeditor243, 0, 19128, "dancefloors", "dancefloor1");
+    new mapeditor244 = CreateDynamicObject(1644, 1410.739380, -1.255615, 1159.457397, 85.099953, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor244, 0, 19128, "dancefloors", "dancefloor1");
+    new mapeditor245 = CreateDynamicObject(2230, 1399.258423, -13.471434, 1162.312378, 89.400017, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor245, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(3857, 1400.611206, -9.663729, 1165.637207, 0.000000, 0.000000, 44.899982);    
+    new mapeditor246 = CreateDynamicObject(19426, 1400.250854, -9.605390, 1162.586914, 89.799995, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor246, 0, 18646, "matcolours", "white");
+    new mapeditor247 = CreateDynamicObject(2410, 1411.109009, -1.068201, 1159.308960, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor247, 0, 18646, "matcolours", "white");
+    new mapeditor248 = CreateDynamicObject(19445, 1404.294312, -4.076464, 1163.535034, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor248, 0, 18646, "matcolours", "white");
+    new mapeditor249 = CreateDynamicObject(19445, 1400.382813, -13.513842, 1156.663452, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor249, 0, 14838, "lee_stripclub", "Strip_ceiling");
+    new mapeditor250 = CreateDynamicObject(2230, 1399.257935, -12.421504, 1162.299683, 89.400017, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor250, 0, 18646, "matcolours", "white");
+    new mapeditor251 = CreateDynamicObject(2558, 1398.938110, -17.498819, 1163.339111, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor251, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor252 = CreateDynamicObject(2230, 1398.986816, -13.471441, 1162.311401, 89.400017, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor252, 0, 18646, "matcolours", "white");
+    new mapeditor253 = CreateDynamicObject(2210, 1398.744995, -15.240805, 1162.445313, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor253, 0, 18646, "matcolours", "white");
+    new mapeditor254 = CreateDynamicObject(19426, 1400.249878, -9.605389, 1165.615845, 89.799995, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor254, 0, 18646, "matcolours", "white");
+    new mapeditor255 = CreateDynamicObject(19426, 1409.858765, -1.651623, 1157.598633, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor255, 0, 18646, "matcolours", "white");
+    new mapeditor256 = CreateDynamicObject(2210, 1398.744507, -15.240804, 1163.706543, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor256, 0, 18646, "matcolours", "white");
+    new mapeditor257 = CreateDynamicObject(2961, 1398.784668, -14.095046, 1162.796265, 0.000000, 0.000000, 106.799988);
+    SetDynamicObjectMaterial(mapeditor257, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor258 = CreateDynamicObject(2962, 1398.783691, -14.101821, 1162.796265, 0.000000, 0.000000, 106.199997);
+    SetDynamicObjectMaterial(mapeditor258, 0, 18646, "matcolours", "blue");
+    CreateDynamicObject(19632, 1400.087524, -9.245207, 1163.191528, 0.000000, 0.000000, 0.000000);
+    CreateDynamicObject(2247, 1398.746704, -14.426313, 1163.186401, 0.000000, 0.000000, 61.200001);    
+    new mapeditor259 = CreateDynamicObject(2145, 1398.713257, -15.366255, 1161.835938, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor259, 0, 18646, "matcolours", "white");
+    new mapeditor260 = CreateDynamicObject(2315, 1398.757080, -14.346102, 1161.844849, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor260, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor261 = CreateDynamicObject(19380, 1399.004761, -13.579401, 1165.352661, 0.000000, 90.200027, 0.000000);
+    SetDynamicObjectMaterial(mapeditor261, 0, 8591, "olympic01", "vgscityhwal1");
+    new mapeditor262 = CreateDynamicObject(19445, 1410.140503, -0.814110, 1165.654175, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor262, 0, 18646, "matcolours", "white");
+    new mapeditor263 = CreateDynamicObject(2230, 1398.987305, -12.421504, 1162.299683, 89.400017, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor263, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(1788, 1398.697754, -14.255747, 1162.385498, 0.000000, 0.000000, 101.599983);    
+    new mapeditor264 = CreateDynamicObject(19445, 1410.010010, -0.814109, 1165.654175, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor264, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(2226, 1398.833008, -12.986684, 1162.726440, 0.000000, 0.000000, 68.099991);    
+    new mapeditor265 = CreateDynamicObject(19445, 1404.890259, -3.564105, 1166.304810, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor265, 0, 18646, "matcolours", "white");
+    new mapeditor266 = CreateDynamicObject(19445, 1400.882813, -10.223838, 1156.663452, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor266, 0, 14838, "lee_stripclub", "Strip_ceiling");
+    new mapeditor267 = CreateDynamicObject(2691, 1398.589478, -17.027391, 1163.713867, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor267, 0, 18029, "genintintsmallrest", "gb_restaursmll10");
+    CreateDynamicObject(19172, 1402.528198, -5.372330, 1160.614990, 0.000000, 0.000000, 90.000000);    
+    new mapeditor268 = CreateDynamicObject(19445, 1398.669556, -13.601475, 1161.737305, 0.000000, 90.199989, 180.000000);
+    SetDynamicObjectMaterial(mapeditor268, 0, 8591, "olympic01", "vgscityhwal1");
+    new mapeditor269 = CreateDynamicObject(19426, 1408.036621, -1.410454, 1159.915283, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor269, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor270 = CreateDynamicObject(1255, 1398.879639, -15.757907, 1158.984131, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor270, 0, 18646, "none", "none");
+    CreateDynamicObject(19920, 1398.757568, -12.272412, 1163.016235, 0.000000, 0.000000, 59.099998);    
+    new mapeditor271 = CreateDynamicObject(1255, 1398.879150, -14.447908, 1158.984131, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor271, 0, 18646, "none", "none");
+    new mapeditor272 = CreateDynamicObject(19445, 1398.453491, -13.716455, 1163.535034, 0.000000, 0.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor272, 0, 18646, "matcolours", "white");
+    new mapeditor273 = CreateDynamicObject(2210, 1398.744507, -11.960794, 1162.445313, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor273, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(19786, 1398.459961, -13.587089, 1163.745850, 4.099998, 0.000000, 90.000000);    
+    new mapeditor274 = CreateDynamicObject(19429, 1399.803467, -8.894454, 1163.252563, 0.000000, 90.099976, 0.000000);
+    SetDynamicObjectMaterial(mapeditor274, 0, 2748, "pizza_furn", "CJ_WOOD6");
+    new mapeditor275 = CreateDynamicObject(2210, 1398.744385, -11.960801, 1163.706543, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor275, 0, 18646, "matcolours", "white");
+    new mapeditor276 = CreateDynamicObject(19445, 1399.971069, -8.541455, 1161.754639, 0.000000, 90.199989, 90.000000);
+    SetDynamicObjectMaterial(mapeditor276, 0, 8591, "olympic01", "vgscityhwal1");
+    new mapeditor277 = CreateDynamicObject(2384, 1398.839478, -13.370538, 1159.043945, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor277, 0, 3942, "bistro", "mp_snow");
+    new mapeditor278 = CreateDynamicObject(19445, 1398.690796, -11.741367, 1161.785645, 0.000000, 90.199989, 0.000000);
+    SetDynamicObjectMaterial(mapeditor278, 0, 2423, "cj_ff_counters", "cj_laminate1");
+    new mapeditor279 = CreateDynamicObject(2145, 1398.713745, -11.586252, 1161.835938, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor279, 0, 18646, "matcolours", "white");
+    new mapeditor280 = CreateDynamicObject(1737, 1398.209961, -17.522289, 1161.984009, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor280, 0, 16005, "des_stownmain2", "black32");
+    new mapeditor281 = CreateDynamicObject(19445, 1400.148682, -8.284113, 1165.664185, 0.000000, 0.000000, 270.000000);
+    SetDynamicObjectMaterial(mapeditor281, 0, 18646, "matcolours", "white");
+    new mapeditor282 = CreateDynamicObject(1255, 1398.898682, -12.087884, 1158.984131, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor282, 0, 18646, "none", "none");
+    new mapeditor283 = CreateDynamicObject(19445, 1399.554077, -8.836464, 1163.535034, 0.000000, 0.000000, 270.000000);
+    SetDynamicObjectMaterial(mapeditor283, 0, 18646, "matcolours", "white");
+    new mapeditor284 = CreateDynamicObject(19445, 1398.705688, -14.288978, 1158.338379, 0.000000, 89.999992, 0.000000);
+    SetDynamicObjectMaterial(mapeditor284, 0, 14838, "lee_stripclub", "Strip_ceiling");
+    new mapeditor285 = CreateDynamicObject(19426, 1399.653564, -8.855409, 1164.881348, 0.000000, 89.999985, 0.000000);
+    SetDynamicObjectMaterial(mapeditor285, 0, 18646, "matcolours", "white");
+    new mapeditor286 = CreateDynamicObject(1823, 1397.984863, -14.696893, 1162.240967, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor286, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(2472, 1397.957764, -15.031740, 1162.996094, 0.000000, 0.000000, 31.600000);    
+    new mapeditor287 = CreateDynamicObject(19445, 1403.309692, -3.554107, 1163.873901, 0.000000, -90.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor287, 0, 18646, "matcolours", "white");
+    new mapeditor288 = CreateDynamicObject(1823, 1397.983887, -14.106894, 1162.100830, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor288, 0, 18646, "matcolours", "white");
+    CreateDynamicObject(19632, 1399.187500, -9.245206, 1163.181519, 0.000000, 0.000000, 0.000000);
+    CreateDynamicObject(19173, 1398.996094, -9.703130, 1162.751221, 0.000000, 0.000000, 0.000000);    
+    new mapeditor289 = CreateDynamicObject(19426, 1405.415039, -2.130455, 1159.915283, 0.000000, 0.000000, 90.000000);
+    SetDynamicObjectMaterial(mapeditor289, 0, 18646, "matcolours", "white");
+    new mapeditor290 = CreateDynamicObject(19445, 1403.309326, -3.554106, 1164.624023, 0.000000, -90.000000, 180.000000);
+    SetDynamicObjectMaterial(mapeditor290, 0, 18646, "matcolours", "white");
+    new mapeditor291 = CreateDynamicObject(1823, 1397.974365, -13.496884, 1162.240967, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor291, 0, 18646, "matcolours", "white");
+    new mapeditor292 = CreateDynamicObject(19445, 1399.471069, -8.551384, 1161.774780, 0.000000, 90.199989, 90.000000);
+    SetDynamicObjectMaterial(mapeditor292, 0, 2423, "cj_ff_counters", "cj_laminate1");
+    new mapeditor293 = CreateDynamicObject(1255, 1398.898193, -10.727883, 1158.984131, 0.000000, 0.000000, 0.000000);
+    SetDynamicObjectMaterial(mapeditor293, 0, 18646, "none", "none");
+    new mapeditor294 = CreateDynamicObject(19426, 1399.153564, -8.855410, 1163.320313, 0.000000, 89.999985, 0.000000);
+    SetDynamicObjectMaterial(mapeditor294, 0, 18646, "matcolours", "white");
 
-    // ATRP House Interior
+    // Mclee House Interior #2
     tmpobjid = CreateDynamicObject(19355, 1365.370972, -25.671179, 1000.801636, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
     SetDynamicObjectMaterial(tmpobjid, 0, 3820, "boxhses_sfsx", "ws_wood_doors2", 0);
     tmpobjid = CreateDynamicObject(1753, 1366.113525, -23.350567, 999.912231, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
@@ -23399,7 +24051,1704 @@ public OnFilterScriptInit()
     tmpobjid = CreateDynamicObject(2938, 1392.505249, -51.058014, 1002.751648, 0.000000, 180.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
     SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
 
-    // ATRP House 
+    // Mclee House Interior
+    tmpobjid = CreateDynamicObject(19355, 1365.370972, -25.671179, 1000.801636, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3820, "boxhses_sfsx", "ws_wood_doors2", 0);
+    tmpobjid = CreateDynamicObject(1753, 1366.113525, -23.350567, 999.912231, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    tmpobjid = CreateDynamicObject(18981, 1364.820068, -23.216286, 999.912231, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 6282, "beafron2_law2", "boardwalk2_la", 0);
+    tmpobjid = CreateDynamicObject(14793, 1366.737793, -28.884567, 1003.672302, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    CreateDynamicObject(2251, 1368.043823, -22.578728, 1001.196228, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2010, 1368.747070, -28.673910, 999.912231, 0.000000, 0.000000, -60.400005, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1827, 1368.130859, -22.497389, 999.912231, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(3095, 1368.310303, -28.549990, 1003.761536, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14537, "pdomebar", "club_floor2_sfwTEST", 0);
+    tmpobjid = CreateDynamicObject(3095, 1368.350830, -28.499937, 1003.790894, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14537, "pdomebar", "club_floor2_sfwTEST", 0);
+    CreateDynamicObject(1569, 1369.440063, -27.797087, 999.912231, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2816, 1368.145874, -22.181309, 1000.352112, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(11714, 1368.177856, -22.218861, 999.932251, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    CreateDynamicObject(2081, 1362.569092, -29.824038, 1001.222534, 0.000000, 0.000000, -176.499969, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1367.838989, -29.971350, 1003.882080, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    tmpobjid = CreateDynamicObject(19447, 1360.736084, -25.693279, 1002.642273, 180.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0);
+    tmpobjid = CreateDynamicObject(627, 1366.236816, -20.644199, 1001.692261, 0.000000, 0.000000, -62.599995, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 1, 6284, "bev_law2", "lasjmposh4", 0);
+    tmpobjid = CreateDynamicObject(19447, 1360.726196, -27.353271, 1000.892395, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0);
+    tmpobjid = CreateDynamicObject(19447, 1360.726196, -24.033272, 1000.892395, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0);
+    CreateDynamicObject(19998, 1363.329590, -30.751278, 1000.621521, 0.000000, 0.000000, 114.899994, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1369.866699, -27.937183, 1004.636414, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(1753, 1367.173096, -20.650564, 999.912231, 0.000000, 0.000000, 360.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    tmpobjid = CreateDynamicObject(18766, 1364.279419, -25.980810, 1006.851013, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    tmpobjid = CreateDynamicObject(2938, 1362.698975, -29.979227, 1003.782410, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(11707, 1362.693115, -30.632710, 1001.062805, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18766, 1364.279419, -26.970819, 1006.851013, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    tmpobjid = CreateDynamicObject(18766, 1365.399414, -27.920820, 1006.851013, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    CreateDynamicObject(1644, 1362.354248, -30.685280, 1001.433960, 87.800011, 6.699999, 80.399986, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1569, 1365.379639, -31.090569, 1004.346252, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19874, 1362.184326, -30.681097, 1001.305481, 2.500001, 0.000000, -91.400009, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1569, 1365.579834, -31.140570, 1004.346252, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    CreateDynamicObject(19874, 1362.132690, -30.679836, 1001.343201, 2.500001, 0.000000, -91.400009, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19873, 1362.134399, -30.676600, 1001.722229, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19874, 1362.084351, -30.678656, 1001.301147, 2.500001, 0.000000, -91.400009, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19873, 1362.075439, -30.676600, 1001.842285, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1370.606201, -27.937183, 1004.636414, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(19873, 1361.994995, -30.666599, 1001.722229, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(11747, 1361.949585, -30.651669, 1001.319458, -89.699951, 0.000000, -0.399999, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(11747, 1361.949219, -30.691668, 1001.319214, -89.699951, 0.000000, -0.399999, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(11747, 1361.908203, -30.661758, 1001.388977, -89.699951, 0.000000, -0.399999, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(14494, 1363.700684, -31.650944, 1002.042175, 0.000000, 0.000000, 91.299988, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2192, 1361.344971, -30.151323, 1001.087219, 82.200005, 0.000000, -0.099999, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(11747, 1361.909058, -30.691753, 1001.389221, -89.699951, 0.000000, -0.399999, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(11747, 1361.859497, -30.651037, 1001.319458, -89.699951, 0.000000, -0.399999, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(11747, 1361.948853, -30.761662, 1001.318787, -89.699951, 0.000000, -0.399999, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18766, 1365.408813, -28.910822, 1006.851013, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    CreateDynamicObject(11747, 1361.908813, -30.751749, 1001.388916, -89.699951, 0.000000, -0.399999, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(11747, 1361.859009, -30.731031, 1001.318970, -89.699951, 0.000000, -0.399999, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(11747, 1361.858765, -30.751032, 1001.318848, -89.699951, 0.000000, -0.399999, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1553, 1371.811890, -27.862949, 1000.822205, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1371.811890, -27.862949, 1000.822205, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1371.811890, -27.862949, 1000.822205, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1251, 1371.176147, -27.930042, 1004.691711, 28.299997, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    CreateDynamicObject(19172, 1368.833496, -20.077753, 1002.542297, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1364.505615, -28.808691, 1007.226013, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(2938, 1370.239746, -29.971350, 1004.232361, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    tmpobjid = CreateDynamicObject(19866, 1371.346313, -27.937183, 1004.636414, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(19447, 1362.217285, -30.502296, 1004.712158, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "rockbrown1", 0);
+    tmpobjid = CreateDynamicObject(2938, 1364.505615, -29.078697, 1007.226013, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(18766, 1365.408813, -29.890820, 1006.851013, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    CreateDynamicObject(19874, 1361.043823, -30.677706, 1000.883484, 5.899998, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1364.505615, -29.318695, 1007.226013, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(2526, 1363.734619, -32.344967, 999.922180, 0.000000, 0.000000, 90.500000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1364.505615, -29.538704, 1007.226013, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(14793, 1366.737793, -32.574589, 1003.672302, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(2938, 1364.505615, -29.798700, 1007.226013, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(11727, 1362.344971, -31.887489, 1003.599976, 89.599991, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1553, 1372.780884, -27.862949, 1002.629028, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1372.780884, -27.862949, 1002.629028, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1372.780884, -27.862949, 1002.629028, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1371.603394, -27.862949, 1005.575195, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    CreateDynamicObject(1569, 1372.141113, -29.601990, 999.912231, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18762, 1365.752808, -26.480343, 1008.926025, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    tmpobjid = CreateDynamicObject(3033, 1369.170044, -32.503639, 1002.972168, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 15040, "cuntcuts", "GB_canvas15", 0);
+    tmpobjid = CreateDynamicObject(627, 1371.136230, -28.629066, 1006.132080, 0.000000, 0.000000, 136.400040, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 1, 6284, "bev_law2", "lasjmposh4", 0);
+    CreateDynamicObject(2738, 1360.846802, -31.583330, 1000.512756, -4.000000, 0.000000, 90.099945, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18762, 1367.093018, -26.480343, 1008.926025, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    tmpobjid = CreateDynamicObject(18766, 1359.365723, -30.060829, 1002.391113, 0.000000, 0.000000, 360.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "scratchedmetal", 0);
+    tmpobjid = CreateDynamicObject(18766, 1359.725220, -30.740831, 1002.391113, 0.000000, 0.000000, 450.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "scratchedmetal", 0);
+    CreateDynamicObject(1744, 1364.478516, -33.634533, 1001.356750, 0.000000, 0.000000, -90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1744, 1364.478516, -33.634533, 1001.797058, 0.000000, 0.000000, -90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18766, 1369.680420, -32.750820, 1001.821228, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 2591, "ab_partition1", "ab_fabricCheck2", 0);
+    CreateDynamicObject(19873, 1360.470215, -31.682487, 1001.172485, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1744, 1364.478516, -33.634533, 1002.247375, 0.000000, 0.000000, -90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18762, 1368.523193, -26.480343, 1008.926025, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    CreateDynamicObject(2524, 1363.923950, -33.683079, 1001.000732, 0.000000, 7.599998, -10.899933, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2303, 1364.020020, -33.655952, 999.922241, 0.000000, 0.000000, -90.100044, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19622, 1372.774536, -30.071795, 1000.682373, 10.400000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(3095, 1364.601074, -30.370073, 1008.420898, 0.000000, 180.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    tmpobjid = CreateDynamicObject(18766, 1370.680176, -32.750820, 1001.821228, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 2591, "ab_partition1", "ab_fabricCheck2", 0);
+    tmpobjid = CreateDynamicObject(3033, 1371.900879, -31.553640, 1002.972168, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(1553, 1373.953125, -27.862949, 999.673645, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1373.953125, -27.862949, 999.673645, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1373.953125, -27.862949, 999.673645, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(18762, 1369.862549, -26.480343, 1008.926025, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    CreateDynamicObject(11707, 1360.262573, -32.494934, 1001.303040, 0.000000, 0.000000, 90.100006, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1569, 1365.579834, -34.040581, 1004.346252, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    tmpobjid = CreateDynamicObject(1553, 1373.745117, -27.862949, 1004.426941, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(19866, 1372.807007, -30.399929, 1003.962463, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    CreateDynamicObject(1569, 1365.379639, -34.090584, 1004.346252, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1778, 1373.286133, -30.412804, 999.912231, 0.000000, 0.000000, -87.300034, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1372.826172, -30.765036, 1003.946167, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(18766, 1371.680298, -32.750820, 1001.841248, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 2591, "ab_partition1", "ab_fabricCheck2", 0);
+    CreateDynamicObject(11727, 1362.344971, -33.957443, 1003.614441, 89.599991, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2133, 1373.798096, -29.974859, 999.912231, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18981, 1359.328979, -19.576315, 999.912231, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 6282, "beafron2_law2", "boardwalk2_la", 0);
+    tmpobjid = CreateDynamicObject(19866, 1373.527466, -30.399929, 1003.592163, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1374.924072, -27.862949, 1001.479858, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1374.924072, -27.862949, 1001.479858, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1374.924072, -27.862949, 1001.479858, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    CreateDynamicObject(2142, 1360.429688, -33.429028, 999.882202, 0.000000, 0.000000, 91.099960, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1569, 1365.579834, -33.590576, 1006.856079, 90.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    CreateDynamicObject(2741, 1360.177368, -33.454094, 1001.294373, -17.699999, 0.000000, 89.599976, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1365.176392, -35.190590, 1003.172485, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "Marble2", 0);
+    tmpobjid = CreateDynamicObject(19447, 1360.186523, -32.862320, 1004.712158, 90.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "rockbrown1", 0);
+    tmpobjid = CreateDynamicObject(14793, 1369.294189, -31.142359, 1008.636719, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(19866, 1374.267700, -30.399929, 1003.191956, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    CreateDynamicObject(1897, 1360.292847, -33.827251, 1000.142395, 0.000000, 0.000000, 95.999992, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(3033, 1371.900879, -33.423637, 1002.972168, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(19581, 1360.097900, -33.842804, 1000.982666, 0.000000, 0.000000, 92.500031, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1569, 1365.589844, -34.100544, 1006.846069, 90.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    tmpobjid = CreateDynamicObject(19786, 1371.851563, -18.044420, 1002.652283, 0.000000, 360.000000, 450.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 2266, "picture_frame", "CJ_PAINTING10", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 1564, "ab_jetlite", "CJ_BULLETBRASS", 0);
+    CreateDynamicObject(2133, 1374.767944, -29.974859, 999.912231, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1739, 1373.034058, -18.980766, 1000.932617, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 1, 10755, "airportrminl_sfse", "ws_airportconc1", 0);
+    tmpobjid = CreateDynamicObject(2938, 1366.633423, -24.260798, 1011.302734, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(18766, 1359.375610, -33.140865, 1004.151611, 90.000000, 90.000000, 450.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0);
+    CreateDynamicObject(2632, 1359.896484, -33.941452, 999.862793, 0.000000, 0.000000, 0.600026, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2524, 1360.619507, -34.600681, 1000.940796, 0.000000, 7.599998, 167.900085, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19385, 1362.726074, -35.571358, 1001.672241, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    CreateDynamicObject(2524, 1360.615845, -34.712391, 1000.943481, 0.000000, 7.599998, 167.900085, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1374.997314, -30.399929, 1002.771729, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    CreateDynamicObject(1846, 1359.317139, -33.905296, 1002.352173, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1366.542969, -22.700800, 1011.302734, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(1553, 1375.887573, -27.862949, 1003.278015, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1739, 1375.083496, -20.970774, 1000.932617, 0.000000, 0.000000, 630.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 1, 10755, "airportrminl_sfse", "ws_airportconc1", 0);
+    CreateDynamicObject(2142, 1360.456055, -34.778801, 999.882202, 0.000000, 0.000000, 91.099960, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(14793, 1364.355225, -34.111855, 1007.806335, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(1499, 1361.941772, -35.555325, 999.912231, 0.000000, 0.000000, 360.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    tmpobjid = CreateDynamicObject(18981, 1359.179199, -23.406307, 1009.241760, 180.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(2010, 1369.351440, -35.581364, 1004.346375, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1553, 1376.085815, -27.862949, 998.529968, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1376.085815, -27.862949, 998.529968, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1376.085815, -27.862949, 998.529968, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(19385, 1362.726074, -35.571358, 1005.142090, 0.000000, 180.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    CreateDynamicObject(2133, 1375.757935, -29.974859, 999.912231, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1553, 1374.792847, -30.692947, 1005.366211, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(19866, 1375.737793, -30.399929, 1002.371399, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    CreateDynamicObject(2010, 1368.786621, -36.334438, 999.912231, 0.000000, 0.000000, -60.400005, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18766, 1364.075317, -35.330822, 1006.751587, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    tmpobjid = CreateDynamicObject(18981, 1369.519043, -15.566316, 999.912231, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 14526, "sweetsmain", "GB_Pan01", 0);
+    tmpobjid = CreateDynamicObject(1146, 1367.015015, -35.984783, 1006.076355, 0.000000, 0.000000, 360.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 1560, "7_11_door", "CJ_CHROME2", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    tmpobjid = CreateDynamicObject(19866, 1365.200562, -35.828484, 1006.786011, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19598, "sfbuilding1", "darkwood1", 0);
+    tmpobjid = CreateDynamicObject(14793, 1366.701050, -15.555208, 1006.171997, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(19866, 1364.039795, -35.828484, 1006.786011, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 14629, "ab_chande", "ab_frostLiteGlass", 0);
+    tmpobjid = CreateDynamicObject(1553, 1377.074219, -27.862949, 1000.327148, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1377.074219, -27.862949, 1000.327148, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1377.074219, -27.862949, 1000.327148, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    CreateDynamicObject(2107, 1367.001465, -36.609997, 1005.286682, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19807, 1367.167969, -36.748707, 1004.936218, 0.000000, 0.000000, -33.799999, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1251, 1377.207764, -27.930042, 1001.444336, 28.299997, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    tmpobjid = CreateDynamicObject(6959, 1375.989136, -31.224953, 999.943481, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17555, "eastbeach3c_lae2", "deisel_2sfs", 0x99FFFFFF);
+    tmpobjid = CreateDynamicObject(19866, 1376.477905, -30.399929, 1001.971375, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    tmpobjid = CreateDynamicObject(1146, 1367.015015, -35.984783, 1007.006470, 0.000000, 0.000000, 360.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 1560, "7_11_door", "CJ_CHROME2", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    tmpobjid = CreateDynamicObject(19866, 1362.890015, -35.828484, 1006.786011, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19598, "sfbuilding1", "darkwood1", 0);
+    tmpobjid = CreateDynamicObject(1822, 1366.524292, -37.183228, 1004.376221, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 1, 18065, "ab_sfammumain", "shelf_glas", 0);
+    tmpobjid = CreateDynamicObject(2279, 1366.685425, -36.456089, 1006.411682, -11.299999, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 2811, "gb_ornaments01", "GB_photo01", 0);
+    tmpobjid = CreateDynamicObject(19866, 1362.470215, -35.828484, 1006.786011, 90.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 14629, "ab_chande", "ab_frostLiteGlass", 0);
+    tmpobjid = CreateDynamicObject(3095, 1364.601074, -35.390068, 1008.460938, 0.000000, 180.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19598, "sfbuilding1", "darkwood1", 0);
+    tmpobjid = CreateDynamicObject(19866, 1367.585815, -37.600582, 1003.172485, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "Marble2", 0);
+    tmpobjid = CreateDynamicObject(11691, 1375.612061, -19.016590, 1000.052063, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 4
+    SetDynamicObjectMaterial(tmpobjid, 3, 3922, "bistro", "Marble2", 0);
+    SetDynamicObjectMaterial(tmpobjid, 2, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 1, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(11691, 1375.612061, -19.016590, 1000.012024, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 4
+    SetDynamicObjectMaterial(tmpobjid, 3, 10765, "airportgnd_sfse", "black64", 0);
+    SetDynamicObjectMaterial(tmpobjid, 2, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 1, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    CreateDynamicObject(2707, 1375.970459, -19.816420, 1003.872742, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(3095, 1364.390991, -35.340065, 1008.800903, 90.000000, 0.000000, 360.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14526, "sweetsmain", "GB_Pan01", 0);
+    tmpobjid = CreateDynamicObject(3095, 1368.350830, -37.489971, 1003.790894, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14537, "pdomebar", "club_floor2_sfwTEST", 0);
+    tmpobjid = CreateDynamicObject(3095, 1368.551392, -30.350077, 1012.370850, 0.000000, 270.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    tmpobjid = CreateDynamicObject(3095, 1368.310303, -37.539997, 1003.761536, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14537, "pdomebar", "club_floor2_sfwTEST", 0);
+    tmpobjid = CreateDynamicObject(18766, 1376.879150, -31.100819, 1001.841248, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 13628, "8stad", "stadroof", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 2591, "ab_partition1", "ab_fabricCheck2", 0);
+    tmpobjid = CreateDynamicObject(1739, 1377.043945, -20.970774, 1000.932617, 0.000000, 0.000000, 630.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 1, 10755, "airportrminl_sfse", "ws_airportconc1", 0);
+    tmpobjid = CreateDynamicObject(2279, 1367.445923, -36.475857, 1007.333435, -11.299999, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 2811, "gb_ornaments01", "GB_photo02", 0);
+    tmpobjid = CreateDynamicObject(19866, 1377.218262, -30.399929, 1001.550964, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    CreateDynamicObject(2069, 1360.513428, -36.605068, 1004.506287, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1553, 1378.038086, -27.862949, 1002.124878, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(14446, 1364.258301, -37.710468, 1004.946228, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 2, 14608, "triad_big", "buddha_gold", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(19866, 1360.609619, -35.828484, 1006.786011, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19598, "sfbuilding1", "darkwood1", 0);
+    CreateDynamicObject(11735, 1359.228638, -36.108650, 1004.526306, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(11735, 1359.068481, -36.108650, 1004.526306, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19866, 1360.871948, -37.504105, 1002.412476, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19786, 1370.431030, -37.684429, 1002.152344, 0.000000, 450.000000, 720.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 2266, "picture_frame", "CJ_PAINTING16", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 1564, "ab_jetlite", "CJ_BULLETBRASS", 0);
+    tmpobjid = CreateDynamicObject(17951, 1363.387817, -38.006321, 1004.396240, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 14668, "711c", "bwtilebroth", 0);
+    CreateDynamicObject(2707, 1376.559326, -19.366444, 1003.872742, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1739, 1375.183350, -17.140764, 1000.932617, 0.000000, 0.000000, 450.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 1, 10755, "airportrminl_sfse", "ws_airportconc1", 0);
+    CreateDynamicObject(2707, 1375.769653, -18.126459, 1003.872742, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(14446, 1362.409180, -37.740463, 1004.946228, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 2, 14608, "triad_big", "buddha_gold", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(1846, 1368.201050, -37.317822, 1006.836243, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 15040, "cuntcuts", "GB_canvas15", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 1564, "ab_jetlite", "CJ_BULLETBRASS", 0);
+    tmpobjid = CreateDynamicObject(19866, 1377.968262, -30.399929, 1001.110535, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1377.222778, -30.692947, 1005.366211, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(948, 1376.997803, -19.057905, 1000.801331, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 3, 6284, "bev_law2", "beachwalkway", 0);
+    CreateDynamicObject(1716, 1370.756958, -37.914810, 999.912231, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(9093, 1376.924194, -18.878733, 999.902222, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    CreateDynamicObject(2707, 1376.580078, -18.586458, 1003.872742, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(11743, 1372.462891, -37.472328, 1001.051575, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(3095, 1359.540405, -35.360085, 1008.460938, 0.000000, 270.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19598, "sfbuilding1", "darkwood1", 0);
+    tmpobjid = CreateDynamicObject(18766, 1357.996582, -35.330822, 1006.751587, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    CreateDynamicObject(2706, 1358.792480, -36.077595, 1006.486206, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1846, 1373.915161, -15.204351, 1002.592041, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(2938, 1363.081055, -37.270401, 1007.975708, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    tmpobjid = CreateDynamicObject(19866, 1359.460205, -36.375023, 1006.895996, 90.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19598, "sfbuilding1", "darkwood1", 0);
+    CreateDynamicObject(2244, 1371.731934, -37.954094, 1001.292542, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1726, 1369.707153, -38.413971, 1004.346252, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1846, 1373.945557, -15.144354, 1002.592041, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 10765, "airportgnd_sfse", "black64", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(19866, 1371.392822, -38.157829, 1000.912170, 180.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "Marble2", 0);
+    CreateDynamicObject(3812, 1368.221680, -37.783623, 1007.322571, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1371.392822, -38.157829, 1000.642151, 180.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "Marble2", 0);
+    CreateDynamicObject(2707, 1377.199951, -18.926439, 1003.872742, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(3095, 1359.310791, -37.539997, 1003.761536, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14537, "pdomebar", "club_floor2_sfwTEST", 0);
+    tmpobjid = CreateDynamicObject(19866, 1371.392822, -38.157803, 1003.342163, 360.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "Marble2", 0);
+    CreateDynamicObject(2123, 1366.687988, -39.460361, 1000.532654, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1378.718384, -30.399929, 1000.700439, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1379.206665, -27.862949, 999.160461, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1379.206665, -27.862949, 999.160461, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1379.206665, -27.862949, 999.160461, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    CreateDynamicObject(2373, 1357.004395, -35.601711, 1005.386047, 0.000000, 0.000000, 360.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2138, 1372.678223, -37.698189, 1000.011353, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1373.991699, -36.570187, 1004.232361, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    CreateDynamicObject(2123, 1363.817139, -39.460361, 1000.532654, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1739, 1378.683960, -20.970774, 1000.932617, 0.000000, 0.000000, 630.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 1, 10755, "airportrminl_sfse", "ws_airportconc1", 0);
+    CreateDynamicObject(2073, 1371.737915, -38.309162, 1002.672363, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2707, 1377.800293, -19.296461, 1003.872742, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1357.249756, -36.355026, 1004.456116, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19598, "sfbuilding1", "darkwood1", 0);
+    CreateDynamicObject(1716, 1370.756958, -38.874790, 999.912231, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1357.249756, -36.355026, 1005.346558, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19598, "sfbuilding1", "darkwood1", 0);
+    tmpobjid = CreateDynamicObject(18766, 1368.628296, -37.360863, 1009.241089, 0.000000, 90.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 2591, "ab_partition1", "ab_fabricCheck2", 0);
+    CreateDynamicObject(2707, 1378.360596, -19.626465, 1003.872742, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1739, 1377.043945, -17.140764, 1000.932617, 0.000000, 0.000000, 450.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 1, 10755, "airportrminl_sfse", "ws_airportconc1", 0);
+    CreateDynamicObject(2010, 1369.351440, -39.331364, 1004.346375, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2704, 1357.627686, -36.344864, 1006.496216, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2138, 1373.658081, -37.708195, 1000.011353, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2707, 1377.790039, -18.486448, 1003.872742, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(950, 1365.239258, -40.155422, 1001.312744, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 1, 716, "gta_tree_bevhills", "vegaspalm01_128", 0);
+    tmpobjid = CreateDynamicObject(914, 1365.210449, -40.088161, 999.942261, 90.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    tmpobjid = CreateDynamicObject(3095, 1364.601074, -39.940071, 1003.820862, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14801, "lee_bdupsmain", "Bdup_KitchFloor", 0);
+    tmpobjid = CreateDynamicObject(19786, 1360.059570, -37.909248, 1006.726440, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 15040, "cuntcuts", "GB_canvas15", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 1564, "ab_jetlite", "CJ_BULLETBRASS", 0);
+    tmpobjid = CreateDynamicObject(1625, 1365.296509, -40.168438, 1000.054504, 0.000000, 0.000000, 360.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10973, "mall_sfse", "ws_grilleshade", 0);
+    tmpobjid = CreateDynamicObject(1846, 1365.202515, -40.147541, 999.792114, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    tmpobjid = CreateDynamicObject(2928, 1365.249512, -40.035923, 1003.832703, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1255, "lounger", "lounger_back", 0);
+    tmpobjid = CreateDynamicObject(11691, 1378.441895, -19.016590, 1000.052063, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 4
+    SetDynamicObjectMaterial(tmpobjid, 3, 3922, "bistro", "Marble2", 0);
+    SetDynamicObjectMaterial(tmpobjid, 2, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 1, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(19866, 1379.468384, -30.399929, 1000.300049, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    tmpobjid = CreateDynamicObject(2928, 1365.239502, -40.065929, 1003.882751, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(11691, 1378.441895, -19.016590, 1000.012085, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 4
+    SetDynamicObjectMaterial(tmpobjid, 3, 10765, "airportgnd_sfse", "black64", 0);
+    SetDynamicObjectMaterial(tmpobjid, 2, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 1, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(5302, 1365.231079, -40.210846, 999.942261, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 14615, "abatoir_daylite", "ab_volumelight", 0);
+    tmpobjid = CreateDynamicObject(1553, 1380.180176, -27.862949, 1000.975952, 0.000000, -28.200006, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1625, 1365.226440, -40.398434, 1000.054504, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10973, "mall_sfse", "ws_grilleshade", 0);
+    CreateDynamicObject(2073, 1371.737915, -39.169167, 1002.672363, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1357.249756, -36.355026, 1006.986389, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19598, "sfbuilding1", "darkwood1", 0);
+    CreateDynamicObject(2386, 1356.729492, -36.928101, 1004.666382, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1374.962524, -14.638044, 1003.951843, 0.000000, 90.000015, 35.700024, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} I", 50, "Ariel", 100, 0, 0, 0, 2);
+    tmpobjid = CreateDynamicObject(2938, 1374.962524, -14.638044, 1003.981873, 0.000000, 90.000015, 35.700024, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{000000} I", 50, "Ariel", 100, 0, 0, 0, 2);
+    tmpobjid = CreateDynamicObject(2386, 1356.746704, -36.677116, 1005.546326, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    tmpobjid = CreateDynamicObject(2938, 1374.962524, -14.638044, 1004.011902, 0.000000, 90.000015, 35.700024, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{000000} I", 50, "Ariel", 100, 0, 0, 0, 2);
+    tmpobjid = CreateDynamicObject(2938, 1374.962524, -14.638044, 1004.041931, 0.000000, 90.000015, 35.700024, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{000000} I", 50, "Ariel", 100, 0, 0, 0, 2);
+    tmpobjid = CreateDynamicObject(2938, 1354.943604, -24.260798, 1011.302734, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(1716, 1370.756958, -39.734776, 999.912231, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2135, 1374.635010, -37.699665, 1000.011780, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1670, 1371.664307, -39.483097, 1001.032410, 0.000000, 0.000000, -62.599998, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19603, 1361.491699, -40.055847, 1001.834473, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2123, 1363.817139, -40.640347, 1000.532654, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1601, 1361.223999, -40.096546, 1001.545227, 0.000000, 0.000000, 21.299997, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2391, 1356.585815, -36.526161, 1006.396362, 0.000000, 0.000000, 450.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1357.249756, -36.355026, 1007.786865, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19598, "sfbuilding1", "darkwood1", 0);
+    tmpobjid = CreateDynamicObject(3095, 1377.351807, -35.159904, 1003.791016, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14537, "pdomebar", "club_floor2_sfwTEST", 0);
+    tmpobjid = CreateDynamicObject(14793, 1366.959351, -40.676128, 1003.632690, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    CreateDynamicObject(2123, 1366.687988, -40.840359, 1000.532654, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19830, 1375.391724, -37.495968, 1001.072266, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2707, 1378.450195, -18.016430, 1003.872742, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1375.495728, -37.182201, 1003.802063, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(627, 1380.856567, -27.354212, 1001.692261, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 1, 6284, "bev_law2", "lasjmposh4", 0);
+    tmpobjid = CreateDynamicObject(18766, 1376.336548, -36.750813, 1001.811096, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    tmpobjid = CreateDynamicObject(19866, 1380.218628, -30.399929, 999.949768, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1379.653198, -30.692947, 1005.366211, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1846, 1376.605591, -15.204351, 1002.592041, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(19866, 1356.339355, -37.375027, 1004.466248, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19598, "sfbuilding1", "darkwood1", 0);
+    tmpobjid = CreateDynamicObject(1846, 1376.605591, -15.144354, 1002.592041, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 10765, "airportgnd_sfse", "black64", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(2938, 1354.622925, -22.700800, 1011.302734, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(2938, 1354.462646, -33.895721, 1007.866150, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    CreateDynamicObject(2073, 1371.737915, -39.959179, 1002.672363, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(3095, 1360.651367, -40.150082, 1003.681458, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 5766, "capitol_lawn", "capitol3_LAwN", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14537, "pdomebar", "club_floor2_sfwTEST", 0);
+    CreateDynamicObject(2136, 1375.617188, -37.693470, 1000.011353, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1356.339355, -37.375027, 1005.356262, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19598, "sfbuilding1", "darkwood1", 0);
+    tmpobjid = CreateDynamicObject(18766, 1360.705811, -40.440826, 1001.760803, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    CreateDynamicObject(2391, 1356.585815, -37.226158, 1006.396362, 0.000000, 0.000000, 450.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19807, 1371.721924, -40.168198, 1001.082581, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1739, 1378.623657, -17.140764, 1000.932617, 0.000000, 0.000000, 450.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 1, 10755, "airportrminl_sfse", "ws_airportconc1", 0);
+    tmpobjid = CreateDynamicObject(3095, 1355.780518, -35.360085, 1008.460938, 0.000000, 270.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19598, "sfbuilding1", "darkwood1", 0);
+    tmpobjid = CreateDynamicObject(19325, 1361.504028, -40.762379, 1001.892029, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18996, "mattextures", "policeshieldgls", 0);
+    tmpobjid = CreateDynamicObject(3095, 1355.611328, -35.390068, 1008.460938, 0.000000, 180.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19598, "sfbuilding1", "darkwood1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1380.873047, -27.412945, 1005.366211, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(19866, 1379.339111, -33.242340, 1004.416382, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    CreateDynamicObject(2007, 1354.739746, -36.454605, 1004.846130, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1371.372803, -40.557808, 1000.912170, 270.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "Marble2", 0);
+    CreateDynamicObject(1605, 1360.642944, -40.859131, 1002.334961, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2386, 1356.729492, -38.498104, 1004.666382, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(3095, 1355.401245, -35.340065, 1008.800903, 90.000000, 0.000000, 360.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(19866, 1356.339355, -37.375027, 1006.976379, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19598, "sfbuilding1", "darkwood1", 0);
+    tmpobjid = CreateDynamicObject(2938, 1353.580078, -33.752289, 1007.876404, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    CreateDynamicObject(2007, 1354.740112, -36.444607, 1005.786072, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18766, 1378.395508, -35.670811, 1001.791077, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    tmpobjid = CreateDynamicObject(14793, 1377.031982, -15.555208, 1006.171997, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(1553, 1380.853027, -29.522940, 1005.366211, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    CreateDynamicObject(2383, 1356.568115, -37.911552, 1006.426392, 0.000000, 0.000000, 360.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(9093, 1375.047241, -38.854195, 999.972290, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 4828, "airport3_las", "brwall_128", 0);
+    CreateDynamicObject(3111, 1355.762207, -37.345081, 1006.211853, 90.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2386, 1356.746704, -38.527111, 1005.546326, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 14535, "ab_wooziec", "sink1", 0);
+    tmpobjid = CreateDynamicObject(14793, 1359.868408, -40.796120, 1003.572632, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(19866, 1356.319336, -37.375027, 1007.796875, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19598, "sfbuilding1", "darkwood1", 0);
+    tmpobjid = CreateDynamicObject(19866, 1356.133667, -37.280609, 1007.726318, 180.000000, 90.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(2938, 1378.633667, -24.260798, 1011.302734, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(1499, 1376.770020, -37.543823, 1004.346375, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 630, "gta_potplants", "kb_teracota_pot64", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(11728, 1381.468140, -30.640379, 1001.411865, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1606, 1360.409546, -41.301476, 1001.904480, 0.000000, 10.700002, -7.700002, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1380.089600, -33.242340, 1004.596558, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    CreateDynamicObject(2007, 1353.739624, -36.454605, 1004.846130, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1378.553101, -22.700800, 1011.302734, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(19447, 1375.096436, -35.983749, 1010.556702, 0.000000, 180.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(2384, 1356.764282, -39.266224, 1004.686401, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2399, 1356.535889, -38.569405, 1006.436401, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19089, 1377.092529, -18.933798, 1011.332336, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(19385, 1369.038574, -41.461315, 1006.042419, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(2007, 1353.739868, -36.444607, 1005.786072, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(3095, 1368.310303, -42.200020, 1003.721497, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 5766, "capitol_lawn", "capitol3_LAwN", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14537, "pdomebar", "club_floor2_sfwTEST", 0);
+    tmpobjid = CreateDynamicObject(1739, 1381.023560, -18.980766, 1000.932617, 0.000000, 0.000000, 360.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 1, 10755, "airportrminl_sfse", "ws_airportconc1", 0);
+    tmpobjid = CreateDynamicObject(1553, 1382.062988, -26.172935, 1005.366211, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(2386, 1356.746704, -39.287106, 1005.546326, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 9920, "anotherbuildsfe", "gz_vic1a", 0);
+    tmpobjid = CreateDynamicObject(18766, 1379.395752, -35.670811, 1001.791016, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    CreateDynamicObject(2305, 1377.608276, -37.693630, 1000.011353, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(14793, 1380.094238, -31.142359, 1008.636719, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(1499, 1369.099976, -42.193748, 1004.346375, 0.000000, 0.000000, 90.299988, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 6871, "vegascourtbld", "courthse2_256", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(2373, 1355.913940, -39.111710, 1005.316101, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2389, 1356.619141, -39.252926, 1006.426453, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1380.819214, -33.242340, 1004.786438, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    tmpobjid = CreateDynamicObject(19447, 1356.278564, -37.750019, 1009.136230, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(2007, 1352.739746, -36.454605, 1004.846130, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1846, 1379.305298, -15.204351, 1002.592041, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(19385, 1376.818970, -38.321316, 1006.042419, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    tmpobjid = CreateDynamicObject(1846, 1379.305298, -15.144354, 1002.592041, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 10765, "airportgnd_sfse", "black64", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(3095, 1351.830933, -35.694538, 1003.885864, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 6351, "rodeo02_law2", "helmutwall1_LAw", 0);
+    CreateDynamicObject(2007, 1352.739746, -36.444607, 1005.786072, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19447, 1370.656250, -39.833729, 1010.556702, 0.000000, 180.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(18766, 1360.759521, -42.520813, 1001.821228, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 13691, "bevcunto2_lahills", "crazypave", 0);
+    CreateDynamicObject(2822, 1377.674072, -38.623627, 1001.032166, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19447, 1372.906616, -39.833729, 1009.036621, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_castironwalk", 0);
+    tmpobjid = CreateDynamicObject(2938, 1379.271362, -36.570187, 1004.232361, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    CreateDynamicObject(2138, 1377.589233, -38.668201, 1000.011353, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2256, 1378.349609, -36.722977, 1007.082214, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 6873, "vgnshambild1", "vgsN_emerald", 0);
+    tmpobjid = CreateDynamicObject(3095, 1355.611450, -39.940071, 1003.820862, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14801, "lee_bdupsmain", "Bdup_KitchFloor", 0);
+    tmpobjid = CreateDynamicObject(18766, 1380.395630, -35.670811, 1001.981323, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    tmpobjid = CreateDynamicObject(14793, 1354.935913, -38.201843, 1007.786316, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(19447, 1371.175415, -39.973740, 1010.556702, 0.000000, 180.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(19632, 1382.363159, -19.697689, 1000.902344, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1356.339355, -39.805008, 1006.836670, 90.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19598, "sfbuilding1", "darkwood1", 0);
+    CreateDynamicObject(2137, 1366.011108, -43.519676, 999.912231, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(3095, 1359.310547, -42.200020, 1003.721497, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 5766, "capitol_lawn", "capitol3_LAwN", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14537, "pdomebar", "club_floor2_sfwTEST", 0);
+    CreateDynamicObject(2137, 1367.000488, -43.519676, 999.912231, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1605, 1360.452759, -42.789120, 1000.894897, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19929, 1365.445557, -43.507694, 1004.085999, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18029, "genintintsmallrest", "GB_restaursmll19", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(2137, 1367.981079, -43.519676, 999.912231, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2135, 1368.923950, -43.389641, 1000.011780, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19632, 1382.363159, -19.167694, 1000.902344, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19385, 1369.038574, -41.461315, 1009.542542, 0.000000, 180.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(19786, 1381.821411, -33.764420, 1002.842346, 0.000000, 360.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 2266, "picture_frame", "CJ_PAINTING34", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 1564, "ab_jetlite", "CJ_BULLETBRASS", 0);
+    CreateDynamicObject(18014, 1382.261719, -32.896378, 1000.332520, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1808, 1365.144409, -43.739132, 999.912231, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1783, 1366.351440, -43.436768, 1005.056519, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1736, 1377.239502, -38.292763, 1007.541992, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2010, 1376.321899, -40.201389, 1004.346375, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18762, 1382.328857, -18.718550, 1000.422241, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    tmpobjid = CreateDynamicObject(2938, 1379.978394, -14.977093, 1003.991882, 0.000000, 90.000015, -30.000013, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} I", 50, "Ariel", 100, 0, 0, 0, 2);
+    tmpobjid = CreateDynamicObject(2938, 1373.040894, -40.517639, 1009.085815, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(2938, 1379.978394, -14.977093, 1004.021912, 0.000000, 90.000015, -30.000013, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{000000} I", 50, "Ariel", 100, 0, 0, 0, 2);
+    CreateDynamicObject(2135, 1369.913696, -43.389641, 1000.011780, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1379.978394, -14.977093, 1004.051941, 0.000000, 90.000015, -30.000013, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{000000} I", 50, "Ariel", 100, 0, 0, 0, 2);
+    CreateDynamicObject(14455, 1355.669800, -40.064240, 1006.036194, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1379.978394, -14.977093, 1004.081970, 0.000000, 90.000015, -30.000013, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{000000} I", 50, "Ariel", 100, 0, 0, 0, 2);
+    CreateDynamicObject(19632, 1382.363159, -18.617702, 1000.902344, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19929, 1362.585815, -43.507694, 1004.085999, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18029, "genintintsmallrest", "GB_restaursmll19", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(19866, 1380.025513, -36.720520, 1004.672363, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18064, "ab_sfammuunits", "gun_blackbox", 0);
+    CreateDynamicObject(2140, 1377.589478, -39.641479, 1000.011353, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1726, 1376.016968, -40.633972, 1004.346252, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2229, 1366.943481, -43.825111, 1004.376221, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19632, 1382.363159, -18.087696, 1000.902344, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1785, 1361.691650, -43.341282, 1005.126282, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1606, 1359.758179, -43.251949, 1001.832214, 0.000000, 10.700002, 172.299988, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18766, 1381.386597, -35.670811, 1002.390808, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    CreateDynamicObject(2138, 1370.918457, -43.508152, 999.921265, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1382.729736, -18.535620, 1000.862671, 0.000000, 90.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(3095, 1351.371460, -35.400028, 1007.801025, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 4828, "airport3_las", "mirrwind1_LAn", 0);
+    tmpobjid = CreateDynamicObject(19866, 1351.542358, -37.290630, 1004.095947, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(19385, 1376.818970, -38.321316, 1009.532532, 0.000000, 180.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    CreateDynamicObject(2229, 1366.943115, -43.825111, 1005.766235, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(18014, 1382.241699, -34.416348, 1000.342529, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19632, 1382.363159, -17.487701, 1000.902344, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18981, 1370.188232, -8.616320, 1006.771057, 180.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    tmpobjid = CreateDynamicObject(18981, 1369.749756, -20.626320, 1018.822083, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 6282, "beafron2_law2", "boardwalk2_la", 0);
+    tmpobjid = CreateDynamicObject(14793, 1376.932129, -40.676128, 1003.632690, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(3095, 1355.611328, -39.870060, 1008.440918, 0.000000, 180.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19598, "sfbuilding1", "darkwood1", 0);
+    tmpobjid = CreateDynamicObject(2928, 1364.041138, -43.724548, 1006.676331, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{00FF00}DIPSY {FFFF00}LALA {FF0000}POOH {800080}TINKY WINKY", 140, "Ariel", 35, 1, 0, 0, 1);
+    CreateDynamicObject(2138, 1371.908325, -43.508152, 999.921265, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19866, 1360.871948, -43.914093, 1002.402466, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(355, 1351.358032, -37.185043, 1005.232849, 0.000000, -9.599992, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19632, 1382.363159, -16.897703, 1000.902344, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(355, 1351.358032, -37.235500, 1005.711243, 0.000000, -9.599992, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1358.929199, -43.430275, 999.972107, 0.000000, 90.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(19447, 1374.576538, -39.973740, 1010.556702, 0.000000, 180.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(2229, 1360.523315, -43.825111, 1004.376221, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1348.939819, -33.814262, 1004.806458, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(2938, 1358.929199, -43.430275, 1003.642273, 0.000000, 90.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(3033, 1364.049194, -43.779297, 1007.496582, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(3033, 1364.099243, -43.809284, 1007.426514, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(355, 1351.358032, -37.253048, 1006.174866, 0.000000, -9.599992, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(3033, 1363.989136, -43.809284, 1007.426514, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(1753, 1380.497314, -37.422131, 1004.952515, 0.000000, 0.000000, 360.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "airvent_gz", 0);
+    tmpobjid = CreateDynamicObject(3033, 1364.099243, -43.809284, 1007.556641, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(3033, 1363.989136, -43.809284, 1007.556641, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(2138, 1372.898438, -43.508152, 999.921265, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(3095, 1351.341064, -35.840054, 1008.800903, 90.000000, 0.000000, 360.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(1553, 1384.493164, -26.172935, 1005.366211, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    CreateDynamicObject(19632, 1382.363159, -16.337704, 1000.902344, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19447, 1375.096436, -39.833729, 1010.556702, 0.000000, 180.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(2257, 1382.891479, -18.740612, 1006.382263, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(355, 1351.358032, -37.260887, 1006.701172, 0.000000, -9.599992, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2282, 1383.200195, -32.117756, 1006.570313, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1351.542358, -37.290630, 1007.206055, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(14455, 1370.813843, -43.811905, 1006.036255, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18981, 1371.368530, -7.546318, 999.912231, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 14526, "sweetsmain", "GB_Pan01", 0);
+    CreateDynamicObject(2229, 1360.523315, -43.825111, 1005.776245, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18766, 1382.327393, -16.210840, 1004.162292, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    tmpobjid = CreateDynamicObject(3095, 1350.640869, -35.340065, 1008.800903, 90.000000, 0.000000, 450.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14581, "ab_mafiasuitea", "ab_blind", 0);
+    tmpobjid = CreateDynamicObject(2928, 1366.764771, -45.197998, 1001.672729, 90.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(358, 1351.255005, -38.031342, 1005.306335, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19632, 1382.363159, -15.777706, 1000.902344, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2928, 1367.195190, -45.197998, 1001.672729, 90.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(1726, 1384.502319, -29.699522, 1004.906921, 0.000000, 0.000000, 810.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19377, 1382.021484, -16.234529, 1005.992004, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "Metal3_128", 0);
+    tmpobjid = CreateDynamicObject(19866, 1353.844482, -39.809658, 1007.716187, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(2137, 1373.890991, -43.519676, 999.912231, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(358, 1351.255005, -38.031342, 1005.806030, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1846, 1375.661377, -41.857826, 1006.836243, 90.000000, 180.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 14737, "whorewallstuff", "ah_painting2", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 1564, "ab_jetlite", "CJ_BULLETBRASS", 0);
+    tmpobjid = CreateDynamicObject(2938, 1348.939819, -33.814262, 1007.246460, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(18981, 1370.178101, -7.546318, 1006.692383, 0.000000, 90.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 14581, "ab_mafiasuitea", "walp45S", 0);
+    CreateDynamicObject(358, 1351.255005, -38.031342, 1006.336182, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1379.975342, -39.190495, 1004.152039, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18064, "ab_sfammuunits", "gun_blackbox", 0);
+    tmpobjid = CreateDynamicObject(19447, 1367.416138, -43.911148, 1009.006409, 90.000000, 90.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(19632, 1382.363159, -15.257710, 1000.902344, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19603, 1361.491699, -45.045849, 1001.834473, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2928, 1351.321045, -37.837318, 1007.216370, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} ARMOURY", 140, "Ariel", 30, 1, 0, 0, 1);
+    tmpobjid = CreateDynamicObject(2928, 1351.291016, -37.847317, 1007.216370, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{000000} ARMOURY", 140, "Ariel", 30, 1, 0, 0, 1);
+    CreateDynamicObject(358, 1351.255005, -38.031342, 1006.726318, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18766, 1381.718018, -36.210907, 1006.881042, 0.000000, 0.000000, 360.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    tmpobjid = CreateDynamicObject(19786, 1381.821411, -37.454422, 1002.492310, 0.000000, 360.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 2266, "picture_frame", "CJ_PAINTING30", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 1564, "ab_jetlite", "CJ_BULLETBRASS", 0);
+    CreateDynamicObject(356, 1351.299072, -38.742817, 1005.305542, 0.000000, -12.099992, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2257, 1382.891479, -16.360615, 1005.022217, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 3
+    SetDynamicObjectMaterial(tmpobjid, 2, 15040, "cuntcuts", "GB_canvas06", 0);
+    SetDynamicObjectMaterial(tmpobjid, 1, 15040, "cuntcuts", "GB_canvas06", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 15040, "cuntcuts", "GB_canvas06", 0);
+    CreateDynamicObject(2137, 1374.861206, -43.519676, 999.912231, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(356, 1351.299072, -38.778481, 1005.758423, 0.000000, -12.099992, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(3095, 1364.581055, -44.330063, 1008.800903, 90.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14526, "sweetsmain", "GB_Pan01", 0);
+    CreateDynamicObject(19632, 1382.363159, -14.727709, 1000.902344, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1353.442993, -40.180611, 1007.726318, 180.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(3033, 1362.056152, -44.604984, 1007.136230, 180.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "rockbrown1", 0);
+    tmpobjid = CreateDynamicObject(1499, 1359.131470, -44.475323, 1004.352295, 0.000000, 0.000000, 540.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    CreateDynamicObject(356, 1351.299072, -38.786907, 1006.227112, 0.000000, -12.099992, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18981, 1384.128784, -23.406307, 1009.241760, 180.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(19447, 1374.576538, -41.433750, 1010.556702, 0.000000, 180.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(3095, 1377.309937, -42.200020, 1003.731506, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 5766, "capitol_lawn", "capitol3_LAwN", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14537, "pdomebar", "club_floor2_sfwTEST", 0);
+    CreateDynamicObject(356, 1351.299072, -38.796741, 1006.654480, 0.000000, -12.099992, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2278, 1383.097656, -34.773273, 1006.707214, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18766, 1377.538452, -40.254356, 1009.266052, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(1541, 1374.819580, -43.937729, 1001.502319, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19087, 1351.494141, -37.628315, 1009.486450, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(19632, 1382.363159, -14.187708, 1000.902344, 0.000000, 0.000000, 810.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2289, 1383.622925, -33.452190, 1007.400391, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18981, 1373.679565, -44.506302, 999.912231, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 6282, "beafron2_law2", "boardwalk2_la", 0);
+    tmpobjid = CreateDynamicObject(3095, 1385.350220, -30.689934, 1004.351563, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14537, "pdomebar", "club_floor2_sfwTEST", 0);
+    tmpobjid = CreateDynamicObject(3095, 1385.380249, -30.709934, 1004.311890, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14537, "pdomebar", "club_floor2_sfwTEST", 0);
+    tmpobjid = CreateDynamicObject(5302, 1382.239746, -36.742832, 1006.572693, 89.999992, 270.000000, 179.599991, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(2137, 1375.851318, -43.519676, 999.912231, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19447, 1378.522949, -41.519772, 1004.316223, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 14387, "dr_gsnew", "AH_flroortile12", 0);
+    tmpobjid = CreateDynamicObject(19866, 1384.495483, -31.417669, 1007.386169, 89.699989, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0);
+    tmpobjid = CreateDynamicObject(19866, 1384.632080, -31.382755, 1007.002197, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "rockbrown1", 0);
+    tmpobjid = CreateDynamicObject(19087, 1351.544189, -38.008293, 1009.486450, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(2149, 1375.887207, -43.653614, 1001.112549, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1351.542358, -39.300636, 1007.206055, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(18981, 1374.180054, -44.496300, 999.912231, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 6282, "beafron2_law2", "boardwalk2_la", 0);
+    tmpobjid = CreateDynamicObject(18762, 1382.328857, -13.718561, 1000.422241, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    CreateDynamicObject(1714, 1354.014648, -42.400661, 1004.376221, 0.000000, 0.000000, 19.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19632, 1382.363159, -13.677711, 1000.902344, 0.000000, 0.000000, 810.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1384.755981, -31.417669, 1007.297729, 89.699989, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0);
+    tmpobjid = CreateDynamicObject(19385, 1358.409424, -44.521313, 1006.042419, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14526, "sweetsmain", "GB_Pan01", 0);
+    tmpobjid = CreateDynamicObject(2938, 1349.807983, -37.166611, 1007.821533, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(18766, 1382.327393, -16.210840, 1009.152222, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    tmpobjid = CreateDynamicObject(2069, 1355.693359, -43.675877, 1004.171753, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 3
+    SetDynamicObjectMaterial(tmpobjid, 2, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 1, 3608, "hillhousex2_us", "mulhuose01_law", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(2256, 1377.759155, -41.842957, 1006.952271, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 2266, "picture_frame", "CJ_PAINTING18", 0);
+    tmpobjid = CreateDynamicObject(1944, 1356.034790, -43.859337, 1004.431152, 89.999992, 489.933197, 148.907150, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10837, "airroadsigns_sfse", "CJ_LAMPPOST1", 0xFFFFFFFF);
+    CreateDynamicObject(2010, 1376.321899, -43.501385, 1004.346375, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19197, 1355.620850, -43.551491, 1005.257568, -0.000029, 179.999985, -125.000053, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 14634, "blindinglite", "ws_volumetriclight", 0x90FFFFFF);
+    tmpobjid = CreateDynamicObject(2938, 1349.807983, -37.596630, 1007.791504, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 6487, "councl_law2", "lanlabra1_M", 0);
+    CreateDynamicObject(19893, 1381.566895, -38.936985, 1005.476135, 0.000000, 0.000000, 141.000031, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2140, 1376.839233, -43.521492, 999.911255, 0.000000, 0.000000, 540.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 2, 18065, "ab_sfammumain", "shelf_glas", 0);
+    CreateDynamicObject(19632, 1382.363159, -13.147711, 1000.902344, 0.000000, 0.000000, 810.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1382.729736, -13.555626, 1000.862671, 0.000000, 90.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(2257, 1382.891479, -13.980610, 1003.702148, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 1, 14707, "labig3int2", "HS_art8", 0);
+    tmpobjid = CreateDynamicObject(19348, 1356.427246, -44.130527, 1005.441040, 44.999916, -0.000081, -125.000114, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10837, "airroadsigns_sfse", "CJ_LAMPPOST1", 0);
+    tmpobjid = CreateDynamicObject(19087, 1356.445801, -44.155869, 1005.431030, -29.999966, -0.000061, -125.000328, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10837, "airroadsigns_sfse", "CJ_LAMPPOST1", 0);
+    tmpobjid = CreateDynamicObject(19348, 1356.517334, -44.193581, 1005.441040, 44.999916, -0.000081, -125.000114, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10837, "airroadsigns_sfse", "CJ_LAMPPOST1", 0);
+    tmpobjid = CreateDynamicObject(2938, 1367.489014, -46.629211, 1003.662292, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(19087, 1356.535767, -44.218948, 1005.431030, -29.999966, -0.000061, -125.000328, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10837, "airroadsigns_sfse", "CJ_LAMPPOST1", 0);
+    tmpobjid = CreateDynamicObject(19866, 1380.036743, -39.258629, 1009.023010, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(18014, 1380.241455, -41.046360, 1000.332520, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(14793, 1385.729492, -31.846533, 1004.212524, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(18644, 1355.960327, -43.803581, 1006.081055, 89.999992, -95.266937, 148.907227, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10837, "airroadsigns_sfse", "CJ_LAMPPOST1", 0xFFFFFFFF);
+    CreateDynamicObject(1827, 1386.422974, -28.559853, 1004.906921, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2854, 1386.298828, -28.872534, 1005.356689, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(18014, 1382.241699, -39.056347, 1000.342529, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(14455, 1350.779785, -39.914253, 1006.036194, 0.000000, 0.000000, 360.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(5302, 1381.950073, -38.322830, 1007.061707, -0.000007, 270.000000, -89.999985, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(5302, 1381.950073, -38.322830, 1007.131714, -0.000007, 270.000000, -89.999985, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 14581, "ab_mafiasuitea", "cof_wood2", 0);
+    tmpobjid = CreateDynamicObject(11714, 1381.627686, -39.498268, 1004.932556, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 14389, "madpoolbit", "AH_flroortile4", 0);
+    tmpobjid = CreateDynamicObject(5302, 1381.950073, -38.322830, 1007.191772, -0.000007, 270.000000, -89.999985, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18064, "ab_sfammuunits", "gun_blackbox", 0);
+    CreateDynamicObject(2251, 1386.295288, -28.543583, 1006.197449, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19355, 1354.048706, -43.273693, 1004.316162, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 14534, "ab_wooziea", "carp02S", 0);
+    tmpobjid = CreateDynamicObject(2928, 1381.663208, -38.859367, 1007.232056, 90.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1952, "mixkb1", "deck_rim", 0);
+    tmpobjid = CreateDynamicObject(18766, 1368.628296, -45.570877, 1009.241089, 0.000000, 90.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 2591, "ab_partition1", "ab_fabricCheck2", 0);
+    tmpobjid = CreateDynamicObject(1251, 1386.740601, -30.323965, 1001.141724, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(2140, 1377.819458, -43.521492, 999.911255, 0.000000, 0.000000, 540.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 2, 18065, "ab_sfammumain", "shelf_glas", 0);
+    tmpobjid = CreateDynamicObject(14446, 1381.892578, -38.558632, 1007.630981, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 2, 19527, "cauldron1", "alienliquid1", 0);
+    CreateDynamicObject(14455, 1351.159180, -40.794250, 1006.036194, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1553, 1386.913452, -26.172935, 1005.366211, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(2938, 1386.829468, -28.794540, 1004.802307, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    CreateDynamicObject(19823, 1354.728394, -44.028629, 1005.172180, 0.000000, 0.000000, 31.700003, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2163, 1356.097412, -44.382881, 1006.906555, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18766, 1381.718018, -36.210907, 1011.810669, 0.000000, 0.000000, 360.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    tmpobjid = CreateDynamicObject(5302, 1382.240234, -36.712841, 1010.412231, 89.999992, 270.000000, 179.599991, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18064, "ab_sfammuunits", "gun_blackbox", 0);
+    tmpobjid = CreateDynamicObject(1817, 1381.992554, -39.810097, 1004.982300, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18065, "ab_sfammumain", "shelf_glas", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14581, "ab_mafiasuitea", "cof_wood2", 0);
+    CreateDynamicObject(1665, 1354.555420, -43.961475, 1005.212585, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19385, 1358.409424, -44.521313, 1009.542725, 180.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14526, "sweetsmain", "GB_Pan01", 0);
+    tmpobjid = CreateDynamicObject(2266, 1354.059937, -43.721447, 1005.279297, -3.200035, -0.000014, 179.300018, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 10765, "airportgnd_sfse", "white", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(2928, 1386.914917, -21.366590, 1004.102600, -0.000005, 0.000005, -39.300022, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{00FFFF} TV", 140, "Ariel", 60, 1, 0, 0, 1);
+    tmpobjid = CreateDynamicObject(2269, 1354.059692, -43.720226, 1005.349548, -1.700038, -0.000014, 179.300018, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18996, "mattextures", "sampblack", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14420, "dr_gsbits", "mp_apt1_pic6", 0);
+    CreateDynamicObject(1808, 1387.304810, -28.902676, 999.912231, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1753, 1383.147949, -38.532116, 1004.952515, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "airvent_gz", 0);
+    tmpobjid = CreateDynamicObject(3095, 1377.351807, -44.159897, 1003.791016, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14537, "pdomebar", "club_floor2_sfwTEST", 0);
+    tmpobjid = CreateDynamicObject(2662, 1354.236572, -43.897099, 1005.249207, -89.999992, 4.207803, 3.507693, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{00FF00} .", 140, "Calibri", 30, 1, 0, 0, 1);
+    tmpobjid = CreateDynamicObject(2662, 1354.216553, -43.896923, 1005.249207, -89.999992, 4.207803, 3.507693, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{00FF00} .", 140, "Calibri", 30, 1, 0, 0, 1);
+    CreateDynamicObject(19808, 1354.047119, -43.805599, 1005.209351, -0.000037, -0.000014, 179.300018, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19325, 1386.705444, -32.091835, 1001.631592, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(2662, 1354.146484, -43.896069, 1005.249207, -89.999992, 4.207803, 3.507693, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{00FF00} .", 140, "Calibri", 30, 1, 0, 0, 1);
+    tmpobjid = CreateDynamicObject(2957, 1387.232422, -21.982019, 1003.752197, 0.000005, -0.000005, 140.999924, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    tmpobjid = CreateDynamicObject(2662, 1354.433350, -44.169605, 1005.279358, -0.000037, -0.000014, 179.300018, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{00FF00} l", 90, "Wingdings", 3, 1, 0, 0, 1);
+    tmpobjid = CreateDynamicObject(2938, 1348.939331, -36.364246, 1010.696350, 90.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(2957, 1387.266235, -21.829166, 1003.682129, 0.000005, -0.000005, 140.999924, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(1753, 1387.449585, -22.412037, 1000.022156, 0.000000, 0.000000, 810.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    tmpobjid = CreateDynamicObject(2957, 1387.266235, -21.829166, 1003.872314, 0.000005, -0.000005, 140.999924, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(18766, 1384.188721, -36.390896, 1007.391235, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    tmpobjid = CreateDynamicObject(3095, 1350.571045, -39.940071, 1008.800903, 90.000000, 0.000000, 450.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14526, "sweetsmain", "GB_Pan01", 0);
+    tmpobjid = CreateDynamicObject(2957, 1387.406006, -21.942459, 1003.682129, 0.000005, -0.000005, 140.999924, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(2957, 1387.381714, -21.845470, 1003.762207, 0.000005, -0.000005, 140.999924, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(19874, 1353.618042, -43.856171, 1005.178711, 0.000008, 0.000036, -74.699966, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18996, "mattextures", "sampblack", 0);
+    CreateDynamicObject(1826, 1353.459106, -43.904442, 1004.376221, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2957, 1387.406006, -21.942459, 1003.872314, 0.000005, -0.000005, 140.999924, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(328, 1353.978516, -44.119434, 1005.168091, 88.600021, 2.000588, 1.599296, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    tmpobjid = CreateDynamicObject(1939, 1353.635986, -43.901024, 1005.178345, 0.000001, -0.000039, 108.100189, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(994, 1387.410522, -21.856882, 1004.068420, 0.000006, -89.199997, 135.400024, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    tmpobjid = CreateDynamicObject(994, 1387.446533, -21.956226, 1004.047302, -0.000005, -89.199982, -38.400002, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    tmpobjid = CreateDynamicObject(2662, 1354.125732, -44.181301, 1005.748047, -0.000037, 0.000000, -179.799850, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{808080} l", 130, "Wingdings", 50, 1, 0, 0, 1);
+    tmpobjid = CreateDynamicObject(2928, 1387.450684, -21.817488, 1004.102600, 0.000000, 0.000000, -39.700008, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} SMART", 140, "Ariel", 60, 1, 0, 0, 1);
+    tmpobjid = CreateDynamicObject(2662, 1354.055908, -44.171780, 1005.667969, -0.000037, 0.000000, -179.799850, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} Administrator", 130, "Calibri", 15, 1, 0, 0, 1);
+    tmpobjid = CreateDynamicObject(2662, 1354.045898, -44.171082, 1005.647705, -0.000029, 450.000000, -179.799881, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} l", 120, "Calibri", 55, 1, 0, 0, 1);
+    tmpobjid = CreateDynamicObject(2662, 1353.928955, -44.171368, 1005.508179, -0.000029, 329.599976, -179.799881, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} i", 140, "Calibri", 20, 0, 0, 0, 1);
+    tmpobjid = CreateDynamicObject(19774, 1354.113281, -44.246899, 1005.723389, 0.000037, -97.900047, 1.099883, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(2662, 1353.935791, -44.171345, 1005.557678, -0.000029, 58.199997, -179.799881, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFFFF} 3", 140, "Webdings", 20, 1, 0, 0, 1);
+    tmpobjid = CreateDynamicObject(2662, 1353.935791, -44.171345, 1005.637695, -0.000029, 450.000000, -179.799881, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{0000FF} g", 130, "Webdings", 5, 1, 0, 0, 1);
+    tmpobjid = CreateDynamicObject(19866, 1387.883667, -28.611460, 1002.392273, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(328, 1353.980469, -44.314621, 1005.269043, -21.799950, 4.000019, -0.700103, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    CreateDynamicObject(348, 1353.222656, -43.828751, 1005.202087, 90.000000, 0.000000, -24.400002, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2684, 1354.029785, -44.249874, 1005.764526, 0.000037, 11.600010, -0.700119, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{000000} l", 130, "Wingdings", 50, 0, 0, 0, 1);
+    tmpobjid = CreateDynamicObject(2684, 1354.010254, -44.259708, 1005.698486, 0.000037, 0.000014, -0.700119, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{000000} l", 140, "Wingdings", 170, 1, 0, 0, 1);
+    tmpobjid = CreateDynamicObject(2684, 1353.980225, -44.259323, 1005.698486, 0.000037, 0.000014, -0.700119, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{000000} l", 140, "Wingdings", 170, 1, 0, 0, 1);
+    tmpobjid = CreateDynamicObject(1251, 1386.740601, -33.543976, 1000.022095, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(1726, 1387.502075, -30.299526, 1004.906921, 0.000000, 0.000000, 540.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2163, 1354.488159, -44.402870, 1006.906555, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1251, 1386.740601, -33.683987, 1003.441650, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(2938, 1357.491089, -45.630394, 1007.975708, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    tmpobjid = CreateDynamicObject(1251, 1386.740601, -33.663960, 1004.221924, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(2266, 1354.028198, -44.691044, 1005.231323, 2.200033, 0.000014, -0.700119, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 10765, "airportgnd_sfse", "white", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(3033, 1359.955811, -46.864986, 1007.136230, 180.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "rockbrown1", 0);
+    tmpobjid = CreateDynamicObject(1251, 1386.740601, -34.023964, 1003.401794, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(2266, 1354.028198, -44.694462, 1005.321289, 2.200033, 0.000014, -0.700119, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 10765, "airportgnd_sfse", "white", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(1753, 1387.439575, -19.562033, 1000.022156, 0.000000, 0.000000, 810.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    CreateDynamicObject(19940, 1387.348633, -22.005199, 1007.182190, 0.000005, 90.000008, 51.700008, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1378.594971, -41.499100, 1011.683411, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19058, "xmasboxes", "silk8-128x128", 0);
+    tmpobjid = CreateDynamicObject(18766, 1377.198364, -44.730907, 1006.750977, 0.000000, 0.000000, 450.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    tmpobjid = CreateDynamicObject(1251, 1386.740601, -34.553970, 1000.022095, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(1251, 1355.067017, -45.657417, 1004.296204, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(3033, 1362.066406, -47.404999, 1007.576538, 270.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "rockbrown1", 0);
+    CreateDynamicObject(19940, 1387.459961, -21.863960, 1007.182190, 0.000005, 90.000008, 51.700008, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19447, 1384.997681, -15.953262, 1008.632324, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 14581, "ab_mafiasuitea", "walp45S", 0);
+    tmpobjid = CreateDynamicObject(2938, 1374.919067, -46.629211, 1003.662292, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(1251, 1386.740601, -34.683979, 1003.441650, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(19866, 1354.087402, -44.662151, 1006.826233, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 14581, "ab_mafiasuitea", "cof_wood2", 0);
+    tmpobjid = CreateDynamicObject(2938, 1384.981445, -33.852329, 1010.866882, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    tmpobjid = CreateDynamicObject(1251, 1386.740601, -34.553970, 1004.231934, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(19866, 1348.844482, -39.809658, 1007.716187, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(2870, 1388.441895, -28.903484, 1000.232483, 0.000000, 0.000000, -19.800001, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1251, 1386.740601, -34.653950, 1004.221924, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(2938, 1383.298706, -14.788814, 1011.182251, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(3033, 1354.856201, -45.134979, 1007.136230, 180.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "rockbrown1", 0);
+    CreateDynamicObject(1726, 1388.401855, -27.469528, 1004.906921, 0.000000, 0.000000, 630.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2928, 1388.354370, -22.544640, 1004.092590, -0.000005, 0.000005, -39.300022, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterialText(tmpobjid, 0, "{FFFF00} z", 140, "Wingdings", 150, 0, 0, 0, 1);
+    tmpobjid = CreateDynamicObject(1251, 1355.016968, -45.107407, 1007.736389, 90.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(19866, 1387.357056, -31.417669, 1007.311768, 89.699989, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0);
+    tmpobjid = CreateDynamicObject(19866, 1387.480713, -31.382755, 1007.002197, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "rockbrown1", 0);
+    tmpobjid = CreateDynamicObject(19940, 1387.395508, -21.936235, 1008.652527, 0.000004, 0.000005, 48.799969, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    tmpobjid = CreateDynamicObject(18766, 1385.327148, -16.210840, 1009.152405, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    tmpobjid = CreateDynamicObject(2610, 1352.494507, -44.352818, 1005.226196, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(19866, 1387.597290, -31.417669, 1007.313049, 89.699989, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0);
+    CreateDynamicObject(2163, 1352.877930, -44.372875, 1006.906555, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2654, 1380.710449, -43.349804, 1005.132751, 0.000000, 0.000000, 96.400017, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19325, 1386.705444, -36.021843, 1003.232239, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(2938, 1383.174561, -36.729115, 1012.553955, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19058, "xmasboxes", "silk8-128x128", 0);
+    tmpobjid = CreateDynamicObject(19866, 1379.975342, -44.190514, 1004.152039, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18064, "ab_sfammuunits", "gun_blackbox", 0);
+    CreateDynamicObject(3812, 1378.781616, -44.083626, 1008.072327, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2610, 1352.004150, -44.352818, 1005.226196, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 2, 14581, "ab_mafiasuitea", "cof_wood2", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(3095, 1355.641357, -46.880020, 1003.790894, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 11100, "bendytunnel_sfse", "Bow_sub_walltiles", 0);
+    tmpobjid = CreateDynamicObject(2938, 1379.984619, -41.519066, 1011.683411, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19058, "xmasboxes", "silk8-128x128", 0);
+    tmpobjid = CreateDynamicObject(2938, 1348.939331, -39.314262, 1010.696350, 90.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(1942, 1353.070923, -45.082184, 1005.946350, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    CreateDynamicObject(18633, 1353.942383, -45.375824, 1007.056519, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1383.728516, -39.138607, 1009.032959, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(1942, 1353.070923, -45.082184, 1006.246460, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    tmpobjid = CreateDynamicObject(1553, 1389.233032, -28.732931, 1001.045837, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18996, "mattextures", "policeshieldgls", 0);
+    CreateDynamicObject(19591, 1389.244629, -28.921082, 1001.632446, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2063, 1389.239746, -28.940603, 1000.801819, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 10765, "airportgnd_sfse", "white", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(18981, 1383.988281, -10.816302, 999.912231, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 6282, "beafron2_law2", "boardwalk2_la", 0);
+    CreateDynamicObject(2229, 1379.760132, -44.405155, 1006.142334, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1945, 1353.141479, -45.657654, 1004.546387, 450.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(3033, 1358.015625, -47.405010, 1007.576355, 90.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "rockbrown1", 0);
+    CreateDynamicObject(2681, 1387.291260, -35.882992, 999.912231, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1382.088013, -41.428604, 1009.023010, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(1541, 1352.914917, -45.229393, 1006.416565, 0.000000, 0.000000, -1.199990, -1, 143, -1, 200.0, 200.0); // 11
+    SetDynamicObjectMaterial(tmpobjid, 10, 726, "gtatreesh", "pinewood", 0);
+    SetDynamicObjectMaterial(tmpobjid, 9, 10765, "airportgnd_sfse", "white", 0);
+    SetDynamicObjectMaterial(tmpobjid, 8, 10765, "airportgnd_sfse", "white", 0);
+    SetDynamicObjectMaterial(tmpobjid, 7, 1559, "diamond", "CJ_W_GRAD", 0);
+    SetDynamicObjectMaterial(tmpobjid, 6, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 5, 14713, "lahss2aint2", "HS_plug", 0);
+    SetDynamicObjectMaterial(tmpobjid, 4, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 3, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 2, 10765, "airportgnd_sfse", "white", 0);
+    SetDynamicObjectMaterial(tmpobjid, 1, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    CreateDynamicObject(3025, 1353.948120, -45.217262, 1008.596252, 0.000000, 0.000000, 360.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1428, 1383.235474, -41.482681, 1005.977905, -23.200010, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1553, 1389.333740, -26.172935, 1005.366211, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1753, 1389.429932, -22.412037, 1000.002136, 0.000000, 0.000000, 540.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    tmpobjid = CreateDynamicObject(2028, 1380.799072, -44.012676, 1005.786194, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 3, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 2, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(2028, 1380.809082, -44.029331, 1005.786194, 0.000000, 0.000000, 89.399979, -1, 143, -1, 200.0, 200.0); // 7
+    SetDynamicObjectMaterial(tmpobjid, 7, 10765, "airportgnd_sfse", "white", 0);
+    SetDynamicObjectMaterial(tmpobjid, 6, 10765, "airportgnd_sfse", "white", 0);
+    SetDynamicObjectMaterial(tmpobjid, 5, 10765, "airportgnd_sfse", "white", 0);
+    SetDynamicObjectMaterial(tmpobjid, 4, 10765, "airportgnd_sfse", "white", 0);
+    SetDynamicObjectMaterial(tmpobjid, 3, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 2, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(19822, 1389.566162, -29.008715, 1003.572571, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(3095, 1385.350220, -39.689964, 1004.351563, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14537, "pdomebar", "club_floor2_sfwTEST", 0);
+    CreateDynamicObject(2779, 1387.316528, -36.702858, 999.912231, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(627, 1382.566772, -43.288319, 1001.692261, 0.000000, 0.000000, -23.400000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 1, 6284, "bev_law2", "lasjmposh4", 0);
+    tmpobjid = CreateDynamicObject(3095, 1360.601074, -48.280090, 1008.800903, 90.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14526, "sweetsmain", "GB_Pan01", 0);
+    tmpobjid = CreateDynamicObject(1251, 1386.740601, -37.873936, 1003.401794, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(3095, 1352.310425, -44.570080, 1008.800903, 90.000000, 0.000000, 720.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14581, "ab_mafiasuitea", "ab_blind", 0);
+    tmpobjid = CreateDynamicObject(2938, 1385.794922, -39.309116, 1004.423584, 0.000000, 90.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19058, "xmasboxes", "silk8-128x128", 0);
+    CreateDynamicObject(19822, 1389.855835, -29.008715, 1003.572571, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19807, 1387.234619, -14.314689, 1000.822571, 0.000000, 0.000000, 39.500000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19929, 1381.656372, -44.121197, 1004.922791, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 14472, "carls_kit2", "wall4b", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "Marble2", 0);
+    tmpobjid = CreateDynamicObject(18766, 1388.738770, -31.840866, 1007.391235, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    tmpobjid = CreateDynamicObject(11714, 1389.595947, -31.463612, 1002.272095, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18028, "cj_bar2", "CJ_nastybar_D6", 0);
+    tmpobjid = CreateDynamicObject(19878, 1384.056641, -41.671734, 1005.393433, 180.000000, 103.000015, 139.000015, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 14654, "ab_trukstpe", "bbar_stuff9", 0);
+    CreateDynamicObject(2778, 1387.307251, -37.516685, 999.912231, 0.000000, 0.000000, 450.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(3095, 1352.321045, -44.940044, 1008.800903, 90.000000, 0.000000, 540.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14526, "sweetsmain", "GB_Pan01", 0);
+    CreateDynamicObject(2251, 1387.341675, -14.098690, 1001.562439, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19325, 1355.059814, -47.088371, 1007.365601, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(19377, 1385.166260, -40.559643, 1004.836853, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 14387, "dr_gsnew", "AH_flroortile12", 0);
+    CreateDynamicObject(1433, 1387.426025, -14.202076, 1000.212524, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19822, 1390.145996, -29.008715, 1003.572571, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1499, 1386.724609, -38.809326, 999.912231, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 2212, "burger_tray", "fries_cb", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_stationfloor", 0);
+    tmpobjid = CreateDynamicObject(2987, 1381.616211, -43.991104, 1006.822327, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(2987, 1381.696289, -43.941109, 1006.882385, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 9818, "ship_brijsfw", "ship_greenscreen1", 0);
+    tmpobjid = CreateDynamicObject(2987, 1381.616211, -43.991104, 1006.952454, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(2987, 1381.766357, -43.991104, 1006.822327, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(3095, 1360.551025, -48.910065, 1008.800903, 90.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_stationfloor", 0);
+    tmpobjid = CreateDynamicObject(2987, 1381.766357, -43.991104, 1006.952454, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(19087, 1388.716064, -16.766985, 1003.998535, -50.800014, 179.999985, -89.999962, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(19087, 1388.767578, -16.814262, 1004.000122, -88.700043, 179.999298, -133.200638, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(19866, 1390.533081, -28.611460, 1002.392273, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(1734, 1388.748169, -16.743515, 1004.703125, 0.000000, 0.000022, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 4830, "airport2", "aarprt6LAS", 0);
+    tmpobjid = CreateDynamicObject(19866, 1390.373047, -29.361473, 1003.572754, 180.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(18981, 1356.516724, -47.763706, 1008.806458, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "wood1", 0);
+    tmpobjid = CreateDynamicObject(19377, 1383.198364, -41.474125, 1010.092285, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 6985, "vgnfremnt2", "striplightsgreen_256", 0);
+    CreateDynamicObject(1569, 1382.867676, -43.985878, 999.912231, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1390.363037, -29.361473, 1004.232666, 180.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(19087, 1388.868652, -16.631737, 1003.966187, -86.999901, -179.999680, -45.999653, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(19385, 1386.758667, -39.581345, 1001.672241, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    tmpobjid = CreateDynamicObject(18981, 1358.208496, -48.406342, 1009.241760, 180.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(2028, 1382.614136, -43.899010, 1005.922729, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1385.040894, -12.958811, 1011.121948, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(2938, 1373.058105, -49.912930, 1001.482361, 0.000000, 90.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(19089, 1388.496094, -31.443790, 1010.752258, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1675, "wshxrefhse", "washdecowall3256", 0);
+    tmpobjid = CreateDynamicObject(2200, 1384.580444, -42.263844, 1004.912781, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 3, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 17511, "stadium_lae2", "stadt_banner3", 0);
+    tmpobjid = CreateDynamicObject(3033, 1352.625732, -46.875004, 1005.816528, 360.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "rockbrown1", 0);
+    CreateDynamicObject(2528, 1359.256348, -50.045048, 1004.356262, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1387.831543, -33.852329, 1010.866882, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    tmpobjid = CreateDynamicObject(1251, 1355.016968, -47.887402, 1007.556213, 180.000000, 270.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(19385, 1386.778687, -39.581345, 1005.152222, 180.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    tmpobjid = CreateDynamicObject(2938, 1373.808472, -49.912930, 1001.482361, 0.000000, 90.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(3055, 1390.516724, -20.237703, 1000.002258, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18757, "vcinteriors", "dt_officewall3", 0);
+    CreateDynamicObject(19824, 1390.956421, -28.940422, 1003.562805, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1389.907593, -31.417669, 1007.325195, 89.699989, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0);
+    tmpobjid = CreateDynamicObject(3033, 1354.796143, -47.944992, 1007.576538, 270.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "rockbrown1", 0);
+    CreateDynamicObject(2824, 1389.865845, -17.524252, 1000.642151, 0.000000, 0.000000, -84.500008, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1390.051514, -31.382755, 1007.002197, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "rockbrown1", 0);
+    tmpobjid = CreateDynamicObject(2200, 1384.580444, -42.263844, 1006.802856, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 3, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 17511, "stadium_lae2", "stadt_banner3", 0);
+    tmpobjid = CreateDynamicObject(14705, 1391.164917, -28.978775, 1001.842712, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 2558, "hospital", "CJ_H_CURTAIN1", 0);
+    CreateDynamicObject(19940, 1390.214478, -18.274853, 1000.622253, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19939, 1390.197632, -18.291241, 1000.012085, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1386.729370, -14.788814, 1011.182251, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(2987, 1359.244019, -50.449673, 1004.346252, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0);
+    tmpobjid = CreateDynamicObject(19866, 1390.177856, -31.417669, 1007.326782, 89.699989, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0);
+    tmpobjid = CreateDynamicObject(1846, 1390.620605, -19.296486, 999.612244, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    CreateDynamicObject(2229, 1383.030273, -44.405155, 1006.142334, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19933, 1390.409668, -18.275299, 1000.091858, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    tmpobjid = CreateDynamicObject(2102, 1391.379761, -28.960833, 1000.242493, 0.000000, 0.000000, 167.900009, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 2, 2913, "gym_weights", "cheerybox01", 0);
+    tmpobjid = CreateDynamicObject(2518, 1357.544922, -50.083786, 1004.515991, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(19824, 1391.366821, -28.940422, 1003.562805, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(3033, 1362.056152, -50.774967, 1007.136230, 180.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "rockbrown1", 0);
+    tmpobjid = CreateDynamicObject(2938, 1352.374268, -47.757347, 1004.386169, 0.000000, 90.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(2245, 1359.782715, -50.707069, 1005.377808, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    CreateDynamicObject(1726, 1391.172974, -29.699522, 1004.906921, 0.000000, 0.000000, 810.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19087, 1390.607788, -18.566986, 1004.035034, -50.800003, -179.999954, -0.000001, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(19939, 1390.647461, -18.291241, 1000.012085, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19087, 1390.645264, -18.461435, 1004.026245, -89.800201, -0.004457, 132.795532, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(1734, 1389.628296, -15.863520, 1004.842224, 0.000000, 0.000022, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 4830, "airport2", "aarprt6LAS", 0);
+    tmpobjid = CreateDynamicObject(1251, 1386.740601, -41.283932, 1003.401794, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(11725, 1390.763306, -18.299665, 1001.012146, 0.000000, 0.000000, 90.400002, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1753, 1388.910767, -13.832024, 1000.012085, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    tmpobjid = CreateDynamicObject(1734, 1390.608765, -18.533520, 1004.903259, 0.000000, 0.000022, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 4830, "airport2", "aarprt6LAS", 0);
+    CreateDynamicObject(19873, 1358.713867, -50.653645, 1005.376343, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18766, 1391.639404, -29.720867, 1002.391724, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    tmpobjid = CreateDynamicObject(11707, 1359.129272, -50.652599, 1006.346252, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    tmpobjid = CreateDynamicObject(1553, 1391.822876, -28.712931, 1001.045837, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18996, "mattextures", "policeshieldgls", 0);
+    CreateDynamicObject(19820, 1391.127075, -19.214457, 1000.562378, 0.000000, 0.000000, -19.500000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1251, 1386.740601, -41.473999, 1003.441650, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(2063, 1391.838501, -28.940603, 1000.801819, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 10765, "airportgnd_sfse", "white", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(2245, 1358.402710, -50.707069, 1005.377808, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(1553, 1391.764038, -26.172935, 1005.366211, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    CreateDynamicObject(14705, 1391.884644, -28.978775, 1001.842712, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1251, 1386.740601, -41.494007, 1004.222290, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(19933, 1390.959839, -18.325302, 1000.091858, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    CreateDynamicObject(19874, 1357.491577, -50.471169, 1005.526306, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2711, 1357.607788, -50.543976, 1005.385803, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 3
+    SetDynamicObjectMaterial(tmpobjid, 2, 1560, "7_11_door", "CJ_CHROME2", 0);
+    SetDynamicObjectMaterial(tmpobjid, 1, 1560, "7_11_door", "CJ_CHROME2", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    tmpobjid = CreateDynamicObject(1945, 1357.478027, -50.485588, 1005.477600, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    tmpobjid = CreateDynamicObject(1251, 1354.996948, -48.977413, 1007.816467, 90.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(1846, 1390.620605, -17.236485, 999.612244, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    CreateDynamicObject(19940, 1391.025146, -18.274853, 1000.612244, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19928, 1357.062866, -50.529556, 1004.346252, 0.000000, 0.000000, 360.000000, -1, 143, -1, 200.0, 200.0); // 3
+    SetDynamicObjectMaterial(tmpobjid, 2, 19071, "wssections", "rockbrown1", 0);
+    SetDynamicObjectMaterial(tmpobjid, 1, 10765, "airportgnd_sfse", "white", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "waterclear1", 0);
+    tmpobjid = CreateDynamicObject(18766, 1391.749512, -30.880878, 1002.391724, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18064, "ab_sfammuunits", "gun_blackbox", 0);
+    tmpobjid = CreateDynamicObject(19087, 1390.593750, -16.706984, 1002.457214, -50.799980, -179.999985, 89.999962, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(19087, 1390.593750, -16.706984, 1002.457214, -50.800014, 179.999985, -89.999962, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(19939, 1391.107910, -18.291241, 1000.012085, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19087, 1390.607788, -16.668369, 1002.486572, -50.800003, -179.999954, -0.000001, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(19087, 1390.607788, -16.668369, 1002.486572, -50.800003, 179.999954, 179.999893, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(1734, 1390.588379, -16.733509, 1003.362305, 0.000000, 0.000022, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 4830, "airport2", "aarprt6LAS", 0);
+    tmpobjid = CreateDynamicObject(2938, 1350.034058, -45.237408, 1010.196045, 90.000000, 90.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(19824, 1392.066772, -28.940422, 1003.562805, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1379.271362, -48.570198, 1004.232361, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    tmpobjid = CreateDynamicObject(1734, 1390.569092, -16.703503, 1004.632446, 0.000000, 0.000022, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 4830, "airport2", "aarprt6LAS", 0);
+    tmpobjid = CreateDynamicObject(3095, 1350.511719, -47.450012, 1004.001038, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 11100, "bendytunnel_sfse", "Bow_sub_walltiles", 0);
+    tmpobjid = CreateDynamicObject(2938, 1385.014648, -44.109150, 1004.423584, 0.000000, 90.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19058, "xmasboxes", "silk8-128x128", 0);
+    tmpobjid = CreateDynamicObject(2938, 1388.029907, -14.788814, 1011.182251, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(2938, 1390.552979, -24.260798, 1011.302734, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(1753, 1392.300049, -22.412037, 999.992126, 0.000000, 0.000000, 540.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    tmpobjid = CreateDynamicObject(3033, 1358.015625, -50.814983, 1007.066101, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "rockbrown1", 0);
+    CreateDynamicObject(2102, 1392.390503, -28.960833, 1000.722656, 0.000000, 0.000000, -171.600021, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1383.705200, -42.669094, 1012.153503, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19058, "xmasboxes", "silk8-128x128", 0);
+    CreateDynamicObject(19824, 1392.346802, -28.940422, 1003.562805, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2245, 1356.132324, -50.467079, 1005.728088, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(2244, 1356.096680, -50.503666, 1005.566406, 0.000000, 0.000000, -17.799999, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 1, 19063, "xmasorbs", "foil1-128x128", 0);
+    tmpobjid = CreateDynamicObject(2938, 1390.552979, -22.700800, 1011.302734, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(14793, 1391.125366, -31.142359, 1008.636719, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    CreateDynamicObject(19149, 1387.498291, -41.512341, 1003.982422, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(14793, 1385.729492, -43.686520, 1004.212524, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(1734, 1390.598755, -16.693510, 1006.323181, 0.000000, 0.000022, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 4830, "airport2", "aarprt6LAS", 0);
+    CreateDynamicObject(14455, 1388.600098, -11.514675, 1001.591858, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19447, 1389.808350, -15.953262, 1008.632324, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 14581, "ab_mafiasuitea", "walp45S", 0);
+    tmpobjid = CreateDynamicObject(3055, 1390.516724, -15.187725, 1000.002258, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18757, "vcinteriors", "dt_officewall3", 0);
+    tmpobjid = CreateDynamicObject(2938, 1385.394897, -44.119148, 1004.613708, 0.000000, 90.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19058, "xmasboxes", "silk8-128x128", 0);
+    tmpobjid = CreateDynamicObject(14705, 1392.605103, -28.978775, 1001.842712, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 9919, "grnwht_sfe", "sfe_redwht4", 0);
+    tmpobjid = CreateDynamicObject(3095, 1391.178955, -34.610008, 1004.232239, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 10871, "blacksky_sfse", "ws_blackmarble", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14537, "pdomebar", "club_floor2_sfwTEST", 0);
+    tmpobjid = CreateDynamicObject(2938, 1383.174561, -43.979099, 1011.353638, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19058, "xmasboxes", "silk8-128x128", 0);
+    CreateDynamicObject(19824, 1392.616821, -28.940422, 1003.562805, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1569, 1385.867920, -43.985878, 999.912231, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19089, 1390.617065, -31.443790, 1010.752258, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 1675, "wshxrefhse", "washdecowall3256", 0);
+    CreateDynamicObject(2372, 1351.812500, -48.519459, 1006.556519, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19325, 1386.705444, -43.131874, 1003.232239, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(1827, 1357.005981, -51.126781, 1006.226013, 90.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18065, "ab_sfammumain", "shelf_glas", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 1560, "7_11_door", "CJ_CHROME2", 0);
+    tmpobjid = CreateDynamicObject(1734, 1391.538818, -17.633518, 1004.842224, 0.000000, 0.000022, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 4830, "airport2", "aarprt6LAS", 0);
+    tmpobjid = CreateDynamicObject(19866, 1386.832520, -43.162079, 1000.012329, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "ws_oldpainted2rusty", 0);
+    tmpobjid = CreateDynamicObject(19087, 1390.607788, -14.801329, 1004.022339, -50.800003, 179.999954, 179.999893, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(1734, 1390.588379, -14.933504, 1004.843262, 0.000000, 0.000022, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 4830, "airport2", "aarprt6LAS", 0);
+    CreateDynamicObject(19824, 1392.856812, -28.940422, 1003.562805, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19087, 1390.681885, -14.880886, 1004.001831, -88.700043, 179.999252, -136.000626, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(1251, 1355.016968, -50.147408, 1007.736389, 90.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(18766, 1381.376587, -48.310783, 1002.391602, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3615, "beachhut", "ws_decking1", 0);
+    tmpobjid = CreateDynamicObject(18766, 1390.256836, -16.210840, 1009.152405, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    CreateDynamicObject(2251, 1392.685669, -28.643583, 1006.197449, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1386.832520, -43.482079, 1000.202454, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "ws_oldpainted2rusty", 0);
+    tmpobjid = CreateDynamicObject(19866, 1393.123047, -28.611460, 1002.392273, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(1827, 1392.963745, -28.559853, 1004.906921, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(14793, 1382.777832, -46.325024, 1008.665894, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 19130, "matarrows", "green", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(2938, 1390.431396, -33.852329, 1010.866882, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    tmpobjid = CreateDynamicObject(2938, 1350.034058, -46.677376, 1010.196045, 90.000000, 90.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(16151, 1391.467651, -35.997448, 1000.241943, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 8, 3922, "bistro", "Marble2", 0);
+    CreateDynamicObject(2855, 1393.075195, -28.651142, 1005.316895, 0.000000, 0.000000, -21.700001, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(2103, 1390.517334, -38.445633, 1000.842529, 0.000000, 0.000000, -94.300003, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1393.243408, -29.361473, 1003.572754, 180.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(19145, 1388.588135, -41.509521, 1003.982361, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19377, 1384.306152, -46.329651, 1004.486267, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    tmpobjid = CreateDynamicObject(19866, 1393.243408, -29.361473, 1004.232666, 180.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(3033, 1354.856201, -50.774967, 1007.136230, 180.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "rockbrown1", 0);
+    tmpobjid = CreateDynamicObject(19866, 1392.478149, -31.417669, 1007.339111, 89.699989, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0);
+    tmpobjid = CreateDynamicObject(1251, 1355.016968, -50.797405, 1007.736389, 90.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(19820, 1393.504639, -28.883017, 1003.512329, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19866, 1392.621338, -31.382755, 1007.002197, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "rockbrown1", 0);
+    tmpobjid = CreateDynamicObject(14793, 1391.674072, -36.229725, 1004.152588, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18835, "mickytextures", "smileyface1", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(19377, 1384.696533, -46.329651, 1004.666443, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    tmpobjid = CreateDynamicObject(3033, 1362.066406, -52.975002, 1007.576538, 270.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "rockbrown1", 0);
+    CreateDynamicObject(1433, 1393.666748, -22.352077, 1000.212524, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1251, 1386.740601, -44.604004, 1000.022095, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(19866, 1392.748413, -31.417669, 1007.340698, 89.699989, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0);
+    CreateDynamicObject(19825, 1392.483765, -34.777679, 1003.482300, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19089, 1390.583496, -16.677162, 1011.282776, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(2251, 1393.842651, -22.318687, 1001.562439, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19820, 1393.854736, -28.883017, 1003.512329, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(3095, 1352.051147, -49.450062, 1008.800903, 90.000000, 0.000000, 450.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_stationfloor", 0);
+    tmpobjid = CreateDynamicObject(1734, 1392.379517, -16.683502, 1004.912720, 0.000000, 0.000022, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 4830, "airport2", "aarprt6LAS", 0);
+    tmpobjid = CreateDynamicObject(1734, 1392.379517, -16.683502, 1004.912720, 0.000000, 0.000022, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 4830, "airport2", "aarprt6LAS", 0);
+    tmpobjid = CreateDynamicObject(19087, 1392.524414, -16.706984, 1003.981201, -50.799980, -179.999985, 89.999962, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(2928, 1356.989868, -52.055878, 1007.756592, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(3095, 1355.671387, -51.330112, 1008.800903, 90.000000, 0.000000, 540.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_stationfloor", 0);
+    tmpobjid = CreateDynamicObject(1251, 1386.740601, -45.003891, 1003.401794, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(19613, 1387.413330, -44.327168, 1000.392334, 0.000000, 0.000000, 154.499985, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(19611, 1389.388428, -41.960365, 1000.432617, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19058, "xmasboxes", "silk9-128x128", 0);
+    tmpobjid = CreateDynamicObject(19610, 1389.398560, -41.975658, 1002.061829, 4.400000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19962, "samproadsigns", "crossinterssign", 0);
+    CreateDynamicObject(19317, 1387.808716, -44.119125, 1001.136841, -19.500000, 0.000000, 152.899994, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1753, 1391.740845, -13.832024, 1000.012085, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    CreateDynamicObject(19147, 1389.632690, -41.581940, 1003.962341, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1553, 1394.194458, -26.172935, 1005.366211, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    CreateDynamicObject(19820, 1394.235107, -28.883017, 1003.512329, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18766, 1385.157471, -46.260925, 1007.381104, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    CreateDynamicObject(1726, 1394.011841, -30.299526, 1004.906921, 0.000000, 0.000000, 540.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1553, 1394.433594, -28.732931, 1001.045837, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18996, "mattextures", "policeshieldgls", 0);
+    tmpobjid = CreateDynamicObject(2063, 1394.448242, -28.940603, 1000.801819, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 10765, "airportgnd_sfse", "white", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(19591, 1394.525391, -28.921082, 1001.632446, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1389.761230, -12.958811, 1011.121948, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(3033, 1358.015625, -52.995003, 1007.576355, 90.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "rockbrown1", 0);
+    tmpobjid = CreateDynamicObject(19325, 1355.059814, -52.148384, 1007.365601, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(3095, 1394.350098, -30.689934, 1004.351563, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14537, "pdomebar", "club_floor2_sfwTEST", 0);
+    tmpobjid = CreateDynamicObject(3095, 1394.359863, -30.709934, 1004.311890, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14537, "pdomebar", "club_floor2_sfwTEST", 0);
+    tmpobjid = CreateDynamicObject(2258, 1392.462036, -37.845203, 1002.701965, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18028, "cj_bar2", "CJ_nastybar_D", 0);
+    CreateDynamicObject(1726, 1394.951782, -27.469528, 1004.906921, 0.000000, 0.000000, 630.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1350.034058, -49.097370, 1010.196045, 90.000000, 90.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(2870, 1395.064453, -28.960079, 1000.232483, 0.000000, 0.000000, -19.800001, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(1753, 1393.770874, -16.622019, 1000.002136, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    CreateDynamicObject(19145, 1390.748047, -41.509521, 1003.982361, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1391.530396, -14.788814, 1011.182251, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(2938, 1392.971924, -33.852329, 1010.866882, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    tmpobjid = CreateDynamicObject(1251, 1355.067017, -53.557426, 1004.296204, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    CreateDynamicObject(19820, 1395.484375, -28.883017, 1003.512329, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2258, 1392.462036, -39.605217, 1002.701965, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18028, "cj_bar2", "CJ_nastybar_D2", 0);
+    tmpobjid = CreateDynamicObject(19866, 1395.783936, -28.611460, 1002.392273, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(19866, 1394.848633, -31.417669, 1007.351990, 89.699989, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0);
+    tmpobjid = CreateDynamicObject(19447, 1360.321411, -55.336681, 1005.216553, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "Marble2", 0);
+    tmpobjid = CreateDynamicObject(19866, 1395.003052, -31.382755, 1007.002197, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19071, "wssections", "rockbrown1", 0);
+    tmpobjid = CreateDynamicObject(627, 1396.001831, -23.763878, 1001.692261, 0.000000, 0.000000, 178.000015, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 1, 6284, "bev_law2", "lasjmposh4", 0);
+    tmpobjid = CreateDynamicObject(1846, 1395.471191, -28.697823, 1007.016296, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18055, "genintsmlrst_split", "GB_restaursmll17b", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 1564, "ab_jetlite", "CJ_BULLETBRASS", 0);
+    tmpobjid = CreateDynamicObject(14793, 1395.489014, -31.846533, 1004.212524, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(19866, 1395.138794, -31.417669, 1007.353638, 89.699989, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0);
+    tmpobjid = CreateDynamicObject(1753, 1393.770874, -13.772023, 1000.002136, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 16640, "a51", "ws_metalpanel1", 0);
+    CreateDynamicObject(19149, 1391.889038, -41.512341, 1003.982422, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(19609, 1390.991333, -43.165680, 1000.422180, 0.000000, 0.000000, -168.099991, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1392.590454, -14.788814, 1011.182251, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(19447, 1356.821655, -54.906681, 1005.216553, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "Marble2", 0);
+    tmpobjid = CreateDynamicObject(2938, 1350.034058, -50.657372, 1010.196045, 90.000000, 90.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(14455, 1396.330444, -22.414656, 1001.591858, 0.000000, 0.000000, 450.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1569, 1396.498291, -25.019798, 999.912231, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 0
+    CreateDynamicObject(1569, 1396.498291, -28.019796, 999.912231, 0.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2258, 1392.462036, -41.365246, 1002.701965, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18028, "cj_bar2", "CJ_nastybar_D3", 0);
+    tmpobjid = CreateDynamicObject(19447, 1394.307617, -15.953262, 1008.632324, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 14581, "ab_mafiasuitea", "walp45S", 0);
+    tmpobjid = CreateDynamicObject(1553, 1396.625244, -26.172935, 1005.366211, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 17588, "lae2coast_alpha", "LAShad1", 0);
+    tmpobjid = CreateDynamicObject(3095, 1391.178955, -43.610012, 1004.232239, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 10871, "blacksky_sfse", "ws_blackmarble", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14537, "pdomebar", "club_floor2_sfwTEST", 0);
+    tmpobjid = CreateDynamicObject(2938, 1395.149170, -36.284779, 1000.122314, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(2938, 1395.149170, -36.294743, 999.952209, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(2938, 1395.174561, -36.348015, 1000.031982, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    tmpobjid = CreateDynamicObject(2938, 1395.154541, -36.338055, 1004.191956, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    tmpobjid = CreateDynamicObject(18981, 1377.459473, -53.886368, 1009.261719, 180.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    CreateDynamicObject(16088, 1387.365112, -49.066162, 1004.742737, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(3095, 1394.349976, -39.689938, 1004.351563, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18646, "matcolours", "grey-70-percent", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 14537, "pdomebar", "club_floor2_sfwTEST", 0);
+    tmpobjid = CreateDynamicObject(18766, 1395.236328, -16.210840, 1009.152405, 90.000000, 0.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    CreateDynamicObject(14455, 1396.330444, -16.444666, 1001.591858, 0.000000, 0.000000, 450.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(2938, 1395.352173, -33.852329, 1010.866882, 90.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    tmpobjid = CreateDynamicObject(18090, 1390.110596, -46.746101, 1001.532288, 0.000000, 0.000000, 270.000000, -1, 143, -1, 200.0, 200.0); // 7
+    SetDynamicObjectMaterial(tmpobjid, 6, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 5, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 4, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 3, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 2, 19480, "signsurf", "sign", 0);
+    SetDynamicObjectMaterial(tmpobjid, 1, 18835, "mickytextures", "smileyface1", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 19480, "signsurf", "sign", 0);
+    tmpobjid = CreateDynamicObject(3095, 1391.208496, -45.767124, 999.872192, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 2
+    SetDynamicObjectMaterial(tmpobjid, 1, 18835, "mickytextures", "smileyface1", 0);
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "black64", 0);
+    tmpobjid = CreateDynamicObject(2938, 1395.154541, -39.228024, 1004.191956, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    CreateDynamicObject(14455, 1394.980103, -11.514675, 1001.591858, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18766, 1391.749512, -45.580875, 1002.391724, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18064, "ab_sfammuunits", "gun_blackbox", 0);
+    tmpobjid = CreateDynamicObject(2938, 1394.380981, -12.958811, 1011.121948, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(2938, 1386.835327, -51.058014, 1002.751648, 0.000000, 180.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    CreateDynamicObject(16088, 1387.365112, -50.786163, 1004.742676, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 0
+    tmpobjid = CreateDynamicObject(18981, 1396.988159, -23.786304, 1012.412842, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 6282, "beafron2_law2", "boardwalk2_la", 0);
+    tmpobjid = CreateDynamicObject(2938, 1398.829468, -28.794540, 1004.802307, 0.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    tmpobjid = CreateDynamicObject(2938, 1396.041382, -14.788814, 1011.182251, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(18766, 1398.729614, -31.840866, 1007.391235, 0.000000, 0.000000, 180.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 9583, "bigshap_sfw", "bridge_walls2_sfw", 0);
+    tmpobjid = CreateDynamicObject(18981, 1389.630493, -48.406342, 1010.561584, 180.000000, 90.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10765, "airportgnd_sfse", "white", 0);
+    tmpobjid = CreateDynamicObject(18981, 1393.038330, -43.886295, 1012.401855, 0.000000, 0.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 6282, "beafron2_law2", "boardwalk2_la", 0);
+    tmpobjid = CreateDynamicObject(2938, 1392.815308, -47.668003, 1004.171875, 0.000000, 270.000000, 90.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+    tmpobjid = CreateDynamicObject(18981, 1347.806519, -57.003693, 1008.056335, 0.000000, 90.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "ferry_build14", 0);
+    tmpobjid = CreateDynamicObject(2938, 1392.505249, -51.058014, 1002.751648, 0.000000, 180.000000, 0.000000, -1, 143, -1, 200.0, 200.0); // 1
+    SetDynamicObjectMaterial(tmpobjid, 0, 18835, "mickytextures", "smileyface1", 0);
+
+    // Mclee House Exterior
     CreateDynamicObject(657, 2915.028320, -836.518494, 10.116868, 0.000000, 0.000000, 0.000000, -1, -1, -1, 200.0, 200.0); // 0
     CreateDynamicObject(1232, 2905.054199, -835.397522, 10.401235, 0.000000, 0.000037, 0.000000, -1, -1, -1, 200.0, 200.0); // 0
     tmpobjid = CreateDynamicObject(18762, 2905.028809, -835.353149, 10.256839, 0.000000, 0.000037, 0.000000, -1, -1, -1, 200.0, 200.0); // 1
