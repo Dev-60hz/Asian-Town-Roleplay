@@ -1,0 +1,2521 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:01:51] weburl = "www.sa-mp.com"  (string)
+[02:01:51] 
+[02:01:51] Server Plugins
+[02:01:51] --------------
+[02:01:51]  Loading plugin: crashdetect.dll
+[02:01:51]   CrashDetect plugin 4.21
+[02:01:51]   Loaded.
+[02:01:51]  Loading plugin: pawncmd.dll
+[02:01:51] [Pawn.CMD] plugin v3.3.6 loading...
+[02:01:51] [Pawn.CMD] 
+
+    | Pawn.CMD 3.3.6 | 2016 - 2021
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Sep 26 2021 at 11:55:10
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[02:01:51]   Loaded.
+[02:01:51]  Loading plugin: sampvoice.dll
+[02:01:51] [sv:dbg:network:init] : module initializing...
+[02:01:51] [dbg:raknet:init] : module initializing...
+[02:01:51] [dbg:raknet:init] : module initialized
+[02:01:51] [sv:dbg:network:init] : module initialized
+[02:01:51] [sv:dbg:main:Load] : creating 4 work threads...
+[02:01:51]  -------------------------------------------    
+[02:01:51]    ___                __   __    _              
+[02:01:51]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[02:01:52]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[02:01:52]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[02:01:52]                   |_|                           
+[02:01:52]  -------------------------------------------    
+[02:01:52]            SampVoice by MOR loaded              
+[02:01:52]  -------------------------------------------    
+[02:01:52]   Loaded.
+[02:01:52]  Loading plugin: discord-connector.dll
+[02:03:02]  >> plugin.dc-connector: timeout while initializing data.
+[02:03:03]                          plugin will proceed to retry connecting in the background.
+[02:03:03]   Loaded.
+[02:03:03]  Loading plugin: samp_prot.dll
+[02:03:03]   Failed.
+[02:03:03]  Loading plugin: sscanf.dll
+[02:03:03] 
+
+[02:03:03]  ===============================
+
+[02:03:03]       sscanf plugin loaded.     
+
+[02:03:03]          Version:  2.8.3        
+
+[02:03:04]   (c) 2018 Alex "Y_Less" Cole  
+
+[02:03:04]  ===============================
+
+[02:03:04]   Loaded.
+[02:03:04]  Loading plugin: streamer.dll
+[02:03:04] 
+
+*** Streamer Plugin v2.9.4 by Incognito loaded ***
+
+[02:03:04]   Loaded.
+[02:03:04]  Loading plugin: mysql.dll
+[02:03:05]  >> plugin.mysql: R39-6 successfully loaded.
+[02:03:05]   Loaded.
+[02:03:05]  Loading plugin: Whirlpool.dll
+[02:03:05]  
+[02:03:05]  ==================
+[02:03:05]  
+[02:03:05]   Whirlpool loaded
+[02:03:05]  
+[02:03:05]  ==================
+[02:03:06]  
+[02:03:06]   Loaded.
+[02:03:06]  Loading plugin: SKY.dll
+[02:03:06] 
+[02:03:06]  ===============================
+[02:03:06]    
+[02:03:06]    < SKY - 2.3.0 >
+[02:03:06]    
+[02:03:06]    (c) 2008 - Present | YSF Maintainers
+[02:03:07]    (c) 2015 | Oscar "Slice" Broman
+[02:03:07]    
+[02:03:07]    Server Version: 0.3.7 R2
+[02:03:07]    Operating System: Windows
+[02:03:07]    Built on: Sep 27 2021 at 23:19:52
+[02:03:07]    
+[02:03:07]  ===============================
+[02:03:07] 
+[02:03:07]   Loaded.
+[02:03:07]  Loading plugin: YSF.dll
+[02:03:08] 
+[02:03:08]  ==============================================
+[02:03:08]  YSF 2.2 (compiled Sep 19 2021 13:01:03) loaded
+[02:03:08]   (c) 2008 Alex "Y_Less" Cole
+[02:03:08]   (c) 2010 - 2018 kurta999
+[02:03:08]   (c) 2018 - 2020 IllidanS4
+[02:03:08]  Server version: 0.3.7 R2-1 or R2-2, Windows
+[02:03:08]  ==============================================
+[02:03:09] 
+[02:03:09]   Loaded.
+[02:03:09]  Loading plugin: nativechecker.dll
+[02:03:09]   Loaded.
+[02:03:09]  Loading plugin: chrono.dll
+[02:03:09]   Failed.
+[02:03:09]  Loaded 11 plugins.
+
+[02:03:10] 
+[02:03:10] Ban list
+[02:03:10] --------
+[02:03:10]  Loaded: samp.ban
+[02:03:10] 
+[02:03:10] 
+[02:03:10] Filterscripts
+[02:03:10] ---------------
+[02:03:11]   Loading filterscript 'Mappings.amx'...
+[02:03:11] [sv:dbg:main:AmxLoad] : net game pointer (value:007E9C70) received
+[02:03:11] [sv:dbg:network:bind] : voice server running on port 49999
+[02:03:11]   Loading filterscript 'anti-cleo.amx'...
+[02:03:11] [Pawn.CMD] DoAmxLoadImpl: Mismatch between the plugin (3.3.6) and include (0.1.58) versions
+[02:03:11]  
+[02:03:11]  
+[02:03:11]  
+[02:03:11]  ======================================= 
+[02:03:11]  |                                     | 
+[02:03:11]  |        YSI version 3.09.0684        | 
+[02:03:11]  |        By Alex "Y_Less" Cole        | 
+[02:03:11]  |                                     | 
+[02:03:11]  ======================================= 
+[02:03:11]  
+[02:03:11]   Loaded 2 filterscripts.
+
+[02:03:11] [Pawn.CMD] DoAmxLoadImpl: Mismatch between the plugin (3.3.6) and include (0.1.58) versions
+[02:03:11] *** Streamer Plugin: Include file version (0x291) does not match plugin version (0x294) (script might need to be recompiled with the correct include file).
+[02:03:11]    Error: Function not registered: 'TimeFormat'
+[02:03:11] [debug] Run time error 19: "File or function is not found"
+[02:03:11] [debug]  TimeFormat
+[02:03:11] ——————————————————
+[02:03:11] |
+[02:03:11] |
+[02:03:11] |.    Anti Cleo key by !60hz#3524
+[02:03:11] |
+[02:03:11] |
+[02:03:11] ——————————————————
+[02:03:11] [debug] Run time error 19: "File or function is not found"
+[02:03:11] [debug]  TimeFormat
+[02:03:11] Script[gamemodes/ATRP.amx]: Run time error 19: "File or function is not found"
+[02:03:11] Number of vehicle models: 0
+[02:13:16]  -------------------------------------------
+[02:13:16]            SampVoice unloading...           
+[02:13:16]  -------------------------------------------
+[02:13:16] [dbg:raknet:free] : module releasing...
+[02:13:16] [dbg:raknet:free] : module released
+[02:13:16] [sv:dbg:network:free] : module releasing...
+[02:13:16] [sv:dbg:network:free] : module released
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:15:43] weburl = "www.sa-mp.com"  (string)
+[02:15:43] 
+[02:15:43] Server Plugins
+[02:15:43] --------------
+[02:15:43]  Loading plugin: crashdetect.dll
+[02:15:43]   CrashDetect plugin 4.21
+[02:15:43]   Loaded.
+[02:15:43]  Loading plugin: pawncmd.dll
+[02:15:43] [Pawn.CMD] plugin v3.3.6 loading...
+[02:15:43] [Pawn.CMD] 
+
+    | Pawn.CMD 3.3.6 | 2016 - 2021
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Sep 26 2021 at 11:55:10
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[02:15:43]   Loaded.
+[02:15:43]  Loading plugin: sampvoice.dll
+[02:15:43] [sv:dbg:network:init] : module initializing...
+[02:15:43] [dbg:raknet:init] : module initializing...
+[02:15:43] [dbg:raknet:init] : module initialized
+[02:15:43] [sv:dbg:network:init] : module initialized
+[02:15:43] [sv:dbg:main:Load] : creating 4 work threads...
+[02:15:43]  -------------------------------------------    
+[02:15:43]    ___                __   __    _              
+[02:15:44]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[02:15:44]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[02:15:44]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[02:15:44]                   |_|                           
+[02:15:44]  -------------------------------------------    
+[02:15:44]            SampVoice by MOR loaded              
+[02:15:44]  -------------------------------------------    
+[02:15:44]   Loaded.
+[02:15:44]  Loading plugin: discord-connector.dll
+[02:15:47]  -------------------------------------------
+[02:15:47]            SampVoice unloading...           
+[02:15:47]  -------------------------------------------
+[02:15:47] [dbg:raknet:free] : module releasing...
+[02:15:47] [dbg:raknet:free] : module released
+[02:15:47] [sv:dbg:network:free] : module releasing...
+[02:15:47] [sv:dbg:network:free] : module released
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:16:16] weburl = "www.sa-mp.com"  (string)
+[02:16:16] 
+[02:16:16] Server Plugins
+[02:16:16] --------------
+[02:16:16]  Loading plugin: crashdetect.dll
+[02:16:16]   CrashDetect plugin 4.21
+[02:16:16]   Loaded.
+[02:16:16]  Loading plugin: pawncmd.dll
+[02:16:16] [Pawn.CMD] plugin v3.3.6 loading...
+[02:16:16] [Pawn.CMD] 
+
+    | Pawn.CMD 3.3.6 | 2016 - 2021
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Sep 26 2021 at 11:55:10
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[02:16:16]   Loaded.
+[02:16:16]  Loading plugin: sampvoice.dll
+[02:16:16] [sv:dbg:network:init] : module initializing...
+[02:16:16] [dbg:raknet:init] : module initializing...
+[02:16:16] [dbg:raknet:init] : module initialized
+[02:16:16] [sv:dbg:network:init] : module initialized
+[02:16:16] [sv:dbg:main:Load] : creating 4 work threads...
+[02:16:16]  -------------------------------------------    
+[02:16:16]    ___                __   __    _              
+[02:16:16]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[02:16:16]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[02:16:16]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[02:16:16]                   |_|                           
+[02:16:16]  -------------------------------------------    
+[02:16:16]            SampVoice by MOR loaded              
+[02:16:16]  -------------------------------------------    
+[02:16:16]   Loaded.
+[02:16:16]  Loading plugin: discord-connector.dll
+[02:16:20]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[02:16:20]   Loaded.
+[02:16:20]  Loading plugin: samp_prot.dll
+[02:16:20]   Failed.
+[02:16:20]  Loading plugin: sscanf.dll
+[02:16:20] 
+
+[02:16:20]  ===============================
+
+[02:16:20]       sscanf plugin loaded.     
+
+[02:16:20]          Version:  2.8.3        
+
+[02:16:20]   (c) 2018 Alex "Y_Less" Cole  
+
+[02:16:20]  ===============================
+
+[02:16:20]   Loaded.
+[02:16:20]  Loading plugin: streamer.dll
+[02:16:20] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[02:16:20]   Loaded.
+[02:16:20]  Loading plugin: mysql.dll
+[02:16:20]  >> plugin.mysql: R39-6 successfully loaded.
+[02:16:20]   Loaded.
+[02:16:20]  Loading plugin: Whirlpool.dll
+[02:16:20]  
+[02:16:20]  ==================
+[02:16:20]  
+[02:16:20]   Whirlpool loaded
+[02:16:20]  
+[02:16:20]  ==================
+[02:16:20]  
+[02:16:20]   Loaded.
+[02:16:20]  Loading plugin: SKY.dll
+[02:16:20] 
+[02:16:20]  ===============================
+[02:16:20]    
+[02:16:20]    < SKY - 2.3.0 >
+[02:16:20]    
+[02:16:20]    (c) 2008 - Present | YSF Maintainers
+[02:16:20]    (c) 2015 | Oscar "Slice" Broman
+[02:16:20]    
+[02:16:20]    Server Version: 0.3.7 R2
+[02:16:20]    Operating System: Windows
+[02:16:20]    Built on: Sep 27 2021 at 23:19:52
+[02:16:20]    
+[02:16:20]  ===============================
+[02:16:20] 
+[02:16:20]   Loaded.
+[02:16:21]  Loading plugin: YSF.dll
+[02:16:21] 
+[02:16:21]  ==============================================
+[02:16:21]  YSF 2.2 (compiled Sep 19 2021 13:01:03) loaded
+[02:16:21]   (c) 2008 Alex "Y_Less" Cole
+[02:16:21]   (c) 2010 - 2018 kurta999
+[02:16:21]   (c) 2018 - 2020 IllidanS4
+[02:16:21]  Server version: 0.3.7 R2-1 or R2-2, Windows
+[02:16:21]  ==============================================
+[02:16:21] 
+[02:16:21]   Loaded.
+[02:16:21]  Loading plugin: nativechecker.dll
+[02:16:21]   Loaded.
+[02:16:21]  Loading plugin: chrono.dll
+[02:16:21]   Loaded.
+[02:16:21]  Loaded 12 plugins.
+
+[02:16:21] 
+[02:16:21] Ban list
+[02:16:21] --------
+[02:16:21]  Loaded: samp.ban
+[02:16:21] 
+[02:16:21] 
+[02:16:21] Filterscripts
+[02:16:21] ---------------
+[02:16:21]   Loading filterscript 'Mappings.amx'...
+[02:16:21] [sv:dbg:main:AmxLoad] : net game pointer (value:02379C18) received
+[02:16:22] [sv:dbg:network:bind] : voice server running on port 64087
+[02:16:22]   Loading filterscript 'anti-cleo.amx'...
+[02:16:22] [Pawn.CMD] DoAmxLoadImpl: Mismatch between the plugin (3.3.6) and include (0.1.58) versions
+[02:16:22]  
+[02:16:22]  
+[02:16:22]  
+[02:16:22]  ======================================= 
+[02:16:22]  |                                     | 
+[02:16:22]  |        YSI version 3.09.0684        | 
+[02:16:22]  |        By Alex "Y_Less" Cole        | 
+[02:16:22]  |                                     | 
+[02:16:22]  ======================================= 
+[02:16:22]  
+[02:16:22]   Loaded 2 filterscripts.
+
+[02:16:22] *** Streamer Plugin: The plugin version (0x295) is older than the include file version (0x296) for this script. The plugin might need to be updated to the latest version.
+[02:16:22]    Error: Function not registered: 'TimeFormat'
+[02:16:22]  
+[02:16:22] --------------------------------------
+[02:16:22]  Anticheat Nex-AC loaded!
+[02:16:22]  Anticheat version: 1.9.52
+[02:16:22]  Author: Nexius
+[02:16:22] --------------------------------------
+
+[02:16:22]  
+[02:16:22]  
+[02:16:22]  
+[02:16:22]  ======================================= 
+[02:16:22]  |                                     | 
+[02:16:22]  |        YSI version 3.09.0684        | 
+[02:16:22]  |        By Alex "Y_Less" Cole        | 
+[02:16:22]  |                                     | 
+[02:16:22]  ======================================= 
+[02:16:22]  
+[02:16:22] Couldn't connect to radio station database... server will continue to operate normally.
+[02:16:22] 
+************************************************************************************************************************
+[02:16:22]  					Asian Town Roleplay Version - AT:RP v3.0.0                                                                    
+[02:16:22]  					 Last Update game version - AT:RP v3.0.0                                                                
+[02:16:22] ************************************************************************************************************************
+
+[02:16:22] [LoadAntiCheat] Loading data from database...
+[02:16:22] 75 objects loaded.
+[02:16:22] Asian Town Roleplay
+[02:16:22] ——————————————————
+[02:16:22] |
+[02:16:22] |
+[02:16:22] |.    Anti Cleo key by !60hz#3524
+[02:16:22] |
+[02:16:22] |
+[02:16:22] ——————————————————
+[02:16:22] Number of vehicle models: 20
+[02:16:25] [Script] 0 houses loaded.
+[02:16:25] [Script] 0 garages loaded.
+[02:16:25] [debug] Run time error 4: "Array index out of bounds"
+[02:16:25] [debug]  Attempted to read/write array element at index 10 in array of size 10
+[02:16:25] [debug] AMX backtrace:
+[02:16:25] [debug] #0 00119b60 in ?? (2) in ATRP.amx
+[02:16:25] [debug] #1 00179654 in public OnQueryFinished (12, 0) in ATRP.amx
+[02:16:25] [Script] 15 entrances loaded.
+[02:16:25] [Script] 4 factions loaded.
+[02:16:25] [Script] 0 lands loaded.
+[02:16:25] [Script] 0 gangs loaded.
+[02:16:25] [Script] 0 points Loaded.
+[02:16:25] [Script] 5 turfs Loaded.
+[02:16:25] [Script] 0 Actors loaded.
+[02:16:25] [Vendor] 0 loaded.
+[02:16:25] [ANTICHEAT]: Anti-cheat settings loaded successfully (loaded: 53). Time: 0 мс.
+[02:17:01]  -------------------------------------------
+[02:17:01]            SampVoice unloading...           
+[02:17:01]  -------------------------------------------
+[02:17:01] [dbg:raknet:free] : module releasing...
+[02:17:01] [dbg:raknet:free] : module released
+[02:17:01] [sv:dbg:network:free] : module releasing...
+[02:17:01] [sv:dbg:network:free] : module released
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:18:10] weburl = "www.sa-mp.com"  (string)
+[02:18:10] 
+[02:18:10] Server Plugins
+[02:18:10] --------------
+[02:18:10]  Loading plugin: crashdetect.dll
+[02:18:10]   CrashDetect plugin 4.21
+[02:18:10]   Loaded.
+[02:18:10]  Loading plugin: pawncmd.dll
+[02:18:10] [Pawn.CMD] plugin v3.3.6 loading...
+[02:18:10] [Pawn.CMD] 
+
+    | Pawn.CMD 3.3.6 | 2016 - 2021
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Sep 26 2021 at 11:55:10
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[02:18:10]   Loaded.
+[02:18:10]  Loading plugin: sampvoice.dll
+[02:18:10] [sv:dbg:network:init] : module initializing...
+[02:18:10] [dbg:raknet:init] : module initializing...
+[02:18:10] [dbg:raknet:init] : module initialized
+[02:18:10] [sv:dbg:network:init] : module initialized
+[02:18:10] [sv:dbg:main:Load] : creating 4 work threads...
+[02:18:10]  -------------------------------------------    
+[02:18:10]    ___                __   __    _              
+[02:18:10]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[02:18:10]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[02:18:11]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[02:18:11]                   |_|                           
+[02:18:11]  -------------------------------------------    
+[02:18:11]            SampVoice by MOR loaded              
+[02:18:11]  -------------------------------------------    
+[02:18:11]   Loaded.
+[02:18:11]  Loading plugin: discord-connector.dll
+[02:18:14]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[02:18:14]   Loaded.
+[02:18:14]  Loading plugin: samp_prot.dll
+[02:18:14]   Failed.
+[02:18:14]  Loading plugin: sscanf.dll
+[02:18:14] 
+
+[02:18:14]  ===============================
+
+[02:18:14]       sscanf plugin loaded.     
+
+[02:18:14]          Version:  2.8.3        
+
+[02:18:14]   (c) 2018 Alex "Y_Less" Cole  
+
+[02:18:14]  ===============================
+
+[02:18:14]   Loaded.
+[02:18:14]  Loading plugin: streamer.dll
+[02:18:14] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[02:18:14]   Loaded.
+[02:18:14]  Loading plugin: mysql.dll
+[02:18:14]  >> plugin.mysql: R39-6 successfully loaded.
+[02:18:14]   Loaded.
+[02:18:15]  Loading plugin: Whirlpool.dll
+[02:18:15]  
+[02:18:15]  ==================
+[02:18:15]  
+[02:18:15]   Whirlpool loaded
+[02:18:15]  
+[02:18:15]  ==================
+[02:18:15]  
+[02:18:15]   Loaded.
+[02:18:15]  Loading plugin: SKY.dll
+[02:18:15] 
+[02:18:15]  ===============================
+[02:18:15]    
+[02:18:15]    < SKY - 2.3.0 >
+[02:18:15]    
+[02:18:15]    (c) 2008 - Present | YSF Maintainers
+[02:18:15]    (c) 2015 | Oscar "Slice" Broman
+[02:18:15]    
+[02:18:15]    Server Version: 0.3.7 R2
+[02:18:15]    Operating System: Windows
+[02:18:15]    Built on: Sep 27 2021 at 23:19:52
+[02:18:15]    
+[02:18:15]  ===============================
+[02:18:15] 
+[02:18:15]   Loaded.
+[02:18:15]  Loading plugin: YSF.dll
+[02:18:15] 
+[02:18:15]  ==============================================
+[02:18:15]  YSF 2.2 (compiled Sep 19 2021 13:01:03) loaded
+[02:18:15]   (c) 2008 Alex "Y_Less" Cole
+[02:18:15]   (c) 2010 - 2018 kurta999
+[02:18:15]   (c) 2018 - 2020 IllidanS4
+[02:18:15]  Server version: 0.3.7 R2-1 or R2-2, Windows
+[02:18:15]  ==============================================
+[02:18:15] 
+[02:18:15]   Loaded.
+[02:18:15]  Loading plugin: nativechecker.dll
+[02:18:15]   Loaded.
+[02:18:15]  Loading plugin: chrono.dll
+[02:18:15]   Loaded.
+[02:18:15]  Loaded 12 plugins.
+
+[02:18:15] 
+[02:18:15] Ban list
+[02:18:15] --------
+[02:18:15]  Loaded: samp.ban
+[02:18:15] 
+[02:18:15] 
+[02:18:15] Filterscripts
+[02:18:15] ---------------
+[02:18:15]   Loading filterscript 'Mappings.amx'...
+[02:18:15] [sv:dbg:main:AmxLoad] : net game pointer (value:02429C18) received
+[02:18:15] [sv:dbg:network:bind] : voice server running on port 50430
+[02:18:15]   Loading filterscript 'anti-cleo.amx'...
+[02:18:15] [Pawn.CMD] DoAmxLoadImpl: Mismatch between the plugin (3.3.6) and include (0.1.58) versions
+[02:18:15]  
+[02:18:15]  
+[02:18:15]  
+[02:18:15]  ======================================= 
+[02:18:15]  |                                     | 
+[02:18:15]  |        YSI version 3.09.0684        | 
+[02:18:15]  |        By Alex "Y_Less" Cole        | 
+[02:18:15]  |                                     | 
+[02:18:15]  ======================================= 
+[02:18:15]  
+[02:18:15]   Loaded 2 filterscripts.
+
+[02:18:16] *** Streamer Plugin: The plugin version (0x295) is older than the include file version (0x296) for this script. The plugin might need to be updated to the latest version.
+[02:18:16]    Error: Function not registered: 'TimeFormat'
+[02:18:16]  
+[02:18:16] --------------------------------------
+[02:18:16]  Anticheat Nex-AC loaded!
+[02:18:16]  Anticheat version: 1.9.52
+[02:18:16]  Author: Nexius
+[02:18:16] --------------------------------------
+
+[02:18:16]  
+[02:18:16]  
+[02:18:16]  
+[02:18:16]  ======================================= 
+[02:18:16]  |                                     | 
+[02:18:16]  |        YSI version 3.09.0684        | 
+[02:18:16]  |        By Alex "Y_Less" Cole        | 
+[02:18:16]  |                                     | 
+[02:18:16]  ======================================= 
+[02:18:16]  
+[02:18:16] Couldn't connect to radio station database... server will continue to operate normally.
+[02:18:16] 
+************************************************************************************************************************
+[02:18:16]  					Asian Town Roleplay Version - AT:RP v3.0.0                                                                    
+[02:18:16]  					 Last Update game version - AT:RP v3.0.0                                                                
+[02:18:16] ************************************************************************************************************************
+
+[02:18:16] [LoadAntiCheat] Loading data from database...
+[02:18:16] 75 objects loaded.
+[02:18:16] Asian Town Roleplay
+[02:18:16] ——————————————————
+[02:18:16] |
+[02:18:16] |
+[02:18:16] |.    Anti Cleo key by !60hz#3524
+[02:18:16] |
+[02:18:16] |
+[02:18:16] ——————————————————
+[02:18:16] Number of vehicle models: 20
+[02:18:18] [Script] 0 houses loaded.
+[02:18:18] [Script] 0 garages loaded.
+[02:18:18] [debug] Run time error 4: "Array index out of bounds"
+[02:18:18] [debug]  Attempted to read/write array element at index 10 in array of size 10
+[02:18:18] [debug] AMX backtrace:
+[02:18:18] [debug] #0 00119b60 in ?? (2) in ATRP.amx
+[02:18:18] [debug] #1 00179654 in public OnQueryFinished (12, 0) in ATRP.amx
+[02:18:18] [Script] 15 entrances loaded.
+[02:18:18] [Script] 4 factions loaded.
+[02:18:18] [Script] 0 lands loaded.
+[02:18:18] [Script] 0 gangs loaded.
+[02:18:18] [Script] 0 points Loaded.
+[02:18:18] [Script] 5 turfs Loaded.
+[02:18:18] [Script] 0 Actors loaded.
+[02:18:18] [Vendor] 0 loaded.
+[02:18:18] [ANTICHEAT]: Anti-cheat settings loaded successfully (loaded: 53). Time: 0 мс.
+[02:20:09]  -------------------------------------------
+[02:20:09]            SampVoice unloading...           
+[02:20:09]  -------------------------------------------
+[02:20:09] [dbg:raknet:free] : module releasing...
+[02:20:09] [dbg:raknet:free] : module released
+[02:20:09] [sv:dbg:network:free] : module releasing...
+[02:20:09] [sv:dbg:network:free] : module released
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:26:27] weburl = "www.sa-mp.com"  (string)
+[02:26:27] 
+[02:26:27] Server Plugins
+[02:26:27] --------------
+[02:26:27]  Loading plugin: crashdetect.dll
+[02:26:27]   CrashDetect plugin 4.21
+[02:26:27]   Loaded.
+[02:26:27]  Loading plugin: pawncmd.dll
+[02:26:27] [Pawn.CMD] plugin v3.3.6 loading...
+[02:26:27] [Pawn.CMD] 
+
+    | Pawn.CMD 3.3.6 | 2016 - 2021
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Sep 26 2021 at 11:55:10
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[02:26:27]   Loaded.
+[02:26:27]  Loading plugin: sampvoice.dll
+[02:26:27] [sv:dbg:network:init] : module initializing...
+[02:26:27] [dbg:raknet:init] : module initializing...
+[02:26:27] [dbg:raknet:init] : module initialized
+[02:26:27] [sv:dbg:network:init] : module initialized
+[02:26:27] [sv:dbg:main:Load] : creating 4 work threads...
+[02:26:27]  -------------------------------------------    
+[02:26:27]    ___                __   __    _              
+[02:26:27]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[02:26:27]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[02:26:27]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[02:26:27]                   |_|                           
+[02:26:27]  -------------------------------------------    
+[02:26:27]            SampVoice by MOR loaded              
+[02:26:27]  -------------------------------------------    
+[02:26:27]   Loaded.
+[02:26:27]  Loading plugin: discord-connector.dll
+[02:26:31]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[02:26:31]   Loaded.
+[02:26:32]  Loading plugin: samp_prot.dll
+[02:26:32]   Failed.
+[02:26:32]  Loading plugin: sscanf.dll
+[02:26:32] 
+
+[02:26:32]  ===============================
+
+[02:26:32]       sscanf plugin loaded.     
+
+[02:26:32]          Version:  2.8.3        
+
+[02:26:32]   (c) 2018 Alex "Y_Less" Cole  
+
+[02:26:32]  ===============================
+
+[02:26:32]   Loaded.
+[02:26:32]  Loading plugin: streamer.dll
+[02:26:32] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[02:26:32]   Loaded.
+[02:26:32]  Loading plugin: mysql.dll
+[02:26:32]  >> plugin.mysql: R39-6 successfully loaded.
+[02:26:32]   Loaded.
+[02:26:32]  Loading plugin: Whirlpool.dll
+[02:26:32]  
+[02:26:32]  ==================
+[02:26:32]  
+[02:26:32]   Whirlpool loaded
+[02:26:32]  
+[02:26:32]  ==================
+[02:26:32]  
+[02:26:32]   Loaded.
+[02:26:32]  Loading plugin: SKY.dll
+[02:26:32] 
+[02:26:32]  ===============================
+[02:26:32]    
+[02:26:32]    < SKY - 2.3.0 >
+[02:26:32]    
+[02:26:32]    (c) 2008 - Present | YSF Maintainers
+[02:26:32]    (c) 2015 | Oscar "Slice" Broman
+[02:26:32]    
+[02:26:32]    Server Version: 0.3.7 R2
+[02:26:32]    Operating System: Windows
+[02:26:32]    Built on: Sep 27 2021 at 23:19:52
+[02:26:32]    
+[02:26:32]  ===============================
+[02:26:32] 
+[02:26:32]   Loaded.
+[02:26:32]  Loading plugin: YSF.dll
+[02:26:32] 
+[02:26:32]  ==============================================
+[02:26:32]  YSF 2.2 (compiled Sep 19 2021 13:01:03) loaded
+[02:26:32]   (c) 2008 Alex "Y_Less" Cole
+[02:26:32]   (c) 2010 - 2018 kurta999
+[02:26:32]   (c) 2018 - 2020 IllidanS4
+[02:26:32]  Server version: 0.3.7 R2-1 or R2-2, Windows
+[02:26:32]  ==============================================
+[02:26:32] 
+[02:26:32]   Loaded.
+[02:26:32]  Loading plugin: nativechecker.dll
+[02:26:32]   Loaded.
+[02:26:32]  Loading plugin: chrono.dll
+[02:26:32]   Loaded.
+[02:26:32]  Loaded 12 plugins.
+
+[02:26:33] 
+[02:26:33] Ban list
+[02:26:33] --------
+[02:26:33]  Loaded: samp.ban
+[02:26:33] 
+[02:26:33] 
+[02:26:33] Filterscripts
+[02:26:33] ---------------
+[02:26:33]   Loading filterscript 'Mappings.amx'...
+[02:26:33] [sv:dbg:main:AmxLoad] : net game pointer (value:02419C18) received
+[02:26:33] [sv:dbg:network:bind] : voice server running on port 61895
+[02:26:33]   Loading filterscript 'anti-cleo.amx'...
+[02:26:33] [Pawn.CMD] DoAmxLoadImpl: Mismatch between the plugin (3.3.6) and include (0.1.58) versions
+[02:26:33]  
+[02:26:33]  
+[02:26:33]  
+[02:26:33]  ======================================= 
+[02:26:33]  |                                     | 
+[02:26:33]  |        YSI version 3.09.0684        | 
+[02:26:33]  |        By Alex "Y_Less" Cole        | 
+[02:26:33]  |                                     | 
+[02:26:33]  ======================================= 
+[02:26:33]  
+[02:26:33]   Loaded 2 filterscripts.
+
+[02:26:33] *** Streamer Plugin: The plugin version (0x295) is older than the include file version (0x296) for this script. The plugin might need to be updated to the latest version.
+[02:26:33]    Error: Function not registered: 'TimeFormat'
+[02:26:33]  
+[02:26:33] --------------------------------------
+[02:26:33]  Anticheat Nex-AC loaded!
+[02:26:33]  Anticheat version: 1.9.52
+[02:26:33]  Author: Nexius
+[02:26:33] --------------------------------------
+
+[02:26:33]  
+[02:26:33]  
+[02:26:33]  
+[02:26:33]  ======================================= 
+[02:26:33]  |                                     | 
+[02:26:33]  |        YSI version 3.09.0684        | 
+[02:26:33]  |        By Alex "Y_Less" Cole        | 
+[02:26:33]  |                                     | 
+[02:26:33]  ======================================= 
+[02:26:33]  
+[02:26:33] Couldn't connect to radio station database... server will continue to operate normally.
+[02:26:33] 
+************************************************************************************************************************
+[02:26:33]  					Asian Town Roleplay Version - AT:RP v3.0.0                                                                    
+[02:26:33]  					 Last Update game version - AT:RP v3.0.0                                                                
+[02:26:33] ************************************************************************************************************************
+
+[02:26:33] [LoadAntiCheat] Loading data from database...
+[02:26:33] 75 objects loaded.
+[02:26:33] Asian Town Roleplay
+[02:26:33] ——————————————————
+[02:26:33] |
+[02:26:33] |
+[02:26:33] |.    Anti Cleo key by !60hz#3524
+[02:26:33] |
+[02:26:33] |
+[02:26:33] ——————————————————
+[02:26:33] Number of vehicle models: 20
+[02:26:36] [Script] 0 houses loaded.
+[02:26:36] [Script] 0 garages loaded.
+[02:26:36] [debug] Run time error 4: "Array index out of bounds"
+[02:26:36] [debug]  Attempted to read/write array element at index 10 in array of size 10
+[02:26:36] [debug] AMX backtrace:
+[02:26:36] [debug] #0 00119b60 in ?? (2) in ATRP.amx
+[02:26:36] [debug] #1 00179654 in public OnQueryFinished (12, 0) in ATRP.amx
+[02:26:36] [Script] 15 entrances loaded.
+[02:26:36] [Script] 4 factions loaded.
+[02:26:36] [Script] 0 lands loaded.
+[02:26:36] [Script] 0 gangs loaded.
+[02:26:36] [Script] 0 points Loaded.
+[02:26:36] [Script] 5 turfs Loaded.
+[02:26:36] [Script] 0 Actors loaded.
+[02:26:36] [Vendor] 0 loaded.
+[02:26:36] [ANTICHEAT]: Anti-cheat settings loaded successfully (loaded: 53). Time: 0 мс.
+[02:36:07]  -------------------------------------------
+[02:36:07]            SampVoice unloading...           
+[02:36:07]  -------------------------------------------
+[02:36:07] [dbg:raknet:free] : module releasing...
+[02:36:07] [dbg:raknet:free] : module released
+[02:36:07] [sv:dbg:network:free] : module releasing...
+[02:36:07] [sv:dbg:network:free] : module released
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:38:33] weburl = "www.sa-mp.com"  (string)
+[02:38:33] 
+[02:38:33] Server Plugins
+[02:38:33] --------------
+[02:38:33]  Loading plugin: crashdetect.dll
+[02:38:33]   CrashDetect plugin 4.21
+[02:38:33]   Loaded.
+[02:38:33]  Loading plugin: pawncmd.dll
+[02:38:33] [Pawn.CMD] plugin v3.3.6 loading...
+[02:38:33] [Pawn.CMD] 
+
+    | Pawn.CMD 3.3.6 | 2016 - 2021
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Sep 26 2021 at 11:55:10
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[02:38:33]   Loaded.
+[02:38:33]  Loading plugin: sampvoice.dll
+[02:38:33] [sv:dbg:network:init] : module initializing...
+[02:38:33] [dbg:raknet:init] : module initializing...
+[02:38:33] [dbg:raknet:init] : module initialized
+[02:38:33] [sv:dbg:network:init] : module initialized
+[02:38:33] [sv:dbg:main:Load] : creating 4 work threads...
+[02:38:33]  -------------------------------------------    
+[02:38:33]    ___                __   __    _              
+[02:38:33]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[02:38:33]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[02:38:34]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[02:38:34]                   |_|                           
+[02:38:34]  -------------------------------------------    
+[02:38:34]            SampVoice by MOR loaded              
+[02:38:34]  -------------------------------------------    
+[02:38:34]   Loaded.
+[02:38:34]  Loading plugin: discord-connector.dll
+[02:38:37]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[02:38:37]   Loaded.
+[02:38:37]  Loading plugin: samp_prot.dll
+[02:38:37]   Failed.
+[02:38:37]  Loading plugin: sscanf.dll
+[02:38:38] 
+
+[02:38:38]  ===============================
+
+[02:38:38]       sscanf plugin loaded.     
+
+[02:38:38]          Version:  2.8.3        
+
+[02:38:38]   (c) 2018 Alex "Y_Less" Cole  
+
+[02:38:38]  ===============================
+
+[02:38:38]   Loaded.
+[02:38:39]  Loading plugin: streamer.dll
+[02:38:39] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[02:38:39]   Loaded.
+[02:38:39]  Loading plugin: mysql.dll
+[02:38:39]  >> plugin.mysql: R39-6 successfully loaded.
+[02:38:39]   Loaded.
+[02:38:39]  Loading plugin: Whirlpool.dll
+[02:38:39]  
+[02:38:39]  ==================
+[02:38:39]  
+[02:38:40]   Whirlpool loaded
+[02:38:40]  
+[02:38:40]  ==================
+[02:38:40]  
+[02:38:40]   Loaded.
+[02:38:40]  Loading plugin: SKY.dll
+[02:38:40] 
+[02:38:40]  ===============================
+[02:38:40]    
+[02:38:40]    < SKY - 2.3.0 >
+[02:38:41]    
+[02:38:41]    (c) 2008 - Present | YSF Maintainers
+[02:38:41]    (c) 2015 | Oscar "Slice" Broman
+[02:38:41]    
+[02:38:41]    Server Version: 0.3.7 R2
+[02:38:41]    Operating System: Windows
+[02:38:41]    Built on: Sep 27 2021 at 23:19:52
+[02:38:41]    
+[02:38:41]  ===============================
+[02:38:41] 
+[02:38:42]   Loaded.
+[02:38:42]  Loading plugin: YSF.dll
+[02:38:42] 
+[02:38:42]  ==============================================
+[02:38:42]  YSF 2.2 (compiled Sep 19 2021 13:01:03) loaded
+[02:38:42]   (c) 2008 Alex "Y_Less" Cole
+[02:38:42]   (c) 2010 - 2018 kurta999
+[02:38:42]   (c) 2018 - 2020 IllidanS4
+[02:38:42]  Server version: 0.3.7 R2-1 or R2-2, Windows
+[02:38:43]  ==============================================
+[02:38:43] 
+[02:38:43]   Loaded.
+[02:38:43]  Loading plugin: nativechecker.dll
+[02:38:43]   Loaded.
+[02:38:43]  Loading plugin: chrono.dll
+[02:38:43]   Loaded.
+[02:38:43]  Loaded 12 plugins.
+
+[02:38:44] 
+[02:38:44] Ban list
+[02:38:44] --------
+[02:38:44]  Loaded: samp.ban
+[02:38:44] 
+[02:38:44] 
+[02:38:44] Filterscripts
+[02:38:44] ---------------
+[02:38:45]   Loading filterscript 'Mappings.amx'...
+[02:38:45] [sv:dbg:main:AmxLoad] : net game pointer (value:02399C18) received
+[02:38:45] [sv:dbg:network:bind] : voice server running on port 50074
+[02:38:45]   Loading filterscript 'anti-cleo.amx'...
+[02:38:45] [Pawn.CMD] DoAmxLoadImpl: Mismatch between the plugin (3.3.6) and include (0.1.58) versions
+[02:38:45]  
+[02:38:45]  
+[02:38:45]  
+[02:38:45]  ======================================= 
+[02:38:45]  |                                     | 
+[02:38:45]  |        YSI version 3.09.0684        | 
+[02:38:45]  |        By Alex "Y_Less" Cole        | 
+[02:38:45]  |                                     | 
+[02:38:45]  ======================================= 
+[02:38:45]  
+[02:38:45]   Loaded 2 filterscripts.
+
+[02:38:45] *** Streamer Plugin: The plugin version (0x295) is older than the include file version (0x296) for this script. The plugin might need to be updated to the latest version.
+[02:38:45]    Error: Function not registered: 'TimeFormat'
+[02:38:45]  
+[02:38:45] --------------------------------------
+[02:38:45]  Anticheat Nex-AC loaded!
+[02:38:45]  Anticheat version: 1.9.52
+[02:38:45]  Author: Nexius
+[02:38:45] --------------------------------------
+
+[02:38:45]  
+[02:38:45]  
+[02:38:45]  
+[02:38:45]  ======================================= 
+[02:38:45]  |                                     | 
+[02:38:45]  |        YSI version 3.09.0684        | 
+[02:38:45]  |        By Alex "Y_Less" Cole        | 
+[02:38:45]  |                                     | 
+[02:38:45]  ======================================= 
+[02:38:45]  
+[02:38:45] Couldn't connect to radio station database... server will continue to operate normally.
+[02:38:45] 
+************************************************************************************************************************
+[02:38:45]  					Asian Town Roleplay Version - AT:RP v3.0.0                                                                    
+[02:38:45]  					 Last Update game version - AT:RP v3.0.0                                                                
+[02:38:45] ************************************************************************************************************************
+
+[02:38:45] [LoadAntiCheat] Loading data from database...
+[02:38:45] 75 objects loaded.
+[02:38:45] Asian Town Roleplay
+[02:38:45] ——————————————————
+[02:38:45] |
+[02:38:45] |
+[02:38:45] |.    Anti Cleo key by !60hz#3524
+[02:38:45] |
+[02:38:45] |
+[02:38:45] ——————————————————
+[02:38:45] Number of vehicle models: 20
+[02:38:48] [Script] 199 houses loaded.
+[02:38:48] [Script] 6 garages loaded.
+[02:38:48] [Script] 50 businesses loaded.
+[02:38:48] [Script] 39 entrances loaded.
+[02:38:48] [Script] 8 factions loaded.
+[02:38:48] [Script] 0 lands loaded.
+[02:38:48] [Script] 5 gangs loaded.
+[02:38:48] [Script] 10 points Loaded.
+[02:38:48] [Script] 20 turfs Loaded.
+[02:38:48] [Script] 27 Actors loaded.
+[02:38:48] [Script] 2 deliver patient loaded.
+[02:38:48] [Vendor] 0 loaded.
+[02:38:48] [Graffities] Loaded - 9. Total - 9. Time: 0 ms
+[02:38:48] [BillBoards] No records found.
+[02:38:48] [Fuel Station] 36 loaded.
+[02:38:48] [Script] 1 Arrest Point loaded.
+[02:38:48] [Faction Vehicle] 15 loaded.
+[02:38:48] [Faction Garage] 7 loaded.
+[02:38:48] [ATM] 15 loaded.
+[02:38:48] [Script] 0 rent vehicle loaded.
+[02:38:48] [ANTICHEAT]: Anti-cheat settings loaded successfully (loaded: 53). Time: 0 мс.
+[02:40:02]  -------------------------------------------
+[02:40:02]            SampVoice unloading...           
+[02:40:02]  -------------------------------------------
+[02:40:02] [dbg:raknet:free] : module releasing...
+[02:40:02] [dbg:raknet:free] : module released
+[02:40:02] [sv:dbg:network:free] : module releasing...
+[02:40:02] [sv:dbg:network:free] : module released
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:40:03] password = ""  (string)
+[02:40:03] weburl = "www.sa-mp.com"  (string)
+[02:40:03] 
+[02:40:03] Server Plugins
+[02:40:03] --------------
+[02:40:03]  Loading plugin: crashdetect.dll
+[02:40:03]   CrashDetect plugin 4.21
+[02:40:03]   Loaded.
+[02:40:03]  Loading plugin: pawncmd.dll
+[02:40:03] [Pawn.CMD] plugin v3.3.6 loading...
+[02:40:03] [Pawn.CMD] 
+
+    | Pawn.CMD 3.3.6 | 2016 - 2021
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Sep 26 2021 at 11:55:10
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[02:40:03]   Loaded.
+[02:40:03]  Loading plugin: sampvoice.dll
+[02:40:03] [sv:dbg:network:init] : module initializing...
+[02:40:03] [dbg:raknet:init] : module initializing...
+[02:40:03] [dbg:raknet:init] : module initialized
+[02:40:03] [sv:dbg:network:init] : module initialized
+[02:40:03] [sv:dbg:main:Load] : creating 4 work threads...
+[02:40:03]  -------------------------------------------    
+[02:40:03]    ___                __   __    _              
+[02:40:03]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[02:40:03]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[02:40:03]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[02:40:04]                   |_|                           
+[02:40:04]  -------------------------------------------    
+[02:40:04]            SampVoice by MOR loaded              
+[02:40:04]  -------------------------------------------    
+[02:40:04]   Loaded.
+[02:40:04]  Loading plugin: discord-connector.dll
+[02:40:07]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[02:40:07]   Loaded.
+[02:40:07]  Loading plugin: samp_prot.dll
+[02:40:07]   Failed.
+[02:40:08]  Loading plugin: sscanf.dll
+[02:40:08] 
+
+[02:40:08]  ===============================
+
+[02:40:08]       sscanf plugin loaded.     
+
+[02:40:08]          Version:  2.8.3        
+
+[02:40:08]   (c) 2018 Alex "Y_Less" Cole  
+
+[02:40:08]  ===============================
+
+[02:40:08]   Loaded.
+[02:40:08]  Loading plugin: streamer.dll
+[02:40:08] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[02:40:08]   Loaded.
+[02:40:08]  Loading plugin: mysql.dll
+[02:40:08]  >> plugin.mysql: R39-6 successfully loaded.
+[02:40:08]   Loaded.
+[02:40:08]  Loading plugin: Whirlpool.dll
+[02:40:08]  
+[02:40:08]  ==================
+[02:40:08]  
+[02:40:08]   Whirlpool loaded
+[02:40:08]  
+[02:40:08]  ==================
+[02:40:08]  
+[02:40:08]   Loaded.
+[02:40:08]  Loading plugin: SKY.dll
+[02:40:08] 
+[02:40:08]  ===============================
+[02:40:08]    
+[02:40:08]    < SKY - 2.3.0 >
+[02:40:08]    
+[02:40:08]    (c) 2008 - Present | YSF Maintainers
+[02:40:08]    (c) 2015 | Oscar "Slice" Broman
+[02:40:08]    
+[02:40:08]    Server Version: 0.3.7 R2
+[02:40:08]    Operating System: Windows
+[02:40:08]    Built on: Sep 27 2021 at 23:19:52
+[02:40:08]    
+[02:40:08]  ===============================
+[02:40:08] 
+[02:40:08]   Loaded.
+[02:40:08]  Loading plugin: YSF.dll
+[02:40:08] 
+[02:40:08]  ==============================================
+[02:40:08]  YSF 2.2 (compiled Sep 19 2021 13:01:03) loaded
+[02:40:08]   (c) 2008 Alex "Y_Less" Cole
+[02:40:08]   (c) 2010 - 2018 kurta999
+[02:40:08]   (c) 2018 - 2020 IllidanS4
+[02:40:08]  Server version: 0.3.7 R2-1 or R2-2, Windows
+[02:40:08]  ==============================================
+[02:40:08] 
+[02:40:08]   Loaded.
+[02:40:08]  Loading plugin: nativechecker.dll
+[02:40:08]   Loaded.
+[02:40:08]  Loading plugin: chrono.dll
+[02:40:08]   Loaded.
+[02:40:08]  Loaded 12 plugins.
+
+[02:40:08] 
+[02:40:08] Ban list
+[02:40:08] --------
+[02:40:08]  Loaded: samp.ban
+[02:40:08] 
+[02:40:09] 
+[02:40:09] Filterscripts
+[02:40:09] ---------------
+[02:40:09]   Loading filterscript 'Mappings.amx'...
+[02:40:09] [sv:dbg:main:AmxLoad] : net game pointer (value:022E9CA0) received
+[02:40:09] [sv:dbg:network:bind] : voice server running on port 58939
+[02:40:09]   Loading filterscript 'anti-cleo.amx'...
+[02:40:09] [Pawn.CMD] DoAmxLoadImpl: Mismatch between the plugin (3.3.6) and include (0.1.58) versions
+[02:40:09]  
+[02:40:09]  
+[02:40:09]  
+[02:40:09]  ======================================= 
+[02:40:09]  |                                     | 
+[02:40:09]  |        YSI version 3.09.0684        | 
+[02:40:09]  |        By Alex "Y_Less" Cole        | 
+[02:40:09]  |                                     | 
+[02:40:09]  ======================================= 
+[02:40:09]  
+[02:40:09]   Loaded 2 filterscripts.
+
+[02:40:09] *** Streamer Plugin: The plugin version (0x295) is older than the include file version (0x296) for this script. The plugin might need to be updated to the latest version.
+[02:40:09]    Error: Function not registered: 'TimeFormat'
+[02:40:09]  
+[02:40:09] --------------------------------------
+[02:40:09]  Anticheat Nex-AC loaded!
+[02:40:09]  Anticheat version: 1.9.52
+[02:40:09]  Author: Nexius
+[02:40:09] --------------------------------------
+
+[02:40:09]  
+[02:40:09]  
+[02:40:09]  
+[02:40:09]  ======================================= 
+[02:40:09]  |                                     | 
+[02:40:09]  |        YSI version 3.09.0684        | 
+[02:40:09]  |        By Alex "Y_Less" Cole        | 
+[02:40:09]  |                                     | 
+[02:40:09]  ======================================= 
+[02:40:09]  
+[02:40:09] Couldn't connect to radio station database... server will continue to operate normally.
+[02:40:09] 
+************************************************************************************************************************
+[02:40:09]  					Asian Town Roleplay Version - AT:RP v3.0.0                                                                    
+[02:40:09]  					 Last Update game version - AT:RP v3.0.0                                                                
+[02:40:09] ************************************************************************************************************************
+
+[02:40:09] [LoadAntiCheat] Loading data from database...
+[02:40:10] 75 objects loaded.
+[02:40:10] Asian Town Roleplay
+[02:40:10] ——————————————————
+[02:40:10] |
+[02:40:10] |
+[02:40:10] |.    Anti Cleo key by !60hz#3524
+[02:40:10] |
+[02:40:10] |
+[02:40:10] ——————————————————
+[02:40:10] Number of vehicle models: 20
+[02:40:12] [Script] 199 houses loaded.
+[02:40:12] [Script] 6 garages loaded.
+[02:40:12] [Script] 50 businesses loaded.
+[02:40:12] [Script] 39 entrances loaded.
+[02:40:12] [Script] 8 factions loaded.
+[02:40:12] [Script] 0 lands loaded.
+[02:40:12] [Script] 5 gangs loaded.
+[02:40:12] [Script] 10 points Loaded.
+[02:40:12] [Script] 20 turfs Loaded.
+[02:40:12] [Script] 27 Actors loaded.
+[02:40:12] [Script] 2 deliver patient loaded.
+[02:40:12] [Vendor] 0 loaded.
+[02:40:12] [Graffities] Loaded - 9. Total - 9. Time: 1 ms
+[02:40:12] [BillBoards] No records found.
+[02:40:12] [Fuel Station] 36 loaded.
+[02:40:12] [Script] 1 Arrest Point loaded.
+[02:40:12] [Faction Vehicle] 15 loaded.
+[02:40:12] [Faction Garage] 7 loaded.
+[02:40:12] [ATM] 15 loaded.
+[02:40:12] [Script] 0 rent vehicle loaded.
+[02:40:12] [ANTICHEAT]: Anti-cheat settings loaded successfully (loaded: 53). Time: 0 мс.
+[02:48:42]  -------------------------------------------
+[02:48:42]            SampVoice unloading...           
+[02:48:42]  -------------------------------------------
+[02:48:42] [dbg:raknet:free] : module releasing...
+[02:48:42] [dbg:raknet:free] : module released
+[02:48:42] [sv:dbg:network:free] : module releasing...
+[02:48:42] [sv:dbg:network:free] : module released
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:51:18] password = ""  (string)
+[02:51:18] weburl = "www.sa-mp.com"  (string)
+[02:51:18] 
+[02:51:18] Server Plugins
+[02:51:18] --------------
+[02:51:18]  Loading plugin: crashdetect.dll
+[02:51:18]   CrashDetect plugin 4.21
+[02:51:18]   Loaded.
+[02:51:18]  Loading plugin: pawncmd.dll
+[02:51:18] [Pawn.CMD] plugin v3.3.6 loading...
+[02:51:18] [Pawn.CMD] 
+
+    | Pawn.CMD 3.3.6 | 2016 - 2021
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Sep 26 2021 at 11:55:10
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[02:51:18]   Loaded.
+[02:51:18]  Loading plugin: sampvoice.dll
+[02:51:18] [sv:dbg:network:init] : module initializing...
+[02:51:18] [dbg:raknet:init] : module initializing...
+[02:51:18] [dbg:raknet:init] : module initialized
+[02:51:18] [sv:dbg:network:init] : module initialized
+[02:51:18] [sv:dbg:main:Load] : creating 4 work threads...
+[02:51:18]  -------------------------------------------    
+[02:51:18]    ___                __   __    _              
+[02:51:18]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[02:51:18]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[02:51:18]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[02:51:18]                   |_|                           
+[02:51:18]  -------------------------------------------    
+[02:51:18]            SampVoice by MOR loaded              
+[02:51:18]  -------------------------------------------    
+[02:51:18]   Loaded.
+[02:51:18]  Loading plugin: discord-connector.dll
+[02:51:21]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[02:51:21]   Loaded.
+[02:51:21]  Loading plugin: samp_prot.dll
+[02:51:21]   Failed.
+[02:51:21]  Loading plugin: sscanf.dll
+[02:51:22] 
+
+[02:51:22]  ===============================
+
+[02:51:22]       sscanf plugin loaded.     
+
+[02:51:22]          Version:  2.8.3        
+
+[02:51:22]   (c) 2018 Alex "Y_Less" Cole  
+
+[02:51:23]  ===============================
+
+[02:51:23]   Loaded.
+[02:51:23]  Loading plugin: streamer.dll
+[02:51:23] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[02:51:23]   Loaded.
+[02:51:23]  Loading plugin: mysql.dll
+[02:51:23]  >> plugin.mysql: R39-6 successfully loaded.
+[02:51:23]   Loaded.
+[02:51:23]  Loading plugin: Whirlpool.dll
+[02:51:23]  
+[02:51:24]  ==================
+[02:51:24]  
+[02:51:24]   Whirlpool loaded
+[02:51:24]  
+[02:51:24]  ==================
+[02:51:24]  
+[02:51:24]   Loaded.
+[02:51:24]  Loading plugin: SKY.dll
+[02:51:24] 
+[02:51:25]  ===============================
+[02:51:25]    
+[02:51:25]    < SKY - 2.3.0 >
+[02:51:25]    
+[02:51:25]    (c) 2008 - Present | YSF Maintainers
+[02:51:25]    (c) 2015 | Oscar "Slice" Broman
+[02:51:25]    
+[02:51:25]    Server Version: 0.3.7 R2
+[02:51:25]    Operating System: Windows
+[02:51:25]    Built on: Sep 27 2021 at 23:19:52
+[02:51:26]    
+[02:51:26]  ===============================
+[02:51:26] 
+[02:51:26]   Loaded.
+[02:51:26]  Loading plugin: YSF.dll
+[02:51:26] 
+[02:51:26]  ==============================================
+[02:51:26]  YSF 2.2 (compiled Sep 19 2021 13:01:03) loaded
+[02:51:26]   (c) 2008 Alex "Y_Less" Cole
+[02:51:27]   (c) 2010 - 2018 kurta999
+[02:51:27]   (c) 2018 - 2020 IllidanS4
+[02:51:27]  Server version: 0.3.7 R2-1 or R2-2, Windows
+[02:51:27]  ==============================================
+[02:51:27] 
+[02:51:27]   Loaded.
+[02:51:27]  Loading plugin: nativechecker.dll
+[02:51:27]   Loaded.
+[02:51:28]  Loading plugin: chrono.dll
+[02:51:28]   Loaded.
+[02:51:28]  Loaded 12 plugins.
+
+[02:51:28] 
+[02:51:28] Ban list
+[02:51:28] --------
+[02:51:28]  Loaded: samp.ban
+[02:51:28] 
+[02:51:29] 
+[02:51:29] Filterscripts
+[02:51:29] ---------------
+[02:51:29]   Loading filterscript 'Mappings.amx'...
+[02:51:29] [sv:dbg:main:AmxLoad] : net game pointer (value:024B9CA0) received
+[02:51:29] [sv:dbg:network:bind] : voice server running on port 49287
+[02:51:29]   Loading filterscript 'anti-cleo.amx'...
+[02:51:29] [Pawn.CMD] DoAmxLoadImpl: Mismatch between the plugin (3.3.6) and include (0.1.58) versions
+[02:51:29]  
+[02:51:29]  
+[02:51:29]  
+[02:51:29]  ======================================= 
+[02:51:29]  |                                     | 
+[02:51:29]  |        YSI version 3.09.0684        | 
+[02:51:29]  |        By Alex "Y_Less" Cole        | 
+[02:51:29]  |                                     | 
+[02:51:29]  ======================================= 
+[02:51:29]  
+[02:51:29]   Loaded 2 filterscripts.
+
+[02:51:29] [Pawn.CMD] DoAmxLoadImpl: Mismatch between the plugin (3.3.6) and include (0.0.0) versions
+[02:51:29] *** Streamer Plugin: The include file version (unknown version) for this script is older than the plugin version (0x295). The script might need to be recompiled with the latest include file.
+[02:51:29]    Error: Function not registered: 'PC_Init'
+[02:51:29]    Error: Function not registered: 'TimeFormat'
+[02:51:29] [debug] Run time error 19: "File or function is not found"
+[02:51:29] [debug]  PC_Init
+[02:51:29] ——————————————————
+[02:51:29] |
+[02:51:29] |
+[02:51:29] |.    Anti Cleo key by !60hz#3524
+[02:51:29] |
+[02:51:29] |
+[02:51:29] ——————————————————
+[02:51:29] [debug] Run time error 19: "File or function is not found"
+[02:51:29] [debug]  PC_Init
+[02:51:29] Script[gamemodes/ATRP.amx]: Run time error 19: "File or function is not found"
+[02:51:29] Number of vehicle models: 0
+[02:51:55]  -------------------------------------------
+[02:51:55]            SampVoice unloading...           
+[02:51:55]  -------------------------------------------
+[02:51:55] [dbg:raknet:free] : module releasing...
+[02:51:55] [dbg:raknet:free] : module released
+[02:51:55] [sv:dbg:network:free] : module releasing...
+[02:51:55] [sv:dbg:network:free] : module released
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[02:52:38] password = ""  (string)
+[02:52:38] weburl = "www.sa-mp.com"  (string)
+[02:52:38] 
+[02:52:38] Server Plugins
+[02:52:38] --------------
+[02:52:38]  Loading plugin: crashdetect.dll
+[02:52:38]   CrashDetect plugin 4.21
+[02:52:38]   Loaded.
+[02:52:38]  Loading plugin: pawncmd.dll
+[02:52:38] [Pawn.CMD] plugin v3.3.6 loading...
+[02:52:38] [Pawn.CMD] 
+
+    | Pawn.CMD 3.3.6 | 2016 - 2021
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Sep 26 2021 at 11:55:10
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[02:52:38]   Loaded.
+[02:52:38]  Loading plugin: sampvoice.dll
+[02:52:38] [sv:dbg:network:init] : module initializing...
+[02:52:38] [dbg:raknet:init] : module initializing...
+[02:52:38] [dbg:raknet:init] : module initialized
+[02:52:38] [sv:dbg:network:init] : module initialized
+[02:52:38] [sv:dbg:main:Load] : creating 4 work threads...
+[02:52:38]  -------------------------------------------    
+[02:52:38]    ___                __   __    _              
+[02:52:38]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[02:52:38]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[02:52:38]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[02:52:38]                   |_|                           
+[02:52:38]  -------------------------------------------    
+[02:52:38]            SampVoice by MOR loaded              
+[02:52:38]  -------------------------------------------    
+[02:52:38]   Loaded.
+[02:52:38]  Loading plugin: discord-connector.dll
+[02:52:42]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[02:52:42]   Loaded.
+[02:52:42]  Loading plugin: samp_prot.dll
+[02:52:42]   Failed.
+[02:52:42]  Loading plugin: sscanf.dll
+[02:52:42] 
+
+[02:52:42]  ===============================
+
+[02:52:42]       sscanf plugin loaded.     
+
+[02:52:42]          Version:  2.8.3        
+
+[02:52:42]   (c) 2018 Alex "Y_Less" Cole  
+
+[02:52:42]  ===============================
+
+[02:52:42]   Loaded.
+[02:52:42]  Loading plugin: streamer.dll
+[02:52:42] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[02:52:42]   Loaded.
+[02:52:42]  Loading plugin: mysql.dll
+[02:52:42]  >> plugin.mysql: R39-6 successfully loaded.
+[02:52:42]   Loaded.
+[02:52:42]  Loading plugin: Whirlpool.dll
+[02:52:42]  
+[02:52:42]  ==================
+[02:52:43]  
+[02:52:43]   Whirlpool loaded
+[02:52:43]  
+[02:52:43]  ==================
+[02:52:43]  
+[02:52:43]   Loaded.
+[02:52:43]  Loading plugin: SKY.dll
+[02:52:43] 
+[02:52:43]  ===============================
+[02:52:43]    
+[02:52:43]    < SKY - 2.3.0 >
+[02:52:43]    
+[02:52:43]    (c) 2008 - Present | YSF Maintainers
+[02:52:43]    (c) 2015 | Oscar "Slice" Broman
+[02:52:43]    
+[02:52:43]    Server Version: 0.3.7 R2
+[02:52:43]    Operating System: Windows
+[02:52:43]    Built on: Sep 27 2021 at 23:19:52
+[02:52:43]    
+[02:52:43]  ===============================
+[02:52:43] 
+[02:52:43]   Loaded.
+[02:52:43]  Loading plugin: YSF.dll
+[02:52:43] 
+[02:52:43]  ==============================================
+[02:52:43]  YSF 2.2 (compiled Sep 19 2021 13:01:03) loaded
+[02:52:43]   (c) 2008 Alex "Y_Less" Cole
+[02:52:43]   (c) 2010 - 2018 kurta999
+[02:52:43]   (c) 2018 - 2020 IllidanS4
+[02:52:43]  Server version: 0.3.7 R2-1 or R2-2, Windows
+[02:52:43]  ==============================================
+[02:52:43] 
+[02:52:43]   Loaded.
+[02:52:43]  Loading plugin: nativechecker.dll
+[02:52:43]   Loaded.
+[02:52:43]  Loading plugin: chrono.dll
+[02:52:43]   Loaded.
+[02:52:43]  Loaded 12 plugins.
+
+[02:52:43] 
+[02:52:43] Ban list
+[02:52:43] --------
+[02:52:43]  Loaded: samp.ban
+[02:52:43] 
+[02:52:43] 
+[02:52:43] Filterscripts
+[02:52:43] ---------------
+[02:52:43]   Loading filterscript 'Mappings.amx'...
+[02:52:43] [sv:dbg:main:AmxLoad] : net game pointer (value:02389CA0) received
+[02:52:43] [sv:dbg:network:bind] : voice server running on port 49288
+[02:52:43]   Loading filterscript 'anti-cleo.amx'...
+[02:52:43] [Pawn.CMD] DoAmxLoadImpl: Mismatch between the plugin (3.3.6) and include (0.1.58) versions
+[02:52:43]  
+[02:52:43]  
+[02:52:43]  
+[02:52:43]  ======================================= 
+[02:52:43]  |                                     | 
+[02:52:43]  |        YSI version 3.09.0684        | 
+[02:52:43]  |        By Alex "Y_Less" Cole        | 
+[02:52:43]  |                                     | 
+[02:52:43]  ======================================= 
+[02:52:43]  
+[02:52:43]   Loaded 2 filterscripts.
+
+[02:52:44] *** Streamer Plugin: The plugin version (0x295) is older than the include file version (0x296) for this script. The plugin might need to be updated to the latest version.
+[02:52:44]    Error: Function not registered: 'TimeFormat'
+[02:52:44]  
+[02:52:44] --------------------------------------
+[02:52:44]  Anticheat Nex-AC loaded!
+[02:52:44]  Anticheat version: 1.9.52
+[02:52:44]  Author: Nexius
+[02:52:44] --------------------------------------
+
+[02:52:44]  
+[02:52:44]  
+[02:52:44]  
+[02:52:44]  ======================================= 
+[02:52:44]  |                                     | 
+[02:52:44]  |        YSI version 3.09.0684        | 
+[02:52:44]  |        By Alex "Y_Less" Cole        | 
+[02:52:44]  |                                     | 
+[02:52:44]  ======================================= 
+[02:52:44]  
+[02:52:44] Couldn't connect to radio station database... server will continue to operate normally.
+[02:52:44] 
+************************************************************************************************************************
+[02:52:44]  					Asian Town Roleplay Version - AT:RP v3.0.0                                                                    
+[02:52:44]  					 Last Update game version - AT:RP v3.0.0                                                                
+[02:52:44] ************************************************************************************************************************
+
+[02:52:44] [LoadAntiCheat] Loading data from database...
+[02:52:44] 75 objects loaded.
+[02:52:44] Asian Town Roleplay
+[02:52:44] ——————————————————
+[02:52:44] |
+[02:52:44] |
+[02:52:44] |.    Anti Cleo key by !60hz#3524
+[02:52:44] |
+[02:52:44] |
+[02:52:44] ——————————————————
+[02:52:44] Number of vehicle models: 20
+[02:52:46] [Script] 199 houses loaded.
+[02:52:46] [Script] 6 garages loaded.
+[02:52:47] [Script] 50 businesses loaded.
+[02:52:47] [Script] 39 entrances loaded.
+[02:52:47] [Script] 8 factions loaded.
+[02:52:47] [Script] 0 lands loaded.
+[02:52:47] [Script] 5 gangs loaded.
+[02:52:47] [Script] 10 points Loaded.
+[02:52:47] [Script] 20 turfs Loaded.
+[02:52:47] [Script] 27 Actors loaded.
+[02:52:47] [Script] 2 deliver patient loaded.
+[02:52:47] [Vendor] 0 loaded.
+[02:52:47] [Graffities] Loaded - 9. Total - 9. Time: 0 ms
+[02:52:47] [BillBoards] No records found.
+[02:52:47] [Fuel Station] 36 loaded.
+[02:52:47] [Script] 1 Arrest Point loaded.
+[02:52:47] [Faction Vehicle] 15 loaded.
+[02:52:47] [Faction Garage] 7 loaded.
+[02:52:47] [ATM] 15 loaded.
+[02:52:47] [Script] 0 rent vehicle loaded.
+[02:52:47] [ANTICHEAT]: Anti-cheat settings loaded successfully (loaded: 53). Time: 0 мс.
+[03:25:46] [connection] incoming connection: 115.164.81.95:16157 id: 0
+[03:25:47] [sv:dbg:network:connect] : connecting player (0) with address (115.164.81.95) ...
+[03:25:47] [sv:dbg:network:connect] : player (0) assigned key (a1e056d)
+[03:25:47] [join] Mclee_Kush has joined the server (0:115.164.81.95)
+[03:25:47] > {FFFFFF}Mclee Kush has joined the server [{FFFFFF}IP:{FFFFFF} 115.164.81.95] [City: Kuala Lumpur] [Country: Malaysia]
+[03:25:47] [sv:dbg:network:receive] : player (0) identified (port:16171)
+[03:26:44] [sv:dbg:network:connect] : disconnecting player (0) ...
+[03:26:44] [part] Mclee_Kush has left the server (0:2)
+[03:27:39] [connection] incoming connection: 115.164.81.95:16135 id: 0
+[03:27:40] [sv:dbg:network:connect] : connecting player (0) with address (115.164.81.95) ...
+[03:27:40] [sv:dbg:network:connect] : player (0) assigned key (a224ad94)
+[03:27:40] [join] Mclee_Kush has joined the server (0:115.164.81.95)
+[03:27:40] > {FFFFFF}Mclee Kush has joined the server [{FFFFFF}IP:{FFFFFF} 115.164.81.95] [City: Kuala Lumpur] [Country: Malaysia]
+[03:27:40] [sv:dbg:network:receive] : player (0) identified (port:16162)
+[03:28:30] [sv:dbg:network:connect] : disconnecting player (0) ...
+[03:28:30] [part] Mclee_Kush has left the server (0:0)
+[03:32:04] [connection] incoming connection: 115.164.81.95:16126 id: 0
+[03:32:05] [sv:dbg:network:connect] : connecting player (0) with address (115.164.81.95) ...
+[03:32:05] [sv:dbg:network:connect] : player (0) assigned key (87525ed8)
+[03:32:05] [join] Mclee_Kush has joined the server (0:115.164.81.95)
+[03:32:05] > {FFFFFF}Mclee Kush has joined the server [{FFFFFF}IP:{FFFFFF} 115.164.81.95] [City: Kuala Lumpur] [Country: Malaysia]
+[03:32:05] [sv:dbg:network:receive] : player (0) identified (port:16127)
+[03:32:30] [sv:dbg:network:connect] : disconnecting player (0) ...
+[03:32:30] [part] Mclee_Kush has left the server (0:0)
+[03:34:39] [connection] incoming connection: 213.166.134.202:55711 id: 0
+[03:34:54] [connection] incoming connection: 213.166.134.202:55847 id: 0
+[03:34:55] [sv:dbg:network:connect] : connecting player (0) with address (213.166.134.202) ...
+[03:34:55] [sv:dbg:network:connect] : player (0) assigned key (ddcb6ea2)
+[03:34:55] [join] Ms_M has joined the server (0:213.166.134.202)
+[03:34:55] > {FFFFFF}Ms M has joined the server [{FFFFFF}IP:{FFFFFF} 213.166.134.202] [City: Dammam] [Country: Saudi Arabia]
+[03:34:56] [sv:dbg:network:receive] : player (0) identified (port:55207)
+[03:35:11] [sv:dbg:network:connect] : disconnecting player (0) ...
+[03:35:11] [part] Ms_M has left the server (0:0)
+[03:35:33] [connection] incoming connection: 213.166.134.202:55731 id: 0
+[03:35:34] [sv:dbg:network:connect] : connecting player (0) with address (213.166.134.202) ...
+[03:35:34] [sv:dbg:network:connect] : player (0) assigned key (19a5ea9e)
+[03:35:34] [join] Ms_M has joined the server (0:213.166.134.202)
+[03:35:34] > {FFFFFF}Ms M has joined the server [{FFFFFF}IP:{FFFFFF} 213.166.134.202] [City: Dammam] [Country: Saudi Arabia]
+[03:35:35] [sv:dbg:network:receive] : player (0) identified (port:54611)
+[03:35:53] [sv:dbg:network:connect] : disconnecting player (0) ...
+[03:35:53] [part] Ms_M has left the server (0:2)
+[03:36:37] [connection] incoming connection: 213.166.134.202:57444 id: 0
+[03:36:39] [sv:dbg:network:connect] : connecting player (0) with address (213.166.134.202) ...
+[03:36:39] [sv:dbg:network:connect] : player (0) assigned key (d578cac2)
+[03:36:39] [join] Ms_M has joined the server (0:213.166.134.202)
+[03:36:39] > {FFFFFF}Ms M has joined the server [{FFFFFF}IP:{FFFFFF} 213.166.134.202] [City: Dammam] [Country: Saudi Arabia]
+[03:36:39] [sv:dbg:network:receive] : player (0) identified (port:58464)
+[03:38:29] [sv:dbg:network:connect] : disconnecting player (0) ...
+[03:38:29] [part] Ms_M has left the server (0:0)
+[03:38:57] [connection] incoming connection: 213.166.134.202:55940 id: 0
+[03:38:59] [sv:dbg:network:connect] : connecting player (0) with address (213.166.134.202) ...
+[03:38:59] [sv:dbg:network:connect] : player (0) assigned key (c1face04)
+[03:38:59] [join] Sachi_Lee has joined the server (0:213.166.134.202)
+[03:38:59] > {FFFFFF}Sachi Lee has joined the server [{FFFFFF}IP:{FFFFFF} 213.166.134.202] [City: Dammam] [Country: Saudi Arabia]
+[03:38:59] [sv:dbg:network:receive] : player (0) identified (port:55057)
+[03:39:50] [sv:dbg:network:connect] : disconnecting player (0) ...
+[03:39:50] [part] Sachi_Lee has left the server (0:2)
+[03:41:00] [connection] incoming connection: 213.166.134.202:55074 id: 0
+[03:41:02] [sv:dbg:network:connect] : connecting player (0) with address (213.166.134.202) ...
+[03:41:02] [sv:dbg:network:connect] : player (0) assigned key (4308da13)
+[03:41:02] [join] Sachi_Lee has joined the server (0:213.166.134.202)
+[03:41:02] > {FFFFFF}Sachi Lee has joined the server [{FFFFFF}IP:{FFFFFF} 213.166.134.202] [City: Dammam] [Country: Saudi Arabia]
+[03:41:02] [sv:dbg:network:receive] : player (0) identified (port:57629)
+[03:41:33] SERVER: Sachi Lee has logged in as a {eb4034}{40455e}Community Developer{ffffff}{FFFFFF}.
+[03:42:39] [cmd] Sachi Lee: [a]
+[03:42:52] [cmd] Sachi Lee: [settime]
+[03:43:01] [cmd] Sachi Lee: [goto]
+[03:45:29] [cmd] Sachi Lee: [piss]
+[03:45:44] [cmd] Sachi Lee: [help]
+[03:46:06] [cmd] Sachi Lee: [stopani]
+[03:47:21] [connection] incoming connection: 131.226.106.150:60380 id: 1
+[03:47:22] [sv:dbg:network:connect] : connecting player (1) with address (131.226.106.150) ...
+[03:47:22] [sv:dbg:network:connect] : player (1) assigned key (c39f2ae)
+[03:47:22] [join] Kikashi_Nachi has joined the server (1:131.226.106.150)
+[03:47:22] > {FFFFFF}Kikashi Nachi has joined the server [{FFFFFF}IP:{FFFFFF} 131.226.106.150] [City: Philippines] [Country: Philippines]
+[03:47:23] [sv:dbg:network:receive] : player (1) identified (port:61534)
+[03:47:43] SERVER: Kikashi Nachi has logged in as a {eb4034}{40455e}Community Developer{ffffff}{FFFFFF}.
+[03:47:54] [cmd] Kikashi Nachi: [deleteaccount]
+[03:48:03] [cmd] Kikashi Nachi: [deleteaccount]
+[03:48:03] AdmCmd: Kikashi_Nachi has deleted Mclee_Kush's account.
+[03:49:25] [cmd] Sachi Lee: [a]
+[03:49:48] [cmd] Kikashi Nachi: [a]
+[03:49:50] [chat] [Sachi_Lee]: pano ulet mag change pass
+[03:49:58] [cmd] Kikashi Nachi: [changepass]
+[03:49:59] [chat] [Sachi_Lee]: ahh cge
+[03:50:07] [cmd] Sachi Lee: [changepass]
+[03:50:18] [chat] [Kikashi_Nachi]: . /changepass if naka login
+[03:51:01] [cmd] Sachi Lee: [a]
+[03:51:12] [cmd] Sachi Lee: [a]
+[03:51:18] [cmd] Kikashi Nachi: [a]
+[03:51:24] [chat] [Sachi_Lee]: mga mappings lng babaguhin
+[03:51:30] [cmd] Kikashi Nachi: [a]
+[03:51:34] [chat] [Sachi_Lee]: kulit kc
+[03:51:37] [chat] [Kikashi_Nachi]: oo
+[03:51:52] [chat] [Kikashi_Nachi]: at pa beta din to baka may mga bugs na hindi natin nalalaman
+[03:52:01] [chat] [Kikashi_Nachi]: kaya maganda sana papasok na tayo habang maaga pa
+[03:52:22] [chat] [Kikashi_Nachi]: if mag papa map kayo sakin nalang kayo mag pa map
+[03:52:51] [chat] [Sachi_Lee]: cge cge 
+[03:53:01] [debug] Run time error 4: "Array index out of bounds"
+[03:53:01] [debug]  Attempted to read/write array element at negative index -1
+[03:53:01] [debug] AMX backtrace:
+[03:53:01] [debug] #0 001bf70c in public WC_OnPlayerKeyStateChange (1, 262144, 0) in ATRP.amx
+[03:53:01] [debug] #1 00058440 in public CB_OnPlayerKeyStateChange (1, 262144, 0) in ATRP.amx
+[03:53:01] [debug] #2 0004cd68 in public ac_OnPlayerKeyStateChange (1, 262144, 0) in ATRP.amx
+[03:53:01] [debug] #3 0001c9e8 in public OnPlayerKeyStateChange (1, 262144, 0) in ATRP.amx
+[03:53:04] [chat] [Sachi_Lee]: yan na pasok na mc
+[03:53:12] [chat] [Sachi_Lee]: ni reset mo ba accnt nya
+[03:53:24] [chat] [Sachi_Lee]: set mo nlng sya
+[03:53:28] [cmd] Kikashi Nachi: [a]
+[03:53:33] [chat] [Sachi_Lee]: hahaha
+[03:53:51] [cmd] Kikashi Nachi: [a]
+[03:54:00] [cmd] Kikashi Nachi: [a]
+[03:54:12] [cmd] Sachi Lee: [a]
+[03:54:36] [cmd] Sachi Lee: [a]
+[03:54:54] [chat] [Sachi_Lee]: rinig ba
+[03:54:57] [cmd] Sachi Lee: [settings]
+[03:54:59] [cmd] Kikashi Nachi: [a]
+[03:55:17] [chat] [Sachi_Lee]: awww
+[03:55:31] [chat] [Kikashi_Nachi]: asan na si mclee hahaha
+[03:55:45] [chat] [Sachi_Lee]: tagal nga nsa kabet pa nya hahaha
+[03:56:08] [chat] [Kikashi_Nachi]: hahaha
+[03:56:11] [chat] [Kikashi_Nachi]: sino
+[03:56:31] [chat] [Sachi_Lee]: sus kunwari dmo alam hahaha
+[03:56:44] [chat] [Kikashi_Nachi]: diko alam
+[03:56:51] [chat] [Kikashi_Nachi]: hahaha
+[03:56:52] [chat] [Sachi_Lee]: hahahaha
+[03:57:29] [chat] [Sachi_Lee]: magkano mappings sau
+[03:57:49] [chat] [Kikashi_Nachi]: depende ata yan sa lake e
+[03:59:00] [chat] [Sachi_Lee]: yan na papasok na
+[03:59:03] [connection] incoming connection: 115.164.81.95:16171 id: 2
+[03:59:03] [sv:dbg:network:connect] : connecting player (2) with address (115.164.81.95) ...
+[03:59:03] [sv:dbg:network:connect] : player (2) assigned key (d1198cc)
+[03:59:03] [join] Mclee_Kush has joined the server (2:115.164.81.95)
+[03:59:03] > {FFFFFF}Mclee Kush has joined the server [{FFFFFF}IP:{FFFFFF} 115.164.81.95] [City: Kuala Lumpur] [Country: Malaysia]
+[03:59:03] [sv:dbg:network:receive] : player (2) identified (port:16168)
+[03:59:08] [chat] [Kikashi_Nachi]: ayan
+[03:59:17] [chat] [Kikashi_Nachi]: ayan na baby love mo
+[03:59:23] [chat] [Sachi_Lee]: aguy hahaha
+[03:59:30] [chat] [Kikashi_Nachi]: hahah
+[03:59:37] [chat] [Sachi_Lee]: buti ka pa napupunthan mo
+[03:59:42] [chat] [Sachi_Lee]: kht malayo
+[03:59:49] [chat] [Kikashi_Nachi]: wala yung sakin e nasa itaas ng mapa ng Pinas
+[03:59:59] [chat] [Sachi_Lee]: arruuyyy hahaha
+[04:00:13] [chat] [Kikashi_Nachi]: hahaha awit sa napupuntahan diko pa nga nakikita yon
+[04:00:23] [chat] [Sachi_Lee]: hahahaha
+[04:00:27] AdmCmd: Kikashi Nachi has made Mclee Kush a {C949FD}Head Administrator{ffffff} (7).
+[04:00:27] [cmd] Kikashi Nachi: [ma]
+[04:00:31] AdmCmd: Kikashi Nachi has made Mclee Kush a {E69138}Community Owner{ffffff} (9).
+[04:00:31] [cmd] Kikashi Nachi: [ma]
+[04:00:34] [chat] [Sachi_Lee]: sbi mo dati puntahan mo
+[04:00:35] AdmCmd: Kikashi Nachi has made Mclee Kush a {40455e}Community Developer{ffffff} (10).
+[04:00:35] [cmd] Kikashi Nachi: [ma]
+[04:00:41] [cmd] Mclee Kush: [a]
+[04:00:47] [cmd] Sachi Lee: [a]
+[04:00:47] [cmd] Kikashi Nachi: [a]
+[04:00:55] [cmd] Mclee Kush: [a]
+[04:00:57] [cmd] Sachi Lee: [a]
+[04:01:02] [cmd] Kikashi Nachi: [a]
+[04:01:11] [cmd] Sachi Lee: [a]
+[04:01:20] [cmd] Mclee Kush: [a]
+[04:01:24] [cmd] Mclee Kush: [verify]
+[04:01:41] [chat] [Sachi_Lee]: db kya ka maaga nun gumisinh
+[04:01:47] [chat] [Sachi_Lee]: sbi mo pupuntahan mo
+[04:02:06] [chat] [Kikashi_Nachi]: sira pumupunta ako sa church non
+[04:02:07] [cmd] Sachi Lee: [listenpm]
+[04:02:18] [chat] [Sachi_Lee]: hahahaha aba banal
+[04:02:20] [chat] [Kikashi_Nachi]: baka biniro lang kita non hahaha
+[04:02:25] [chat] [Kikashi_Nachi]: syempre
+[04:02:27] [chat] [Sachi_Lee]: hahaha ewan sau
+[04:02:39] [chat] [Sachi_Lee]: inc kba
+[04:02:48] [chat] [Kikashi_Nachi]: alam oh
+[04:02:51] [cmd] Mclee Kush: [a]
+[04:02:59] [chat] [Sachi_Lee]: puntahan ntin
+[04:03:02] [cmd] Kikashi Nachi: [a]
+[04:03:12] [cmd] Sachi Lee: [goto]
+[04:03:17] [chat] [Kikashi_Nachi]: saka na hahaha
+[04:03:17] [cmd] Mclee Kush: [a]
+[04:03:28] [chat] [Mclee_Kush]: hahha
+[04:03:37] [cmd] Kikashi Nachi: [a]
+[04:03:38] [chat] [Sachi_Lee]: angas pa din gm ntin
+[04:03:43] [chat] [Mclee_Kush]: wag na pla natin ibahin to ok na to
+[04:03:47] [chat] [Sachi_Lee]: hi sir welcome
+[04:03:51] [chat] [Sachi_Lee]: verify npo kau
+[04:03:53] AdmCmd: Kikashi Nachi has cleared the chat box.
+[04:03:53] [cmd] Kikashi Nachi: [cc]
+[04:03:55] [chat] [Mclee_Kush]: hahaa
+[04:03:58] [cmd] Mclee Kush: [cmc]
+[04:03:59] [chat] [Sachi_Lee]: hahaha
+[04:04:01] [cmd] Kikashi Nachi: [a]
+[04:04:07] [chat] [Sachi_Lee]: sir nanakit ka mg verify kna
+[04:04:09] [cmd] Kikashi Nachi: [a]
+[04:04:15] [cmd] Mclee Kush: [a]
+[04:04:30] [cmd] Sachi Lee: [changepass]
+[04:04:39] [chat] [Sachi_Lee]: nag changpass kna
+[04:04:40] [cmd] Mclee Kush: [a]
+[04:04:47] [chat] [Mclee_Kush]: nag reset akin
+[04:04:52] [chat] [Sachi_Lee]: ahhh
+[04:05:10] [chat] [Mclee_Kush]: out muna tau gagawa ako list
+[04:05:13] [chat] [Sachi_Lee]: ganda pa rin gm ntin no
+[04:05:19] [chat] [Mclee_Kush]: oum
+[04:05:20] [chat] [Sachi_Lee]: list ng
+[04:05:24] [chat] [Mclee_Kush]: nito
+[04:05:29] [chat] [Mclee_Kush]: ng ibago
+[04:05:29] [chat] [Sachi_Lee]: cge cge
+[04:05:34] [cmd] Kikashi Nachi: [a]
+[04:05:34] [chat] [Mclee_Kush]: tra na
+[04:05:38] [chat] [Sachi_Lee]: pm mo nlng aq
+[04:05:41] [cmd] Mclee Kush: [a]
+[04:05:55] [chat] [Sachi_Lee]: dka mka verify
+[04:05:55] [sv:dbg:network:connect] : disconnecting player (2) ...
+[04:05:55] [part] Mclee_Kush has left the server (2:0)
+[04:06:13] [sv:dbg:network:connect] : disconnecting player (0) ...
+[04:06:13] [part] Sachi_Lee has left the server (0:0)
+[04:06:26] [sv:dbg:network:connect] : disconnecting player (1) ...
+[04:06:26] [part] Kikashi_Nachi has left the server (1:0)
+[05:05:30] [connection] incoming connection: 115.164.81.95:16157 id: 0
+[05:05:31] [sv:dbg:network:connect] : connecting player (0) with address (115.164.81.95) ...
+[05:05:31] [sv:dbg:network:connect] : player (0) assigned key (fd91bd15)
+[05:05:31] [join] Mclee_Kush has joined the server (0:115.164.81.95)
+[05:05:31] > {FFFFFF}Mclee Kush has joined the server [{FFFFFF}IP:{FFFFFF} 115.164.81.95] [City: Kuala Lumpur] [Country: Malaysia]
+[05:05:31] [sv:dbg:network:receive] : player (0) identified (port:16149)
+[05:05:46] SERVER: Mclee Kush has logged in as a {eb4034}{40455e}Community Developer{ffffff}{FFFFFF}.
+[05:05:57] [cmd] Mclee Kush: [settings]
+[05:07:06] [sv:dbg:network:connect] : disconnecting player (0) ...
+[05:07:06] [part] Mclee_Kush has left the server (0:0)
+[05:07:22] [connection] incoming connection: 115.164.81.95:16141 id: 0
+[05:07:23] [sv:dbg:network:connect] : connecting player (0) with address (115.164.81.95) ...
+[05:07:23] [sv:dbg:network:connect] : player (0) assigned key (946cee81)
+[05:07:23] [join] Kikashi_Nachi has joined the server (0:115.164.81.95)
+[05:07:23] > {FFFFFF}Kikashi Nachi has joined the server [{FFFFFF}IP:{FFFFFF} 115.164.81.95] [City: Kuala Lumpur] [Country: Malaysia]
+[05:07:23] [sv:dbg:network:receive] : player (0) identified (port:16155)
+[05:07:34] SERVER: Kikashi Nachi has logged in as a {eb4034}{40455e}Community Developer{ffffff}{FFFFFF}.
+[05:08:05] [cmd] Kikashi Nachi: [settime]
+[05:09:48] AdmCmd: Kikashi Nachi has made Kikashi Nachi a Chief Advisor  in Asian Medical Department.
+[05:09:48] [cmd] Kikashi Nachi: [setfaction]
+[05:10:49] AdmCmd: Kikashi Nachi spawned a NRG-500.
+[05:10:49] [cmd] Kikashi Nachi: [veh]
+[05:14:18] [cmd] Kikashi Nachi: [settings]
+[05:16:59] [cmd] Kikashi Nachi: [cmc]
+[05:17:22] [sv:dbg:network:connect] : disconnecting player (0) ...
+[05:17:22] [part] Kikashi_Nachi has left the server (0:0)
+[05:49:38] [connection] incoming connection: 49.145.116.166:48588 id: 0
+[05:49:39] [sv:dbg:network:connect] : connecting player (0) with address (49.145.116.166) ...
+[05:49:39] [sv:dbg:network:connect] : player (0) assigned key (ee841987)
+[05:49:39] [join] Black_Demon has joined the server (0:49.145.116.166)
+[05:49:39] > {FFFFFF}Black Demon has joined the server [{FFFFFF}IP:{FFFFFF} 49.145.116.166] [City: Cebu City] [Country: Philippines]
+[05:49:39] [sv:dbg:network:receive] : player (0) identified (port:44671)
+[06:05:12] [sv:dbg:network:connect] : disconnecting player (0) ...
+[06:05:12] [part] Black_Demon has left the server (0:2)
+[06:05:53] [connection] incoming connection: 49.145.116.166:52315 id: 0
+[06:05:53] [sv:dbg:network:connect] : connecting player (0) with address (49.145.116.166) ...
+[06:05:53] [sv:dbg:network:connect] : player (0) assigned key (a15f72bf)
+[06:05:53] [join] Black_Demon has joined the server (0:49.145.116.166)
+[06:05:53] > {FFFFFF}Black Demon has joined the server [{FFFFFF}IP:{FFFFFF} 49.145.116.166] [City: Cebu City] [Country: Philippines]
+[06:05:53] [sv:dbg:network:receive] : player (0) identified (port:51767)
+[06:06:47] [sv:dbg:network:connect] : disconnecting player (0) ...
+[06:06:47] [part] Black_Demon has left the server (0:2)
+[06:09:05] [connection] incoming connection: 49.145.116.166:38026 id: 0
+[06:09:05] [sv:dbg:network:connect] : connecting player (0) with address (49.145.116.166) ...
+[06:09:05] [sv:dbg:network:connect] : player (0) assigned key (bf3b98e8)
+[06:09:05] [join] kienth_Lee has joined the server (0:49.145.116.166)
+[06:09:05] > {FFFFFF}kienth Lee has joined the server [{FFFFFF}IP:{FFFFFF} 49.145.116.166] [City: Cebu City] [Country: Philippines]
+[06:09:05] [sv:dbg:network:receive] : player (0) identified (port:41972)
+[06:10:30] [cmd] kienth Lee: [gangs]
+[06:10:39] [cmd] kienth Lee: [gangs]
+[06:11:47] [connection] incoming connection: 115.164.81.95:16133 id: 1
+[06:11:48] [sv:dbg:network:connect] : connecting player (1) with address (115.164.81.95) ...
+[06:11:48] [sv:dbg:network:connect] : player (1) assigned key (8474aa02)
+[06:11:48] [join] Kikashi_Nachi has joined the server (1:115.164.81.95)
+[06:11:48] > {FFFFFF}Kikashi Nachi has joined the server [{FFFFFF}IP:{FFFFFF} 115.164.81.95] [City: Kuala Lumpur] [Country: Malaysia]
+[06:11:48] [sv:dbg:network:receive] : player (1) identified (port:16135)
+[06:12:07] SERVER: Kikashi Nachi has logged in as a {eb4034}{40455e}Community Developer{ffffff}{FFFFFF}.
+[06:12:22] [cmd] Kikashi Nachi: [changepass]
+[06:13:54] [sv:dbg:network:connect] : disconnecting player (0) ...
+[06:13:54] [part] kienth_Lee has left the server (0:0)
+[06:14:23] [connection] incoming connection: 49.145.116.166:49600 id: 0
+[06:14:24] [sv:dbg:network:connect] : connecting player (0) with address (49.145.116.166) ...
+[06:14:24] [sv:dbg:network:connect] : player (0) assigned key (e4edb29c)
+[06:14:24] [join] Black_Demon has joined the server (0:49.145.116.166)
+[06:14:24] > {FFFFFF}Black Demon has joined the server [{FFFFFF}IP:{FFFFFF} 49.145.116.166] [City: Cebu City] [Country: Philippines]
+[06:14:24] [sv:dbg:network:receive] : player (0) identified (port:47583)
+[06:15:31] [cmd] Kikashi Nachi: [changepass]
+[06:16:42] [sv:dbg:network:connect] : disconnecting player (0) ...
+[06:16:42] [part] Black_Demon has left the server (0:2)
+[06:17:04] [connection] incoming connection: 49.145.116.166:40234 id: 0
+[06:17:04] [sv:dbg:network:connect] : connecting player (0) with address (49.145.116.166) ...
+[06:17:04] [sv:dbg:network:connect] : player (0) assigned key (a57b156f)
+[06:17:04] [join] Black_Demon has joined the server (0:49.145.116.166)
+[06:17:04] > {FFFFFF}Black Demon has joined the server [{FFFFFF}IP:{FFFFFF} 49.145.116.166] [City: Cebu City] [Country: Philippines]
+[06:17:05] [sv:dbg:network:receive] : player (0) identified (port:46437)
+[06:18:29] [sv:dbg:network:connect] : disconnecting player (0) ...
+[06:18:29] [part] Black_Demon has left the server (0:0)
+[06:19:09] [connection] incoming connection: 49.145.116.166:50277 id: 0
+[06:19:10] [sv:dbg:network:connect] : connecting player (0) with address (49.145.116.166) ...
+[06:19:10] [sv:dbg:network:connect] : player (0) assigned key (bd359df8)
+[06:19:10] [join] Kienth_Lee has joined the server (0:49.145.116.166)
+[06:19:10] > {FFFFFF}Kienth Lee has joined the server [{FFFFFF}IP:{FFFFFF} 49.145.116.166] [City: Cebu City] [Country: Philippines]
+[06:19:10] [sv:dbg:network:receive] : player (0) identified (port:40032)
+[06:19:54] [cmd] Kienth Lee: [buyint]
+[06:19:55] [cmd] Kikashi Nachi: [makeadmin]
+[06:19:59] [cmd] Kienth Lee: [buy]
+[06:20:00] AdmCmd: Kikashi Nachi has made Kienth Lee a {C949FD}Head Administrator{ffffff} (7).
+[06:20:00] [cmd] Kikashi Nachi: [makeadmin]
+[06:20:02] [cmd] Kienth Lee: [buyint]
+[06:20:07] [cmd] Kienth Lee: [buy]
+[06:20:12] [cmd] Kienth Lee: [buyint]
+[06:20:25] [sv:dbg:network:connect] : disconnecting player (0) ...
+[06:20:25] [sv:dbg:network:connect] : disconnecting player (1) ...
+[06:20:25]  
+[06:20:25] --------------------------------------
+[06:20:25]  Statistics anticheat Nex-AC
+[06:20:25]  Detected and prevented:
+[06:20:25]   28 cheating attempts
+[06:20:25]   0 hacking attempts
+[06:20:25]   0 crashing attempts
+[06:20:25]   0 flooding attempts
+[06:20:25]   0 attacks
+[06:20:25]  Total detected and punished 28 cheaters
+[06:20:25] --------------------------------------
+
+[06:20:37]    Error: Function not registered: 'TimeFormat'
+[06:20:37]  
+[06:20:37] --------------------------------------
+[06:20:37]  Anticheat Nex-AC loaded!
+[06:20:37]  Anticheat version: 1.9.52
+[06:20:37]  Author: Nexius
+[06:20:37] --------------------------------------
+
+[06:20:37]  
+[06:20:37]  
+[06:20:37]  
+[06:20:37]  ======================================= 
+[06:20:37]  |                                     | 
+[06:20:37]  |        YSI version 3.09.0684        | 
+[06:20:37]  |        By Alex "Y_Less" Cole        | 
+[06:20:37]  |                                     | 
+[06:20:37]  ======================================= 
+[06:20:37]  
+[06:20:37] Couldn't connect to radio station database... server will continue to operate normally.
+[06:20:37] 
+************************************************************************************************************************
+[06:20:37]  					Asian Town Roleplay Version - AT:RP v3.0.0                                                                    
+[06:20:37]  					 Last Update game version - AT:RP v3.0.0                                                                
+[06:20:37] ************************************************************************************************************************
+
+[06:20:37] [LoadAntiCheat] Loading data from database...
+[06:20:37] 75 objects loaded.
+[06:20:38] Asian Town Roleplay
+[06:20:38] ——————————————————
+[06:20:38] |
+[06:20:38] |
+[06:20:38] |.    Anti Cleo key by !60hz#3524
+[06:20:38] |
+[06:20:38] |
+[06:20:38] ——————————————————
+[06:20:38] Number of vehicle models: 20
+[06:20:38] > {FFFFFF}Kienth Lee has joined the server [{FFFFFF}IP:{FFFFFF} 49.145.116.166] [City: Cebu City] [Country: Philippines]
+[06:20:38] > {FFFFFF}Kikashi Nachi has joined the server [{FFFFFF}IP:{FFFFFF} 115.164.81.95] [City: Kuala Lumpur] [Country: Malaysia]
+[06:20:38] [Script] 199 houses loaded.
+[06:20:38] [Script] 6 garages loaded.
+[06:20:38] [Script] 50 businesses loaded.
+[06:20:38] [Script] 39 entrances loaded.
+[06:20:38] [Script] 8 factions loaded.
+[06:20:38] [Script] 0 lands loaded.
+[06:20:38] [Script] 5 gangs loaded.
+[06:20:38] [Script] 10 points Loaded.
+[06:20:38] [Script] 20 turfs Loaded.
+[06:20:38] [Script] 27 Actors loaded.
+[06:20:38] [Script] 2 deliver patient loaded.
+[06:20:38] [Vendor] 0 loaded.
+[06:20:38] [Graffities] Loaded - 9. Total - 9. Time: 1 ms
+[06:20:38] [BillBoards] No records found.
+[06:20:38] [Fuel Station] 36 loaded.
+[06:20:38] [Script] 1 Arrest Point loaded.
+[06:20:38] [Faction Vehicle] 15 loaded.
+[06:20:38] [Faction Garage] 7 loaded.
+[06:20:38] [ATM] 15 loaded.
+[06:20:38] [Script] 0 rent vehicle loaded.
+[06:20:38] [ANTICHEAT]: Anti-cheat settings loaded successfully (loaded: 53). Time: 0 мс.
+[06:20:47] [part] Kienth_Lee has left the server (0:0)
+[06:20:48] [part] Kikashi_Nachi has left the server (1:0)
+[06:20:49] [connection] incoming connection: 49.145.116.166:34153 id: 0
+[06:20:50] [sv:dbg:network:connect] : connecting player (0) with address (49.145.116.166) ...
+[06:20:50] [sv:dbg:network:connect] : player (0) assigned key (78ec590d)
+[06:20:50] [join] Kienth_Lee has joined the server (0:49.145.116.166)
+[06:20:50] > {FFFFFF}Kienth Lee has joined the server [{FFFFFF}IP:{FFFFFF} 49.145.116.166] [City: Cebu City] [Country: Philippines]
+[06:20:50] [sv:dbg:network:receive] : player (0) identified (port:39290)
+[06:20:53] [debug] Server crashed due to an unknown error
+[06:20:53] [debug] Native backtrace:
+[06:20:53] [debug] #0 03a7fe17 in ?? () in plugins\YSF.dll
+[06:20:53] [debug] #1 72133e44 in ?? () in plugins\streamer.dll
+[06:20:53] [debug] #2 7213cc13 in ?? () in plugins\streamer.dll
+[06:20:53] [debug] #3 72139973 in ?? () in plugins\streamer.dll
+[06:20:53] [debug] #4 7213e646 in ?? () in plugins\streamer.dll
+[06:20:53] [debug] #5 00469a66 in ?? () in samp-server.exe
+[06:20:53] [debug] #6 0048d4db in ?? () in samp-server.exe
+[06:20:53] [debug] #7 0049b531 in ?? () in samp-server.exe
+[06:20:53] [debug] #8 0049b541 in ?? () in samp-server.exe
+[06:20:53] [debug] Registers:
+[06:20:53] [debug] EAX: 00000000 EBX: 00000000 ECX: 03919f60 EDX: 0019fb78
+[06:20:53] [debug] ESI: 0000004c EDI: 0019fb70 EBP: 0019fb4c ESP: 0019fac0
+[06:20:53] [debug] EIP: 03a7fe17 EFLAGS: 00210206
+[06:20:53] [debug] Stack:
+[06:20:53] [debug] ESP+00000000: 34a22cac 00000060 0000002c 00000000
+[06:20:53] [debug] ESP+00000020: 03a7f1a3 7214f3a8 00000000 0000004c
+[06:20:53] [debug] ESP+00000040: 721489b8 0019fb14 0019fb8c 03c12f00
+[06:20:53] [debug] ESP+00000060: 0000000f 72136391 00000000 72148c48
+[06:20:53] [debug] ESP+00000080: 0019fc94 03aa52b8 ffffffff 0019fb94
+[06:20:53] [debug] ESP+000000a0: 03e36150 0000004c 00000000 03c44218
+[06:20:53] [debug] ESP+000000c0: 00003976 00000000 0000002c 00000000
+[06:20:53] [debug] ESP+000000e0: 0000004c 00000000 00003976 03c44230
+[06:20:53] [debug] ESP+00000100: 03f0a1b4 00000000 773f4e56 00000000
+[06:20:53] [debug] ESP+00000120: 03c4e340 03c4e3a0 03c4e328 03c4f5e8
+[06:20:53] [debug] ESP+00000140: 080b7184 4944fe96 00000000 4944fe96
+[06:20:53] [debug] ESP+00000160: 00000000 00000000 98ed3401 091d7ad0
+[06:20:53] [debug] ESP+00000180: 00000000 007a1788 98ed34a7 00000000
+[06:20:53] [debug] ESP+000001a0: 007c4710 0410a8d8 00000483 0410ab08
+[06:20:53] [debug] ESP+000001c0: 4a8fa0cf 00000000 091d7e74 091d7ad0
+[06:20:53] [debug] ESP+000001e0: 0019fd1c 72139973 091d7ad0 0019fcc4
+[06:20:53] [debug] ESP+00000200: 00000009 08bff868 08bff8b0 08bff8b0
+[06:20:53] [debug] ESP+00000220: 00000000 0104d380 442290e5 c4e747c3
+[06:20:53] [debug] ESP+00000240: 00000000 00000000 00000000 98ed35e3
+[06:20:53] [debug] ESP+00000260: 7213e646 091d7ad0 00000001 98ed36ef
+[06:20:53] [debug] ESP+00000280: 00000000 00000000 0019fdb0 07405e18
+[06:20:53] [debug] ESP+000002a0: aaaf6a58 000202ca 72cedb7b 007a8c20
+[06:20:53] [debug] ESP+000002c0: 72cec917 007a8c18 773f3bf0 00000000
+[06:20:53] [debug] ESP+000002e0: 0019fdb8 72cec99f 007a8c20 72ceca45
+[06:20:53] [debug] ESP+00000300: 007a8c18 6dbb506b 007a8c18 007a1788
+[06:20:53] [debug] ESP+00000320: 007a8c18 00000000 007a8c18 00000001
+[06:20:53] [debug] ESP+00000340: 01d34757 0019fe90 72143916 ffffffff
+[06:20:53] [debug] ESP+00000360: 0048d4db 00000000 000023f0 0019ff74
+[06:20:53] [debug] ESP+00000380: 00001e63 00000190 000019dc 02389ca0
+[06:20:53] [debug] ESP+000003a0: 004c401c 002ac000 004ab530 0019fe5c
+[06:20:53] [debug] ESP+000003c0: ffffffff 0049b531 0049b541 004ab530
+[06:20:53] [debug] ESP+000003e0: 00000001 02381360 023813a8 00000094
+[06:20:53] [debug] Loaded modules:
+[06:20:53] [debug] 00400000 - 00519000 samp-server.exe
+[06:20:53] [debug] 773b0000 - 77558000 ntdll.dll
+[06:20:53] [debug] 76700000 - 767f0000 KERNEL32.DLL
+[06:20:53] [debug] 75470000 - 756b9000 KERNELBASE.dll
+[06:20:53] [debug] 756c0000 - 75c96000 SHELL32.dll
+[06:20:53] [debug] 76aa0000 - 76b1e000 msvcp_win.dll
+[06:20:53] [debug] 76500000 - 76613000 ucrtbase.dll
+[06:20:53] [debug] 76ce0000 - 76e86000 USER32.dll
+[06:20:53] [debug] 76a30000 - 76a4a000 win32u.dll
+[06:20:53] [debug] 75350000 - 75373000 GDI32.dll
+[06:20:53] [debug] 760c0000 - 761a1000 gdi32full.dll
+[06:20:53] [debug] 739a0000 - 739c8000 WINMM.dll
+[06:20:53] [debug] 767f0000 - 768b2000 msvcrt.dll
+[06:20:53] [debug] 74390000 - 74398000 WSOCK32.dll
+[06:20:53] [debug] 77330000 - 77395000 WS2_32.dll
+[06:20:53] [debug] 76000000 - 760bb000 RPCRT4.dll
+[06:20:53] [debug] 75eb0000 - 75ed6000 IMM32.DLL
+[06:20:53] [debug] 73910000 - 73999000 crashdetect.dll
+[06:20:53] [debug] 73890000 - 73901000 MSVCP120.dll
+[06:20:53] [debug] 73500000 - 735ee000 MSVCR120.dll
+[06:20:53] [debug] 73800000 - 73890000 pawncmd.dll
+[06:20:53] [debug] 737d0000 - 737fb000 sampvoice.dll
+[06:20:53] [debug] 737b0000 - 737c5000 VCRUNTIME140.dll
+[06:20:53] [debug] 73490000 - 734fd000 MSVCP140.dll
+[06:20:53] [debug] 74f70000 - 74f82000 kernel.appcore.dll
+[06:20:53] [debug] 72990000 - 72e65000 discord-connector.dll
+[06:20:53] [debug] 76c60000 - 76cdc000 ADVAPI32.dll
+[06:20:53] [debug] 75270000 - 752eb000 sechost.dll
+[06:20:53] [debug] 75d30000 - 75e33000 CRYPT32.dll
+[06:20:53] [debug] 733e0000 - 73485000 log-core2.dll
+[06:20:53] [debug] 733c0000 - 733d5000 CRYPTSP.dll
+[06:20:53] [debug] 73330000 - 7335f000 rsaenh.dll
+[06:20:53] [debug] 74380000 - 7438b000 CRYPTBASE.dll
+[06:20:53] [debug] 76be0000 - 76c42000 bcryptPrimitives.dll
+[06:20:53] [debug] 732d0000 - 73321000 mswsock.dll
+[06:20:53] [debug] 74e40000 - 74ee4000 DNSAPI.dll
+[06:20:53] [debug] 74e10000 - 74e34000 IPHLPAPI.DLL
+[06:20:53] [debug] 76c50000 - 76c57000 NSI.dll
+[06:20:53] [debug] 74d50000 - 74d58000 rasadhlp.dll
+[06:20:53] [debug] 72160000 - 721bb000 fwpuclnt.dll
+[06:20:53] [debug] 10000000 - 1000e000 sscanf.dll
+[06:20:53] [debug] 720f0000 - 72156000 streamer.dll
+[06:20:53] [debug] 720a0000 - 720e4000 mysql.dll
+[06:20:53] [debug] 71b90000 - 7209d000 libmysql.dll
+[06:20:53] [debug] 73390000 - 7339a000 Secur32.dll
+[06:20:53] [debug] 73360000 - 7338a000 SSPICLI.DLL
+[06:20:53] [debug] 733a0000 - 733b2000 napinsp.dll
+[06:20:53] [debug] 732c0000 - 732ce000 winrnr.dll
+[06:20:53] [debug] 732a0000 - 732b9000 nlansp_c.dll
+[06:20:53] [debug] 72970000 - 72981000 wshbth.dll
+[06:20:53] [debug] 03a30000 - 03a3c000 Whirlpool.dll
+[06:20:53] [debug] 71af0000 - 71b8b000 MSVCR80.dll
+[06:20:53] [debug] 710c0000 - 7113d000 SKY.dll
+[06:20:53] [debug] 03a60000 - 03b0b000 YSF.dll
+[06:20:53] [debug] 75380000 - 75469000 ole32.dll
+[06:20:53] [debug] 761b0000 - 76438000 combase.dll
+[06:20:53] [debug] 75f40000 - 75fdc000 OLEAUT32.dll
+[06:20:53] [debug] 73290000 - 73295000 nativechecker.dll
+[06:20:53] [debug] 70a00000 - 70a29000 chrono.dll
+[06:20:53] [debug] 76b20000 - 76bd4000 SHCORE.dll
+[06:20:53] [debug] 76a50000 - 76a9c000 shlwapi.dll
+[06:20:53] [debug] 745a0000 - 74bfb000 windows.storage.dll
+[06:20:53] [debug] 743c0000 - 7443c000 uxtheme.dll
+[06:20:53] [debug] 71030000 - 710b2000 tiptsf.dll
+[06:20:53] [debug] 731c0000 - 73290000 PROPSYS.dll
+[06:20:53] [debug] 751d0000 - 75252000 clbcatq.dll
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[06:34:52] password = ""  (string)
+[06:34:52] weburl = "www.sa-mp.com"  (string)
+[06:34:52] 
+[06:34:52] Server Plugins
+[06:34:52] --------------
+[06:34:52]  Loading plugin: crashdetect.dll
+[06:34:52]   CrashDetect plugin 4.21
+[06:34:52]   Loaded.
+[06:34:52]  Loading plugin: pawncmd.dll
+[06:34:52] [Pawn.CMD] plugin v3.3.6 loading...
+[06:34:52] [Pawn.CMD] 
+
+    | Pawn.CMD 3.3.6 | 2016 - 2021
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Sep 26 2021 at 11:55:10
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[06:34:52]   Loaded.
+[06:34:52]  Loading plugin: sampvoice.dll
+[06:34:52] [sv:dbg:network:init] : module initializing...
+[06:34:52] [dbg:raknet:init] : module initializing...
+[06:34:52] [dbg:raknet:init] : module initialized
+[06:34:52] [sv:dbg:network:init] : module initialized
+[06:34:52] [sv:dbg:main:Load] : creating 4 work threads...
+[06:34:52]  -------------------------------------------    
+[06:34:52]    ___                __   __    _              
+[06:34:52]   / __| __ _ _ __  _ _\ \ / /__ (_) __ ___    
+[06:34:52]   \__ \/ _` | '  \| '_ \   / _ \| |/ _/ -_)
+[06:34:52]   |___/\__,_|_|_|_| .__/\_/\___/|_|\__\___|
+[06:34:52]                   |_|                           
+[06:34:52]  -------------------------------------------    
+[06:34:52]            SampVoice by MOR loaded              
+[06:34:52]  -------------------------------------------    
+[06:34:52]   Loaded.
+[06:34:53]  Loading plugin: discord-connector.dll
+[06:34:56]  >> plugin.dc-connector: v0.3.5 successfully loaded.
+[06:34:56]   Loaded.
+[06:34:56]  Loading plugin: samp_prot.dll
+[06:34:56]   Failed.
+[06:34:56]  Loading plugin: sscanf.dll
+[06:34:56] 
+
+[06:34:56]  ===============================
+
+[06:34:56]       sscanf plugin loaded.     
+
+[06:34:56]          Version:  2.8.3        
+
+[06:34:57]   (c) 2018 Alex "Y_Less" Cole  
+
+[06:34:57]  ===============================
+
+[06:34:57]   Loaded.
+[06:34:57]  Loading plugin: streamer.dll
+[06:34:57] 
+
+*** Streamer Plugin v2.9.6 by Incognito loaded ***
+
+[06:34:57]   Loaded.
+[06:34:57]  Loading plugin: mysql.dll
+[06:34:57]  >> plugin.mysql: R39-6 successfully loaded.
+[06:34:57]   Loaded.
+[06:34:57]  Loading plugin: Whirlpool.dll
+[06:34:57]  
+[06:34:57]  ==================
+[06:34:57]  
+[06:34:57]   Whirlpool loaded
+[06:34:57]  
+[06:34:57]  ==================
+[06:34:57]  
+[06:34:57]   Loaded.
+[06:34:57]  Loading plugin: SKY.dll
+[06:34:57] 
+[06:34:57]  ===============================
+[06:34:57]    
+[06:34:57]    < SKY - 2.3.0 >
+[06:34:57]    
+[06:34:57]    (c) 2008 - Present | YSF Maintainers
+[06:34:57]    (c) 2015 | Oscar "Slice" Broman
+[06:34:57]    
+[06:34:57]    Server Version: 0.3.7 R2
+[06:34:57]    Operating System: Windows
+[06:34:57]    Built on: Sep 27 2021 at 23:19:52
+[06:34:57]    
+[06:34:57]  ===============================
+[06:34:57] 
+[06:34:57]   Loaded.
+[06:34:57]  Loading plugin: YSF.dll
+[06:34:57] 
+[06:34:57]  ==============================================
+[06:34:57]  YSF 2.2 (compiled Sep 19 2021 13:01:03) loaded
+[06:34:57]   (c) 2008 Alex "Y_Less" Cole
+[06:34:57]   (c) 2010 - 2018 kurta999
+[06:34:57]   (c) 2018 - 2020 IllidanS4
+[06:34:57]  Server version: 0.3.7 R2-1 or R2-2, Windows
+[06:34:57]  ==============================================
+[06:34:57] 
+[06:34:57]   Loaded.
+[06:34:57]  Loading plugin: nativechecker.dll
+[06:34:57]   Loaded.
+[06:34:57]  Loading plugin: chrono.dll
+[06:34:57]   Loaded.
+[06:34:57]  Loaded 12 plugins.
+
+[06:34:57] 
+[06:34:57] Ban list
+[06:34:57] --------
+[06:34:57]  Loaded: samp.ban
+[06:34:57] 
+[06:34:57] 
+[06:34:57] Filterscripts
+[06:34:57] ---------------
+[06:34:57]   Loading filterscript 'Mappings.amx'...
+[06:34:57] [sv:dbg:main:AmxLoad] : net game pointer (value:02579CA0) received
+[06:34:57] [sv:dbg:network:bind] : voice server running on port 53626
+[06:34:57]   Loading filterscript 'anti-cleo.amx'...
+[06:34:57] [Pawn.CMD] DoAmxLoadImpl: Mismatch between the plugin (3.3.6) and include (0.1.58) versions
+[06:34:57]  
+[06:34:57]  
+[06:34:57]  
+[06:34:57]  ======================================= 
+[06:34:57]  |                                     | 
+[06:34:57]  |        YSI version 3.09.0684        | 
+[06:34:57]  |        By Alex "Y_Less" Cole        | 
+[06:34:57]  |                                     | 
+[06:34:57]  ======================================= 
+[06:34:57]  
+[06:34:57]   Loaded 2 filterscripts.
+
+[06:34:58] *** Streamer Plugin: The plugin version (0x295) is older than the include file version (0x296) for this script. The plugin might need to be updated to the latest version.
+[06:34:58]    Error: Function not registered: 'TimeFormat'
+[06:34:58]  
+[06:34:58] --------------------------------------
+[06:34:58]  Anticheat Nex-AC loaded!
+[06:34:58]  Anticheat version: 1.9.52
+[06:34:58]  Author: Nexius
+[06:34:58] --------------------------------------
+
+[06:34:58]  
+[06:34:58]  
+[06:34:58]  
+[06:34:58]  ======================================= 
+[06:34:58]  |                                     | 
+[06:34:58]  |        YSI version 3.09.0684        | 
+[06:34:58]  |        By Alex "Y_Less" Cole        | 
+[06:34:58]  |                                     | 
+[06:34:58]  ======================================= 
+[06:34:58]  
+[06:34:58] Couldn't connect to radio station database... server will continue to operate normally.
+[06:34:58] 
+************************************************************************************************************************
+[06:34:58]  					Asian Town Roleplay Version - AT:RP v3.0.0                                                                    
+[06:34:58]  					 Last Update game version - AT:RP v3.0.0                                                                
+[06:34:58] ************************************************************************************************************************
+
+[06:34:58] [LoadAntiCheat] Loading data from database...
+[06:34:58] 75 objects loaded.
+[06:34:58] Asian Town Roleplay
+[06:34:58] ——————————————————
+[06:34:58] |
+[06:34:58] |
+[06:34:58] |.    Anti Cleo key by !60hz#3524
+[06:34:58] |
+[06:34:58] |
+[06:34:58] ——————————————————
+[06:34:58] Number of vehicle models: 20
+[06:35:00] [Script] 199 houses loaded.
+[06:35:00] [Script] 6 garages loaded.
+[06:35:01] [Script] 50 businesses loaded.
+[06:35:01] [Script] 39 entrances loaded.
+[06:35:01] [Script] 8 factions loaded.
+[06:35:01] [Script] 0 lands loaded.
+[06:35:01] [Script] 5 gangs loaded.
+[06:35:01] [Script] 10 points Loaded.
+[06:35:01] [Script] 20 turfs Loaded.
+[06:35:01] [Script] 27 Actors loaded.
+[06:35:01] [Script] 2 deliver patient loaded.
+[06:35:01] [Vendor] 0 loaded.
+[06:35:01] [Graffities] Loaded - 9. Total - 9. Time: 0 ms
+[06:35:01] [BillBoards] No records found.
+[06:35:01] [Fuel Station] 36 loaded.
+[06:35:01] [Script] 1 Arrest Point loaded.
+[06:35:01] [Faction Vehicle] 15 loaded.
+[06:35:01] [Faction Garage] 7 loaded.
+[06:35:01] [ATM] 15 loaded.
+[06:35:01] [Script] 0 rent vehicle loaded.
+[06:35:01] [ANTICHEAT]: Anti-cheat settings loaded successfully (loaded: 53). Time: 0 мс.
+[06:35:52] [connection] incoming connection: 115.164.81.95:16125 id: 0
+[06:35:53] [sv:dbg:network:connect] : connecting player (0) with address (115.164.81.95) ...
+[06:35:53] [sv:dbg:network:connect] : player (0) assigned key (a96917a9)
+[06:35:53] [join] Kikashi_Nachi has joined the server (0:115.164.81.95)
+[06:35:53] > {FFFFFF}Kikashi Nachi has joined the server [{FFFFFF}IP:{FFFFFF} 115.164.81.95] [City: Kuala Lumpur] [Country: Malaysia]
+[06:35:53] [sv:dbg:network:receive] : player (0) identified (port:16124)
+[06:36:11] [sv:dbg:network:connect] : disconnecting player (0) ...
+[06:36:11] [part] Kikashi_Nachi has left the server (0:0)
+[06:54:07] [connection] incoming connection: 49.145.116.166:43304 id: 0
+[06:54:08] [sv:dbg:network:connect] : connecting player (0) with address (49.145.116.166) ...
+[06:54:08] [sv:dbg:network:connect] : player (0) assigned key (ea0e9f3a)
+[06:54:08] [join] Kienth_Lee has joined the server (0:49.145.116.166)
+[06:54:08] > {FFFFFF}Kienth Lee has joined the server [{FFFFFF}IP:{FFFFFF} 49.145.116.166] [City: Cebu City] [Country: Philippines]
+[06:54:08] [sv:dbg:network:receive] : player (0) identified (port:60650)
+[06:55:16] SERVER: Kienth Lee has logged in as a {eb4034}{C949FD}Head Administrator{ffffff}{FFFFFF}.
+[06:55:30] [cmd] Kienth Lee: [cmc]
+[06:58:06] [cmd] Kienth Lee: [sellgun]
+[06:58:13] [cmd] Kienth Lee: [locate]
+[07:00:56] [cmd] Kienth Lee: [quitjob]
+[07:01:12] [cmd] Kienth Lee: [getmats]
+[07:02:07] [cmd] Kienth Lee: [gangs]
+[07:05:05] [cmd] Kienth Lee: [gstash]
+[07:05:41] [cmd] Kienth Lee: [gstash]
+[07:06:14] [cmd] Kienth Lee: [gstash]
+[07:06:42] [cmd] Kienth Lee: [gstash]
+[07:07:19] [cmd] Kienth Lee: [gstash]
+[07:08:03] [cmd] Kienth Lee: [dropgun]
+[07:08:08] [cmd] Kienth Lee: [gstash]
+[07:08:26] [cmd] Kienth Lee: [grabgun]
+[07:08:33] [cmd] Kienth Lee: [gstash]
+[07:08:47] [cmd] Kienth Lee: [gstash]
+[07:09:14] [cmd] Kienth Lee: [gstash]
+[07:09:35] [cmd] Kienth Lee: [gangs]
+[07:10:05] [cmd] Kienth Lee: [setgang]
+[07:10:15] [cmd] Kienth Lee: [gstash]
+[07:10:32] [cmd] Kienth Lee: [gstash]
+[07:10:53] [cmd] Kienth Lee: [gstash]
+[07:11:12] [cmd] Kienth Lee: [gstash]
+[07:12:16] [cmd] Kienth Lee: [gstash]
+[07:14:52] [cmd] Kienth Lee: [gpark]
+[07:15:44] [cmd] Kienth Lee: [ah]
+[07:16:19] [connection] incoming connection: 213.166.134.202:57954 id: 1
+[07:16:25] [sv:dbg:network:connect] : connecting player (1) with address (213.166.134.202) ...
+[07:16:25] [sv:dbg:network:connect] : player (1) assigned key (b1f49375)
+[07:16:25] [join] Sachi_Lee has joined the server (1:213.166.134.202)
+[07:16:25] > {FFFFFF}Sachi Lee has joined the server [{FFFFFF}IP:{FFFFFF} 213.166.134.202] [City: Dammam] [Country: Saudi Arabia]
+[07:16:26] [sv:dbg:network:receive] : player (1) identified (port:58751)
+[07:16:40] SERVER: Sachi Lee has logged in as a {eb4034}{40455e}Community Developer{ffffff}{FFFFFF}.
+[07:18:19] [connection] incoming connection: 115.164.81.95:16127 id: 2
+[07:18:20] [sv:dbg:network:connect] : connecting player (2) with address (115.164.81.95) ...
+[07:18:20] [sv:dbg:network:connect] : player (2) assigned key (d156f432)
+[07:18:20] [join] Kikashi_Nachi has joined the server (2:115.164.81.95)
+[07:18:20] > {FFFFFF}Kikashi Nachi has joined the server [{FFFFFF}IP:{FFFFFF} 115.164.81.95] [City: Kuala Lumpur] [Country: Malaysia]
+[07:18:20] [sv:dbg:network:receive] : player (2) identified (port:16142)
+[07:18:36] SERVER: Kikashi Nachi has logged in as a {eb4034}{40455e}Community Developer{ffffff}{FFFFFF}.
+[07:19:23] [cmd] Kienth Lee: [pedmove]
+[07:19:24] [sv:dbg:network:connect] : disconnecting player (2) ...
+[07:19:24] [part] Kikashi_Nachi has left the server (2:0)
+[07:19:35] [connection] incoming connection: 115.164.81.95:16161 id: 2
+[07:19:35] [sv:dbg:network:connect] : disconnecting player (1) ...
+[07:19:35] [part] Sachi_Lee has left the server (1:0)
+[07:19:36] [sv:dbg:network:connect] : connecting player (2) with address (115.164.81.95) ...
+[07:19:36] [sv:dbg:network:connect] : player (2) assigned key (adbdceaa)
+[07:19:36] [join] Kikashi_Nachi has joined the server (2:115.164.81.95)
+[07:19:36] > {FFFFFF}Kikashi Nachi has joined the server [{FFFFFF}IP:{FFFFFF} 115.164.81.95] [City: Kuala Lumpur] [Country: Malaysia]
+[07:19:36] [sv:dbg:network:receive] : player (2) identified (port:16141)
+[07:19:58] [connection] incoming connection: 213.166.134.202:56296 id: 1
+[07:19:59] [sv:dbg:network:connect] : connecting player (1) with address (213.166.134.202) ...
+[07:19:59] [sv:dbg:network:connect] : player (1) assigned key (b7c1ae0b)
+[07:19:59] [join] Sachi_Lee has joined the server (1:213.166.134.202)
+[07:19:59] > {FFFFFF}Sachi Lee has joined the server [{FFFFFF}IP:{FFFFFF} 213.166.134.202] [City: Dammam] [Country: Saudi Arabia]
+[07:20:00] [sv:dbg:network:receive] : player (1) identified (port:58097)
+[07:20:06] SERVER: Kikashi Nachi has logged in as a {eb4034}{40455e}Community Developer{ffffff}{FFFFFF}.
+[07:20:11] SERVER: Sachi Lee has logged in as a {eb4034}{40455e}Community Developer{ffffff}{FFFFFF}.
+[07:20:38] [cmd] Kikashi Nachi: [cureleg]
+[07:20:44] [cmd] Kikashi Nachi: [cureleg]
+[07:20:46] [cmd] Sachi Lee: [goto]
+[07:21:02] [chat] [Kikashi_Nachi]: haha
+[07:21:10] [cmd] Kikashi Nachi: [god]
+[07:21:12] [chat] [Sachi_Lee]: nyare sa accnt mo
+[07:21:24] [chat] [Kikashi_Nachi]: gamit ko acc
+[07:21:57] [chat] [Sachi_Lee]: nag hahang ig ko pg may mention s dc
+[07:22:03] [cmd] Kienth Lee: [a]
+[07:22:17] [chat] [Sachi_Lee]: set daw alagad mo
+[07:22:22] [cmd] Kikashi Nachi: [a]
+[07:22:41] [chat] [Kikashi_Nachi]: tra
+[07:22:46] [cmd] Kikashi Nachi: [goto]
+[07:22:46] [chat] [Sachi_Lee]: ra
+[07:22:58] [cmd] Sachi Lee: [goto]
+[07:23:10] [cmd] Sachi Lee: [god]
+[07:23:21] [cmd] Sachi Lee: [stopbleeding]
+[07:23:42] [cmd] Kikashi Nachi: [buy]
+[07:23:48] [cmd] Kienth Lee: [stats]
+[07:24:09] [cmd] Kienth Lee: [stats]
+[07:24:36] AdmCmd: Kikashi Nachi has given a jetpack to Kikashi Nachi.
+[07:24:36] [cmd] Kikashi Nachi: [jetpack]
+[07:25:20] [cmd] Kikashi Nachi: [gesture]
+[07:25:22] [cmd] Kienth Lee: [smoke]
+[07:25:27] [cmd] Sachi Lee: [a]
+[07:25:28] [chat] [Kikashi_Nachi]:  /gesture
+[07:25:33] [cmd] Kikashi Nachi: [a]
+[07:25:35] [cmd] Kienth Lee: [gesture]
+[07:25:41] [cmd] Kikashi Nachi: [gesture]
+[07:25:46] [cmd] Kikashi Nachi: [gesture]
+[07:25:55] [cmd] Kienth Lee: [gesture]
+[07:25:58] [cmd] Kikashi Nachi: [gesture]
+[07:26:05] [cmd] Sachi Lee: [goto]
+[07:26:24] [cmd] Kienth Lee: [b]
+[07:26:35] [chat] [Sachi_Lee]: pic
+[07:26:39] [chat] [Sachi_Lee]: pang post
+[07:27:02] [chat] [Kikashi_Nachi]: ?
+[07:27:04] [cmd] Kienth Lee: [crossarms]
+[07:27:23] AdmCmd: Sachi Lee has cleared the chat box.
+[07:27:23] [cmd] Sachi Lee: [cc]
+[07:27:36] [chat] [Kikashi_Nachi]:  /cmc
+[07:27:44] [cmd] Sachi Lee: [cmc]
+[07:29:07] [cmd] Kikashi Nachi: [raffle]
+[07:29:07] [chat] [Kienth_Lee]: mga december 1 up,na
+[07:29:19] [chat] [Kienth_Lee]: tol
+[07:29:20] [cmd] Kikashi Nachi: [a]
+[07:29:33] [cmd] Kikashi Nachi: [raffle]
+[07:29:36] [cmd] Kikashi Nachi: [raffle]
+[07:29:39] [cmd] Kikashi Nachi: [raffle]
+[07:29:41] [cmd] Kikashi Nachi: [raffle]
+[07:29:55] [cmd] Kikashi Nachi: [ah]
+[07:30:33] [sv:dbg:network:connect] : disconnecting player (1) ...
+[07:30:33] [part] Sachi_Lee has left the server (1:0)
+[07:32:22] [cmd] Kikashi Nachi: [settime]
+[07:32:38] [cmd] Kikashi Nachi: [cmc]
+[07:32:48] [cmd] Kienth Lee: [what]
+[07:34:03] [cmd] Kikashi Nachi: [factions]
+[07:34:09] [cmd] Kienth Lee: [factions]
+[07:35:29] AdmCmd: Kikashi Nachi spawned a NRG-500.
+[07:35:29] [cmd] Kikashi Nachi: [veh]
+[07:36:49] [cmd] Kikashi Nachi: [cmc]
+[07:42:00] [chat] [Kienth_Lee]: 12332121
+[07:42:37] [sv:dbg:network:connect] : disconnecting player (2) ...
+[07:42:37] [part] Kikashi_Nachi has left the server (2:0)
+[07:42:45] [connection] incoming connection: 115.164.81.95:16155 id: 1
+[07:42:46] [sv:dbg:network:connect] : connecting player (1) with address (115.164.81.95) ...
+[07:42:46] [sv:dbg:network:connect] : player (1) assigned key (58b030e0)
+[07:42:46] [join] Kikashi_Nachi has joined the server (1:115.164.81.95)
+[07:42:46] > {FFFFFF}Kikashi Nachi has joined the server [{FFFFFF}IP:{FFFFFF} 115.164.81.95] [City: Kuala Lumpur] [Country: Malaysia]
+[07:42:46] [sv:dbg:network:receive] : player (1) identified (port:16137)
+[07:42:59] SERVER: Kikashi Nachi has logged in as a {eb4034}{40455e}Community Developer{ffffff}{FFFFFF}.
+[07:44:48] [cmd] Kikashi Nachi: [hlights]
+[07:44:51] [cmd] Kikashi Nachi: [hlights]
+[07:45:11] [cmd] Kikashi Nachi: [cmc]
+[07:46:38] [sv:dbg:network:connect] : disconnecting player (0) ...
+[07:46:38] [part] Kienth_Lee has left the server (0:0)
+[07:46:57] [sv:dbg:network:connect] : disconnecting player (1) ...
+[07:46:57] [part] Kikashi_Nachi has left the server (1:0)
+[07:47:07] [connection] incoming connection: 49.145.116.166:36559 id: 0
+[07:47:08] [sv:dbg:network:connect] : connecting player (0) with address (49.145.116.166) ...
+[07:47:08] [sv:dbg:network:connect] : player (0) assigned key (2c7c03fb)
+[07:47:08] [join] Kienth_Lee has joined the server (0:49.145.116.166)
+[07:47:08] > {FFFFFF}Kienth Lee has joined the server [{FFFFFF}IP:{FFFFFF} 49.145.116.166] [City: Cebu City] [Country: Philippines]
+[07:47:08] [sv:dbg:network:receive] : player (0) identified (port:48363)
+[07:47:22] SERVER: Kienth Lee has logged in as a {eb4034}{C949FD}Head Administrator{ffffff}{FFFFFF}.
+[07:47:59] [sv:dbg:network:connect] : disconnecting player (0) ...
+[07:47:59] [part] Kienth_Lee has left the server (0:0)
+[11:57:11] [connection] incoming connection: 213.166.134.202:54670 id: 0
+[11:57:12] [sv:dbg:network:connect] : connecting player (0) with address (213.166.134.202) ...
+[11:57:12] [sv:dbg:network:connect] : player (0) assigned key (d45317fe)
+[11:57:12] [join] Sachi_Lee has joined the server (0:213.166.134.202)
+[11:57:12] > {FFFFFF}Sachi Lee has joined the server [{FFFFFF}IP:{FFFFFF} 213.166.134.202] [City: Dammam] [Country: Saudi Arabia]
+[11:57:13] [sv:dbg:network:receive] : player (0) identified (port:53927)
+[11:57:48] SERVER: Sachi Lee has logged in as a {eb4034}{40455e}Community Developer{ffffff}{FFFFFF}.
+[11:57:55] [chat] [Sachi_Lee]: top
+[11:57:59] [cmd] Sachi Lee: [top]
+[11:58:06] [cmd] Sachi Lee: [top]
+[11:58:35] [connection] incoming connection: 124.107.214.78:49796 id: 1
+[11:58:36] [sv:dbg:network:connect] : connecting player (1) with address (124.107.214.78) ...
+[11:58:36] [sv:dbg:network:connect] : player (1) assigned key (a6fca37d)
+[11:58:36] [join] Yuri_Lee has joined the server (1:124.107.214.78)
+[11:58:36] > {FFFFFF}Yuri Lee has joined the server [{FFFFFF}IP:{FFFFFF} 124.107.214.78] [City: Manila] [Country: Philippines]
+[11:58:36] [sv:dbg:network:receive] : player (1) identified (port:43217)
+[11:58:51] [cmd] Sachi Lee: [setstat]
+[11:58:57] [sv:dbg:network:connect] : disconnecting player (1) ...
+[11:58:57] [part] Yuri_Lee has left the server (1:0)
+[11:58:58] [cmd] Sachi Lee: [setstat]
+[12:00:07] [sv:dbg:network:connect] : disconnecting player (0) ...
+[12:00:07] [part] Sachi_Lee has left the server (0:0)
+[13:47:17] [connection] incoming connection: 213.166.134.202:57143 id: 0
+[13:47:18] [sv:dbg:network:connect] : connecting player (0) with address (213.166.134.202) ...
+[13:47:18] [sv:dbg:network:connect] : player (0) assigned key (5719211d)
+[13:47:18] [join] Sachi_Lee has joined the server (0:213.166.134.202)
+[13:47:18] > {FFFFFF}Sachi Lee has joined the server [{FFFFFF}IP:{FFFFFF} 213.166.134.202] [City: Dammam] [Country: Saudi Arabia]
+[13:47:19] [sv:dbg:network:receive] : player (0) identified (port:55897)
+[13:47:31] SERVER: Sachi Lee has logged in as a {eb4034}{40455e}Community Developer{ffffff}{FFFFFF}.
+[13:47:49] AdmCmd: Sachi Lee spawned a NRG-500.
+[13:47:49] [cmd] Sachi Lee: [veh]
+[13:49:01] AdmCmd: Sachi Lee spawned a NRG-500.
+[13:49:01] [cmd] Sachi Lee: [veh]
+[13:51:54] [sv:dbg:network:connect] : disconnecting player (0) ...
+[13:51:54] [part] Sachi_Lee has left the server (0:0)
+[16:52:35] [connection] incoming connection: 49.145.116.166:36433 id: 0
+[16:52:35] [sv:dbg:network:connect] : connecting player (0) with address (49.145.116.166) ...
+[16:52:35] [sv:dbg:network:connect] : player (0) assigned key (c468a02c)
+[16:52:35] [join] Kienth_Lee has joined the server (0:49.145.116.166)
+[16:52:35] > {FFFFFF}Kienth Lee has joined the server [{FFFFFF}IP:{FFFFFF} 49.145.116.166] [City: Cebu City] [Country: Philippines]
+[16:52:36] [sv:dbg:network:receive] : player (0) identified (port:39011)
+[16:52:49] SERVER: Kienth Lee has logged in as a {eb4034}{C949FD}Head Administrator{ffffff}{FFFFFF}.
+[16:53:10] [sv:dbg:network:connect] : disconnecting player (0) ...
+[16:53:10] [part] Kienth_Lee has left the server (0:0)
+[16:53:23] [connection] incoming connection: 49.145.116.166:45916 id: 0
+[16:53:23] [sv:dbg:network:connect] : connecting player (0) with address (49.145.116.166) ...
+[16:53:23] [sv:dbg:network:connect] : player (0) assigned key (5a844e19)
+[16:53:23] [join] Kienth_Lee has joined the server (0:49.145.116.166)
+[16:53:23] > {FFFFFF}Kienth Lee has joined the server [{FFFFFF}IP:{FFFFFF} 49.145.116.166] [City: Cebu City] [Country: Philippines]
+[16:53:24] [sv:dbg:network:receive] : player (0) identified (port:37097)
+[16:53:42] SERVER: Kienth Lee has logged in as a {eb4034}{C949FD}Head Administrator{ffffff}{FFFFFF}.
+[16:54:55] [cmd] Kienth Lee: [gstash]
+[16:55:30] [cmd] Kienth Lee: [gstash]
+[16:58:06] [cmd] Kienth Lee: [cmc]
+[16:59:24] [cmd] Kienth Lee: [stats]
+[17:00:26] [sv:dbg:network:connect] : disconnecting player (0) ...
+[17:00:26] [part] Kienth_Lee has left the server (0:0)
