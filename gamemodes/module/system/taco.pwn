@@ -77,6 +77,7 @@ public StopMakingPepsi(playerid)
 forward StopCookingBeef(playerid);
 public StopCookingBeef(playerid)
 {
+	RemovePlayerAttachedObject(playerid, 4);
     SCM(playerid, COLOR_WHITE, "You successfully cooked the Burito.");
     SCM(playerid, COLOR_WHITE, "The food that you cooked automatically stored in the stocks");
     SendProximityMessage(playerid, 20.0, SERVER_COLOR, "**{C2A2DA} %s has cooked Burito from Cooking Area Successfully", GetRPName(playerid));
@@ -91,6 +92,7 @@ public StopCookingBeef(playerid)
 forward StopCookingPork(playerid);
 public StopCookingPork(playerid)
 {
+	RemovePlayerAttachedObject(playerid, 4);
     SCM(playerid, COLOR_WHITE, "You successfully cooked the Taco.");
     SCM(playerid, COLOR_WHITE, "The food that you cooked automatically stored in the stocks");
     SendProximityMessage(playerid, 20.0, SERVER_COLOR, "**{C2A2DA} %s has cooked taco from Cooking Area Successfully", GetRPName(playerid));
