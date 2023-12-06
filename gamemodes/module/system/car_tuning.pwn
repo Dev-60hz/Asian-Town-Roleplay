@@ -5225,7 +5225,7 @@ public StopAddingHydraulic(playerid)
 
 CMD:upgradevstash(playerid, params[])
 {
-	new vehicleid = GetPlayerVehicleID(playerid), param[32];
+	new vehicleid = GetPlayerVehicleID(playerid);
 
 	if((FactionInfo[PlayerInfo[playerid][pFaction]][fType] != FACTION_MECHANIC))
 	{
