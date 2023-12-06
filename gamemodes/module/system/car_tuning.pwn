@@ -5243,24 +5243,21 @@ CMD:upgradevstash(playerid, params[])
 	{
 		return SendClientMessage(playerid, COLOR_SYNTAX, "You are not inside of any vehicle.");
 	}
-	       
-	if(isnull(param) || strcmp(param, "confirm", true) != 0)
-	{
-	   SendClientMessage(playerid, COLOR_SYNTAX, "Usage: /upgradevehicle [stash] [confirm]");
-	   SendMessage(playerid, COLOR_WHITE, "Your vehicle's stash level is at %i/3. Upgrading your stash will cost you $1000.", VehicleInfo[vehicleid][vTrunk]);
-	   return 1;
-    }
     if(VehicleInfo[vehicleid][vTrunk] >= 3)
 	{
 		return SendClientMessage(playerid, COLOR_SYNTAX, "This vehicle's stash is already at its maximum level.");
     }
     
     VehicleInfo[vehicleid][vTrunk]++;
+    GivePlayerCash(playerid, -1000);
+	GameTextForPlayer(playerid, "~r~-$1000", 5000, 1);
 
     mysql_format(connectionID, queryBuffer, sizeof(queryBuffer), "UPDATE vehicles SET trunk = %i WHERE id = %i", VehicleInfo[vehicleid][vTrunk], VehicleInfo[vehicleid][vID]);
 	mysql_tquery(connectionID, queryBuffer);
 
-    Log_Write("log_property", "%s (uid: %i) upgraded the stash of their %s (id: %i) to level %i/3.", GetPlayerNameEx(playerid), PlayerInfo[playerid][pID], GetVehicleName(vehicleid), VehicleInfo[vehicleid][vID], VehicleInfo[vehicleid][vTrunk]);
+    SM(playerid, COLOR_YELLOW, "You have paid $1000 for stash level %i/3. '/vstash balance' to see your new capacities.", VehicleInfo[vehicleid][vTrunk]);
+
+    //Log_Write("log_property", "%s (uid: %i) upgraded the stash of their %s (id: %i) to level %i/3.", GetPlayerNameEx(playerid), PlayerInfo[playerid][pID], GetVehicleName(vehicleid), VehicleInfo[vehicleid][vID], VehicleInfo[vehicleid][vTrunk]);
 	return 1;
 }
 
@@ -6476,5 +6473,181 @@ CMD:repair(playerid, params[])
     ApplyAnimationEx(playerid, "BD_FIRE", "wash_up", 4.1, 0, 0, 0, 0, 0);
 
 	SetTimerEx("StopRepairingVeh", 4000, false, "i", playerid);
+	return 1;
+}
+
+CMD:paintcar(playerid, params[])
+{
+	new vehicleid = GetPlayerVehicleID(playerid), paintjobid;
+
+	if((FactionInfo[PlayerInfo[playerid][pFaction]][fType] != FACTION_MECHANIC))
+	{
+	    return SCM(playerid, COLOR_SYNTAX, "You must be a mechanic to use this command.");
+	}
+	if(PlayerInfo[playerid][pDuty] == 0)
+	{
+		return SCM(playerid, COLOR_GREY2, "You can't use this command while off-duty.");
+	}
+	if(GetVehicleParams(vehicleid, VEHICLE_ENGINE))
+	{
+		return SCM(playerid, COLOR_SYNTAX, "The engine needs to be shut down before you repair this vehicle.");
+	}
+	if(sscanf(params, "i", paintjobid))
+	{
+	    return SCM(playerid, COLOR_SYNTAX, "Usage: /paintcar [paintjobid (-1 = none)]");
+	}
+	if(!vehicleid)
+	{
+	    return SCM(playerid, COLOR_SYNTAX, "You are not sitting inside any vehicle.");
+	}
+	if(!(-1 <= paintjobid <= 5))
+	{
+	    return SCM(playerid, COLOR_SYNTAX, "The paintjob specified must range between -1 and 5.");
+	}
+	if(paintjobid == -1) paintjobid = 3;
+
+	if(VehicleInfo[vehicleid][vOwnerID] > 0 || VehicleInfo[vehicleid][vGang] >= 0)
+	{
+		VehicleInfo[vehicleid][vPaintjob] = paintjobid;
+
+		mysql_format(connectionID, queryBuffer, sizeof(queryBuffer), "UPDATE vehicles SET paintjob = %i WHERE id = %i", paintjobid, VehicleInfo[vehicleid][vID]);
+		mysql_tquery(connectionID, queryBuffer);
+	}
+	SendProximityMessage(playerid, 20.0, SERVER_COLOR, "**{C2A2DA} %s uses their spraycan to spray their vehicle a different color.", GetRPName(playerid));
+	ChangeVehiclePaintjob(vehicleid, paintjobid);
+	PlayerPlaySound(playerid, 1134, 0.0, 0.0, 0.0);
+
+	return 1;
+}
+
+CMD:unmod(playerid, params[])
+{
+    new vehicleid = GetPlayerVehicleID(playerid);
+
+	if((FactionInfo[PlayerInfo[playerid][pFaction]][fType] != FACTION_MECHANIC))
+	{
+	    return SCM(playerid, COLOR_SYNTAX, "You must be a mechanic to use this command.");
+	}
+	if(PlayerInfo[playerid][pDuty] == 0)
+	{
+		return SCM(playerid, COLOR_GREY2, "You can't use this command while off-duty.");
+	}
+	if(GetVehicleParams(vehicleid, VEHICLE_ENGINE))
+	{
+		return SCM(playerid, COLOR_SYNTAX, "The engine needs to be shut down before you repair this vehicle.");
+	}
+	if(!vehicleid)
+	{
+	    return SCM(playerid, COLOR_SYNTAX, "You are not sitting inside any vehicle.");
+	}
+	if(!IsVehicleOwner(playerid, vehicleid) && PlayerInfo[playerid][pVehicleKeys] != vehicleid)
+	{
+	    return SCM(playerid, COLOR_SYNTAX, "You can't use this command as this vehicle doesn't belong to you.");
+	}
+	if(isnull(params))
+	{
+	    return SCM(playerid, COLOR_SYNTAX, "Usage: /unmod [color | paintjob | mods | neon]");
+	}
+
+	if(!strcmp(params, "color", true))
+	{
+	    VehicleInfo[vehicleid][vColor1] = 0;
+	    VehicleInfo[vehicleid][vColor2] = 0;
+
+	    mysql_format(connectionID, queryBuffer, sizeof(queryBuffer), "UPDATE vehicles SET color1 = 0, color2 = 0 WHERE id = %i", VehicleInfo[vehicleid][vID]);
+	    mysql_tquery(connectionID, queryBuffer);
+
+	    ChangeVehicleColor(vehicleid, 0, 0);
+	    SCM(playerid, COLOR_WHITE, "** Vehicle color has been set back to default.");
+	}
+	else if(!strcmp(params, "paintjob", true))
+	{
+	    VehicleInfo[vehicleid][vPaintjob] = -1;
+
+	    mysql_format(connectionID, queryBuffer, sizeof(queryBuffer), "UPDATE vehicles SET paintjob = -1 WHERE id = %i", VehicleInfo[vehicleid][vID]);
+	    mysql_tquery(connectionID, queryBuffer);
+
+	    ChangeVehiclePaintjob(vehicleid, -1);
+	    SCM(playerid, COLOR_WHITE, "** Vehicle paintjob has been set back to default.");
+	}
+	else if(!strcmp(params, "mods", true))
+	{
+	    for(new i = 0; i < 14; i ++)
+	    {
+	        if(VehicleInfo[vehicleid][vMods][i] >= 1000)
+	        {
+	            RemoveVehicleComponent(vehicleid, VehicleInfo[vehicleid][vMods][i]);
+	        }
+	    }
+
+	    mysql_format(connectionID, queryBuffer, sizeof(queryBuffer), "UPDATE vehicles SET mod_1 = 0, mod_2 = 0, mod_3 = 0, mod_4 = 0, mod_5 = 0, mod_6 = 0, mod_7 = 0, mod_8 = 0, mod_9 = 0, mod_10 = 0, mod_11 = 0, mod_12 = 0, mod_13 = 0, mod_14 = 0 WHERE id = %i", VehicleInfo[vehicleid][vID]);
+	    mysql_tquery(connectionID, queryBuffer);
+
+	    SCM(playerid, COLOR_WHITE, "** All vehicle modifications have been removed.");
+	}
+	else if(!strcmp(params, "neon", true))
+	{
+	    if(!VehicleInfo[vehicleid][vNeon])
+	    {
+	        return SCM(playerid, COLOR_SYNTAX, "This vehicle has no neon which you can remove.");
+		}
+
+		if(VehicleInfo[vehicleid][vNeonEnabled])
+		{
+		    DestroyDynamicObject(VehicleInfo[vehicleid][vObjects][0]);
+		    DestroyDynamicObject(VehicleInfo[vehicleid][vObjects][1]);
+		}
+
+		VehicleInfo[vehicleid][vNeon] = 0;
+		VehicleInfo[vehicleid][vNeonEnabled] = 0;
+		VehicleInfo[vehicleid][vObjects][0] = INVALID_OBJECT_ID;
+		VehicleInfo[vehicleid][vObjects][1] = INVALID_OBJECT_ID;
+
+		mysql_format(connectionID, queryBuffer, sizeof(queryBuffer), "UPDATE vehicles SET neon = 0, neonenabled = 0 WHERE id = %i", VehicleInfo[vehicleid][vID]);
+	    mysql_tquery(connectionID, queryBuffer);
+
+	    SCM(playerid, COLOR_WHITE, "** Neon has been removed from vehicle.");
+	}
+
+	return 1;
+}
+
+CMD:colorcar(playerid, params[])
+{
+	new vehicleid = GetPlayerVehicleID(playerid), color1, color2;
+	if(PlayerInfo[playerid][pDuty] == 0)
+	{
+		return SCM(playerid, COLOR_GREY2, "You can't use this command while off-duty.");
+	}
+	if(GetVehicleParams(vehicleid, VEHICLE_ENGINE))
+	{
+		return SCM(playerid, COLOR_SYNTAX, "The engine needs to be shut down before you repair this vehicle.");
+	}
+	if(sscanf(params, "ii", color1, color2))
+	{
+	    return SCM(playerid, COLOR_SYNTAX, "Usage: /colorcar [color1] [color2]");
+	}
+	if(!vehicleid)
+	{
+	    return SCM(playerid, COLOR_SYNTAX, "You are not sitting inside any vehicle.");
+	}
+	if(!(0 <= color1 <= 255) || !(0 <= color2 <= 255))
+	{
+	    return SCM(playerid, COLOR_SYNTAX, "The color specified must range between 0 and 255.");
+	}
+
+    if(VehicleInfo[vehicleid][vOwnerID] > 0 || VehicleInfo[vehicleid][vGang] >= 0)
+	{
+	    VehicleInfo[vehicleid][vColor1] = color1;
+	    VehicleInfo[vehicleid][vColor2] = color2;
+
+	    mysql_format(connectionID, queryBuffer, sizeof(queryBuffer), "UPDATE vehicles SET color1 = %i, color2 = %i WHERE id = %i", color1, color2, VehicleInfo[vehicleid][vID]);
+	    mysql_tquery(connectionID, queryBuffer);
+	}
+
+	ChangeVehicleColor(vehicleid, color1, color2);
+	SendProximityMessage(playerid, 20.0, SERVER_COLOR, "**{C2A2DA} %s uses their spraycan to spray their vehicle a different color.", GetRPName(playerid));
+
+	PlayerPlaySound(playerid, 1134, 0.0, 0.0, 0.0);
 	return 1;
 }
