@@ -6467,7 +6467,7 @@ CMD:repair(playerid, params[])
 	{
 		SendClientMessage(playerid, COLOR_SYNTAX, "This vehicle doesn't need to be repaired.");
 	}
-	if (IsNearTrunk(vehicleid, playerid, 4.0))  return SendClientMessage(playerid, COLOR_GREY, "You are not near at the hood! ");
+	//if (IsNearTrunk(vehicleid, playerid, 4.0))  return SendClientMessage(playerid, COLOR_GREY, "You are not near at the hood! ");
 	
 	GameTextForPlayer(playerid, "~w~REPAIRING VEHICLE.....", 4000, 3);
     ApplyAnimationEx(playerid, "BD_FIRE", "wash_up", 4.1, 0, 0, 0, 0, 0);
