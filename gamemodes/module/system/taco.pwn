@@ -825,6 +825,9 @@ CMD:eat(playerid, params[])
 			PlayerInfo[playerid][pHunger] = 100;
 	    }
 		ApplyAnimationEx(playerid, "FOOD", "EAT_Burger", 4.1, 0, 0, 0, 0, 0);
+
+		mysql_format(connectionID, queryBuffer, sizeof(queryBuffer), "UPDATE users SET taco = %i WHERE uid = %i", PlayerInfo[playerid][pTacoo], PlayerInfo[playerid][pID]);
+        mysql_tquery(connectionID, queryBuffer);
 	}
 	else if(!strcmp(option, "Burito", true))
 	{
@@ -843,6 +846,9 @@ CMD:eat(playerid, params[])
 			PlayerInfo[playerid][pHunger] = 100;
 	    }
 		ApplyAnimationEx(playerid, "FOOD", "EAT_Burger", 4.1, 0, 0, 0, 0, 0);
+
+		mysql_format(connectionID, queryBuffer, sizeof(queryBuffer), "UPDATE users SET burito = %i WHERE uid = %i", PlayerInfo[playerid][pTacoBurito], PlayerInfo[playerid][pID]);
+        mysql_tquery(connectionID, queryBuffer);
 	}
 	return 1;
 }
@@ -874,6 +880,9 @@ CMD:drink(playerid, params[])
 		    PlayerInfo[playerid][pThirst] = 100;
 	    }
 	    ApplyAnimationEx(playerid, "BAR", "dnk_stndF_loop", 4.0, 1, 0, 0, 0, 0);
+
+		mysql_format(connectionID, queryBuffer, sizeof(queryBuffer), "UPDATE users SET cocacola = %i WHERE uid = %i", PlayerInfo[playerid][pTacoCocaCola], PlayerInfo[playerid][pID]);
+        mysql_tquery(connectionID, queryBuffer);
 	}
 	else if(!strcmp(option, "Pepsi", true))
 	{
@@ -892,6 +901,10 @@ CMD:drink(playerid, params[])
 		    PlayerInfo[playerid][pThirst] = 100;
 	    }
 	    ApplyAnimationEx(playerid, "BAR", "dnk_stndF_loop", 4.0, 1, 0, 0, 0, 0);
+
+		mysql_format(connectionID, queryBuffer, sizeof(queryBuffer), "UPDATE users SET pepsi = %i WHERE uid = %i", PlayerInfo[playerid][pTacoPepsi], PlayerInfo[playerid][pID]);
+        mysql_tquery(connectionID, queryBuffer);
+		
 	}
 	return 1;
 }
