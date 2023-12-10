@@ -812,7 +812,7 @@ CMD:eat(playerid, params[])
 	{
 	    if(!PlayerInfo[playerid][pTacoo])
 	    {
-	       SendClientMessage(playerid, COLOR_SYNTAX, "You dont have Taco");
+	       return SendClientMessage(playerid, COLOR_SYNTAX, "You dont have Taco");
 	    }
 	
 	    PlayerInfo[playerid][pTacoo] -= 1;
@@ -833,7 +833,7 @@ CMD:eat(playerid, params[])
 	{
 	    if(!PlayerInfo[playerid][pTacoBurito])
 	    {
-	       SendClientMessage(playerid, COLOR_SYNTAX, "You dont have Burito");
+	       return SendClientMessage(playerid, COLOR_SYNTAX, "You dont have Burito");
 	    }
 	
 	    PlayerInfo[playerid][pTacoBurito] -= 1;
@@ -867,7 +867,7 @@ CMD:drink(playerid, params[])
 	{
 	    if(!PlayerInfo[playerid][pTacoCocaCola])
 	    {
-	       SendClientMessage(playerid, COLOR_SYNTAX, "You dont have Coke");
+	       return SendClientMessage(playerid, COLOR_SYNTAX, "You dont have Coke");
 	    }
 	
 	    PlayerInfo[playerid][pTacoCocaCola] -= 1;
@@ -888,7 +888,7 @@ CMD:drink(playerid, params[])
 	{
 	    if(!PlayerInfo[playerid][pTacoPepsi])
 	    {
-	       SendClientMessage(playerid, COLOR_SYNTAX, "You dont have Pepsi");
+	       return SendClientMessage(playerid, COLOR_SYNTAX, "You dont have Pepsi");
 	    }
 	
 	    PlayerInfo[playerid][pTacoPepsi] -= 1;

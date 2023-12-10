@@ -147,6 +147,78 @@ public OnPlayerConnect(playerid)
 
 public OnFilterScriptInit()
 {  
+     
+    // Allsaints Snow And Christmas Tree Mappings
+    tmpobjid = CreateDynamicObject(12814, 1201.527343, -1310.406250, 12.395898, -0.000000, 0.000000, 0.700000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(12814, 1202.082763, -1360.013183, 12.413338, 0.199999, 0.199999, 0.700000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    SetDynamicObjectMaterial(tmpobjid, 1, -1, "none", "none", 0xFFFFFFFF);
+    tmpobjid = CreateDynamicObject(19449, 1188.624389, -1315.681152, 12.486021, 0.000000, -90.099998, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1188.624389, -1325.291625, 12.486021, 0.000000, -90.099998, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1188.624389, -1306.092285, 12.486021, 0.000000, -90.099998, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1188.624389, -1306.122436, 12.486021, 0.000000, -90.099998, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1188.624389, -1294.301513, 12.486021, 0.000000, -90.099998, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1188.624389, -1294.301513, 12.486021, 0.000000, -90.099998, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1188.624389, -1294.301513, 12.486021, 0.000000, -90.099998, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1187.384887, -1303.781127, 12.483855, 0.000000, -90.099998, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1187.394042, -1313.351196, 12.483875, 0.000000, -90.099998, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1187.394042, -1322.841064, 12.483875, 0.000000, -90.099998, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1188.624389, -1334.472290, 12.501993, -0.099999, -89.800003, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1188.624389, -1344.089965, 12.518774, -0.099999, -89.800003, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1188.624389, -1353.539550, 12.535267, -0.099999, -89.800003, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1188.624389, -1362.919921, 12.551633, -0.099999, -89.800003, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1188.624389, -1372.629394, 12.568578, -0.099999, -89.800003, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1188.624389, -1380.208618, 12.581800, -0.099999, -89.800003, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1187.394042, -1332.350219, 12.483875, 0.000000, -90.099998, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1187.394042, -1341.830078, 12.483875, 0.000000, -90.099998, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1187.182495, -1349.829956, 12.518639, -0.399999, -89.600006, -0.299999, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1187.186523, -1359.381225, 12.604758, -0.999999, -91.000030, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1187.184570, -1377.875122, 12.674023, -0.099999, -89.900032, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1186.699951, -1369.046752, 12.638124, 0.100000, -89.700019, -1.899999, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19449, 1187.184570, -1380.244750, 12.678155, -0.099999, -89.900032, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19076, 1229.398315, -1308.626220, 12.381197, 0.000000, 0.000000, 84.000015, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+    tmpobjid = CreateDynamicObject(19056, 1231.556762, -1307.469604, 13.367011, 0.000000, 0.000000, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    SetDynamicObjectMaterial(tmpobjid, 0, 3922, "bistro", "mp_snow", 0x00000000);
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    tmpobjid = CreateDynamicObject(1649, 1189.814819, -1296.757080, 17.655065, -97.799987, 0.000000, 91.699996, -1, -1, -1, 500.00, 500.00); 
+    tmpobjid = CreateDynamicObject(18864, 1194.778442, -1335.581542, 15.351154, 0.000000, 0.000000, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    tmpobjid = CreateDynamicObject(18864, 1239.223876, -1312.132690, 15.184219, 0.000000, 0.000000, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    tmpobjid = CreateDynamicObject(18864, 1191.182006, -1359.983276, 14.501639, 0.000000, 0.000000, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    tmpobjid = CreateDynamicObject(18863, 1181.766235, -1329.189453, 17.561470, 0.000000, 0.000000, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    tmpobjid = CreateDynamicObject(18863, 1192.627075, -1292.869384, 18.213487, 0.000000, 0.000000, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    tmpobjid = CreateDynamicObject(18863, 1262.121337, -1334.165283, 18.867383, 0.000000, 0.000000, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    tmpobjid = CreateDynamicObject(18863, 1202.201660, -1403.815795, 15.518491, 0.000000, 0.000000, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    tmpobjid = CreateDynamicObject(18863, 1185.351196, -1335.106567, 17.857496, 0.000000, 0.000000, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    tmpobjid = CreateDynamicObject(18863, 1202.281250, -1357.431030, 18.637300, 0.000000, 0.000000, 0.000000, -1, -1, -1, 500.00, 500.00); 
+    tmpobjid = CreateDynamicObject(19055, 1227.942749, -1310.222900, 13.253022, 0.000000, 0.000000, 0.000000, -1, -1, -1, 500.00, 500.00); 
+
     // MECHANIC
     tmpobjid = CreateDynamicObjectEx(19905, 1008.432250, -1978.989013, 12.093750, -0.000007, 0.000000, 90.000000, 300.00, 300.00); 
     SetDynamicObjectMaterial(tmpobjid, 0, 10101, "2notherbuildsfe", "Bow_Abpave_Gen", 0x00000000);
